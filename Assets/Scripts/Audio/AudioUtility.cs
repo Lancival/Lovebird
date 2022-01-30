@@ -1,9 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public static class AudioUtility
 {
+
+	private static float VolumeToDecibels(float volume)
+	{
+		return Mathf.Log10(Mathf.Clamp(volume, 0.00001f, 1)) * 20;
+	}
+
+	private static float DecibelsToVolume(float decibels)
+	{
+		return Mathf.Pow(10, decibels / 20);
+	}
+
+	public static IEnumerator AudioMixerChangeVolume(AudioMixer audioMixer, string volumeParameter, float duration, float targetVolume)
+	{
+		float currentTime = 0;
+		float currentDecibels;
+		audioMixer.GetFloat(volumeParameter, out currentDecibels);
+		float targetDecibels = VolumeToDecibels(targetVolume);
+
+		while (currentTime < duration)
+		{
+			currentTime += Time.deltaTime;
+			audioMixer.SetFloat(volumeParameter, Mathf.Lerp(currentDecibels, targetDecibels, currentTime / duration));
+
+			yield return null;
+		}
+
+		audioMixer.SetFloat(volumeParameter, targetDecibels);
+		yield break;
+	}
 
 	public static IEnumerator AudioSourceChangeVolume(AudioSource audioSource, float duration, float targetVolume)
 	{
@@ -17,6 +47,8 @@ public static class AudioUtility
 
 			yield return null;
 		}
+
+		audioSource.volume = targetVolume;
 		yield break;
 	}
 
@@ -33,6 +65,8 @@ public static class AudioUtility
 
 			yield return null;
 		}
+
+		audioSource.volume = targetVolume;
 		yield break;
 	}	
 	
@@ -48,6 +82,8 @@ public static class AudioUtility
 
 			yield return null;
 		}
+
+		audioSource.volume = targetVolume;
 		yield break;
 	}
 
@@ -63,6 +99,8 @@ public static class AudioUtility
 
 			yield return null;
 		}
+
+		audioSource.volume = 0;
 		yield break;
 	}
 
@@ -78,6 +116,8 @@ public static class AudioUtility
 
 			yield return null;
 		}
+
+		audioSource.volume = 0;
 		audioSource.Stop();
 		yield break;
 	}
