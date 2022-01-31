@@ -1,5 +1,5 @@
 # Ignore TextMesh Pro for language statistics
-Assets/TextMesh[[:space:]]Pro/** linguist-vendored
+Assets/TextMesh\ Pro/** linguist-vendored
 
 # Line Endings
 * text=auto
