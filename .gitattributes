@@ -1,0 +1,6 @@
+# Ignore TextMesh Pro for language statistics
+Assets/TextMesh\ Pro/** linguist-vendored
+
+# Line Endings
+* text=auto
+*.cs text
