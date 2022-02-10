@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public static class Settings
 {
 
-	public static UnityEvent<float> OnMusicVolumeChanged = new UnityEvent<float>();
+    public delegate void MusicVolumeChangeHandler(float volume);
+	public static event MusicVolumeChangeHandler onMusicVolumeChanged;
     public static float MusicVolume
     {
     	get
@@ -17,11 +17,12 @@ public static class Settings
     	set
     	{
     		PlayerPrefs.SetFloat("Music Volume", value);
-    		OnMusicVolumeChanged.Invoke(value);
+    		onMusicVolumeChanged?.Invoke(value);
     	}
     }
 
-    public static UnityEvent<float> OnSfxVolumeChanged = new UnityEvent<float>();
+    public delegate void SfxVolumeChangeHandler(float volume);
+    public static event SfxVolumeChangeHandler onSfxVolumeChanged;
     public static float SfxVolume
     {
     	get
@@ -32,11 +33,12 @@ public static class Settings
     	set
     	{
     		PlayerPrefs.SetFloat("SFX Volume", value);
-    		OnSfxVolumeChanged.Invoke(value);
+    		onSfxVolumeChanged?.Invoke(value);
     	}
     }
 
-    public static UnityEvent<float> OnTextDelayChanged = new UnityEvent<float>();
+    public delegate void TextDelayChangeHandler(float delay);
+    public static event TextDelayChangeHandler onTextDelayChanged;
     public static float TextDelay
     {
     	get
@@ -47,7 +49,7 @@ public static class Settings
     	set
     	{
     		PlayerPrefs.SetFloat("Text Delay", value);
-    		OnTextDelayChanged.Invoke(value);
+    		onTextDelayChanged?.Invoke(value);
     	}
     }
 }
