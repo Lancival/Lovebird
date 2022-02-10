@@ -6,7 +6,7 @@ public class Quest
     public readonly QuestInformation information;
     public int currentProgress {get; private set;}
 
-    public Quest(QuestionInformation info)
+    public Quest(QuestInformation info)
     {
     	information = info;
     }
