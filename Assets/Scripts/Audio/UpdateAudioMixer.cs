@@ -18,8 +18,8 @@ public class UpdateAudioMixer : MonoBehaviour
         	Destroy(this);
         }
 
-        Settings.OnMusicVolumeChanged.AddListener(UpdateMusicVolume);
-        Settings.OnSfxVolumeChanged.AddListener(UpdateSfxVolume);
+        Settings.onMusicVolumeChanged += UpdateMusicVolume;
+        Settings.onSfxVolumeChanged += UpdateSfxVolume;
     }
 
     private void UpdateMusicVolume(float volume)
@@ -34,7 +34,7 @@ public class UpdateAudioMixer : MonoBehaviour
 
     void OnDestroy()
     {
-    	Settings.OnMusicVolumeChanged.RemoveListener(UpdateMusicVolume);
-    	Settings.OnSfxVolumeChanged.RemoveListener(UpdateSfxVolume);
+    	Settings.onMusicVolumeChanged -= UpdateMusicVolume;
+    	Settings.onSfxVolumeChanged -= UpdateSfxVolume;
     }
 }
