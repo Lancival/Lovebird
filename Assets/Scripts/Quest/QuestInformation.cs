@@ -25,8 +25,8 @@ public class QuestInformation : ScriptableObject
 
 	[Header("Quest Conditions")]
 		[Tooltip("Type of condition must be fulfilled to finish this quest.")]
-		[SerializeField] private QuestType m_type;
-		public QuestType type
+		[SerializeField] private ConditionType m_type;
+		public ConditionType type
 		{
 			get {return m_type;}
 			private set {return;}
