@@ -10,11 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2a6ce5a00dfa4cf9a72283c1997d57e, type: 3}
-  m_Name: Example Quest
+  m_Name: Example Quest 1
   m_EditorClassIdentifier: 
-  m_questName: Example Quest
+  m_questName: Example Quest #1
   m_description: Collect 3 Quest Tokens.
-  m_type: 0
-  m_condition: Quest Token
-  m_maxProgress: 3
-  m_nextQuest: {fileID: 0}
+  m_condition:
+    m_type: 1
+    m_variable: Quest Token
+    m_comparison: 4
+    m_target: 3
+  m_nextQuests:
+  - condition:
+      m_type: 0
+      m_variable: 
+      m_comparison: 0
+      m_target: 0
+    information: {fileID: 11400000, guid: 688eec14619244ccc9a4f6811fef49b0, type: 2}

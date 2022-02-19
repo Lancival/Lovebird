@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Quest", menuName = "ScriptableObjects/Quests", order = 1)]
-
 public class QuestInformation : ScriptableObject
 {
+
+	[System.Serializable]
+	public struct ConditionalQuest
+	{
+		public Condition condition;
+		public QuestInformation information;
+	}
+
 	[Header("Quest Description")]
 		[Tooltip("The name of this quest.")]
 		[SerializeField] private string m_questName;
@@ -23,39 +30,20 @@ public class QuestInformation : ScriptableObject
 			private set {return;}
 		}
 
-	[Header("Quest Conditions")]
-		[Tooltip("Type of condition must be fulfilled to finish this quest.")]
-		[SerializeField] private ConditionType m_type;
-		public ConditionType type
-		{
-			get {return m_type;}
-			private set {return;}
-		}
-
-		[Tooltip("Condition that must be fulfilled to finish this quest.")]
-		[SerializeField] private string m_condition;
-		public string condition
+		[Tooltip("The condition to complete this quest.")]
+		[SerializeField] private Condition m_condition;
+		public Condition condition
 		{
 			get {return m_condition;}
 			private set {return;}
 		}
 
-		[Tooltip("Number of steps or amount of the condition required to complete this quest.")]
-		[SerializeField] private int m_maxProgress;
-		public int maxProgress
+	[Header("Quest Chain")]
+		[Tooltip("Subsequent quests and what conditions must be fulfilled to assign them after finishing this quest.")]
+		[SerializeField] private ConditionalQuest[] m_nextQuests;
+		public ConditionalQuest[] nextQuests
 		{
-			get {return m_maxProgress;}
+			get {return m_nextQuests;}
 			private set {return;}
 		}
-
-		#nullable enable
-		[Tooltip("Next quest in this quest chain, if there is one.")]
-		[SerializeField] private QuestInformation? m_nextQuest;
-		public QuestInformation? nextQuest
-		{
-			get {return m_nextQuest;}
-			private set {return;}
-		}
-		#nullable disable
-
 }
