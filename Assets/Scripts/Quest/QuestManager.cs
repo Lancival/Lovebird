@@ -10,8 +10,22 @@ public static class QuestManager
     	quests = new List<Quest>();
     }
 
-    public static void AddQuest(QuestInformation info)
+    public static void Add(Quest quest)
     {
-    	quests.Add(new Quest(info));
+    	if (quest == null)
+    	{
+    		return;
+    	}
+
+    	quests.Add(quest);
+    	if (quest.IsComplete())
+    	{
+    		quest.Finish();
+    	}
+    }
+
+    public static void Remove(Quest quest)
+    {
+    	quests.Remove(quest);
     }
 }
