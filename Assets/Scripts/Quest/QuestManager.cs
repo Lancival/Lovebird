@@ -22,6 +22,10 @@ public static class QuestManager
     	{
     		quest.Finish();
     	}
+    	else
+    	{
+    		quest.Subscribe();
+    	}
     }
 
     public static void Remove(Quest quest)

@@ -63,4 +63,9 @@ public class Quest : ScriptableObject
 		}
 		QuestManager.Remove(this);
 	}
+
+	public void Subscribe()
+	{
+		ConditionChecker.Subscribe(condition, Finish);
+	}
 }
