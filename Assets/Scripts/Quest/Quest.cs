@@ -15,32 +15,32 @@ public class Quest : ScriptableObject
 
 	[Header("Quest Description")]
 		[Tooltip("The name of this quest.")]
-		[SerializeField] private string m_questName;
+		[SerializeField] private string _questName;
 		public string questName
 		{
-			get {return m_questName;}
+			get {return _questName;}
 		}
 
 		[Tooltip("The description of this quest.")]
-		[SerializeField] private string m_description;
+		[SerializeField] private string _description;
 		public string description
 		{
-			get {return m_description;}
+			get {return _description;}
 		}
 
 		[Tooltip("The condition to complete this quest.")]
-		[SerializeField] private Condition m_condition;
+		[SerializeField] private Condition _condition;
 		public Condition condition
 		{
-			get {return m_condition;}
+			get {return _condition;}
 		}
 
 	[Header("Quest Chain")]
 		[Tooltip("Subsequent quests and what conditions must be fulfilled to assign them after finishing this quest.")]
-		[SerializeField] private ConditionalQuest[] m_nextQuests;
+		[SerializeField] private ConditionalQuest[] _nextQuests;
 		public ConditionalQuest[] nextQuests
 		{
-			get {return m_nextQuests;}
+			get {return _nextQuests;}
 		}
 
 	public bool IsComplete()

@@ -3,16 +3,17 @@ using System.Collections.Generic;
 
 public static class QuestManager
 {
-    private static List<Quest> m_quests = new List<Quest>();
+    private static List<Quest> _quests = new List<Quest>();
     public static List<Quest> quests
     {
-        get {return m_quests;}
-        private set {m_quests = value;}
+        get {return _quests;}
+        private set {_quests = value;}
     }
 
     public static void Reset()
     {
-    	m_quests = new List<Quest>();
+    	_quests = new List<Quest>();
+        UpdateQuestLog();
     }
 
     public static void Add(Quest quest)
@@ -22,7 +23,7 @@ public static class QuestManager
     		return;
     	}
 
-    	m_quests.Add(quest);
+    	_quests.Add(quest);
     	if (quest.IsComplete())
     	{
     		quest.Finish();
@@ -31,11 +32,14 @@ public static class QuestManager
     	{
     		quest.Subscribe();
     	}
+
+        UpdateQuestLog();
     }
 
     public static void Remove(Quest quest)
     {
-    	m_quests.Remove(quest);
+    	_quests.Remove(quest);
+        UpdateQuestLog();
     }
 
     public static void ShowQuestLog(float duration = 1f)
@@ -46,5 +50,13 @@ public static class QuestManager
     public static void HideQuestLog(float duration = 1f)
     {
         QuestLog.instance?.HideQuestLog(duration);
+    }
+
+    private static void UpdateQuestLog()
+    {
+        if (QuestLog.instance?.visible ?? false)
+        {
+            QuestLog.instance?.UpdateQuestText();
+        }
     }
 }
