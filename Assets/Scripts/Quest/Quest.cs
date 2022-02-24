@@ -19,7 +19,6 @@ public class Quest : ScriptableObject
 		public string questName
 		{
 			get {return m_questName;}
-			private set {return;}
 		}
 
 		[Tooltip("The description of this quest.")]
@@ -27,7 +26,6 @@ public class Quest : ScriptableObject
 		public string description
 		{
 			get {return m_description;}
-			private set {return;}
 		}
 
 		[Tooltip("The condition to complete this quest.")]
@@ -35,7 +33,6 @@ public class Quest : ScriptableObject
 		public Condition condition
 		{
 			get {return m_condition;}
-			private set {return;}
 		}
 
 	[Header("Quest Chain")]
@@ -44,7 +41,6 @@ public class Quest : ScriptableObject
 		public ConditionalQuest[] nextQuests
 		{
 			get {return m_nextQuests;}
-			private set {return;}
 		}
 
 	public bool IsComplete()

@@ -9,7 +9,6 @@ public class Condition
 	public ConditionType type
 	{
 		get {return m_type;}
-		private set {return;}
 	}
 
 	[Tooltip("Condition that must be fulfilled.")]
@@ -17,7 +16,6 @@ public class Condition
 	public string variable
 	{
 		get {return m_variable;}
-		private set {return;}
 	}
 
 	[Tooltip("Comparison type.")]
@@ -25,7 +23,6 @@ public class Condition
 	public Comparison comparison
 	{
 		get {return m_comparison;}
-		private set {return;}
 	}
 
 	[Tooltip("Target value to compare to.")]
@@ -33,6 +30,5 @@ public class Condition
 	public int target
 	{
 		get {return m_target;}
-		private set {return;}
 	}
 }
