@@ -9,17 +9,42 @@ public class UpdateAudioMixer : MonoBehaviour
 {
 
 	[SerializeField] private AudioMixer mixer;
+    private static UpdateAudioMixer instance = null;
 
     void Awake()
     {
         if (mixer == null)
         {
-        	Debug.LogError("UpdateAudioMixer missing reference to AudioMixer.");
-        	Destroy(this);
+        	Debug.LogWarning("UpdateAudioMixer missing reference to AudioMixer.");
+            Destroy(this);
         }
+        else if (instance != null)
+        {
+            Debug.LogWarning("Another instance of UpdateAudioMixer already exists.");
+            Destroy(this);
+        }
+        else
+        {
+            Settings.MasterVolume.onChange += UpdateMasterVolume;
+            Settings.MusicVolume.onChange += UpdateMusicVolume;
+            Settings.SfxVolume.onChange += UpdateSfxVolume;
+        }
+    }
 
-        Settings.onMusicVolumeChanged += UpdateMusicVolume;
-        Settings.onSfxVolumeChanged += UpdateSfxVolume;
+    void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+            Settings.MasterVolume.onChange -= UpdateMasterVolume;
+            Settings.MusicVolume.onChange -= UpdateMusicVolume;
+            Settings.SfxVolume.onChange -= UpdateSfxVolume;
+        }
+    }
+
+    private void UpdateMasterVolume(float volume)
+    {
+        mixer.SetFloat("Master Volume", volume);
     }
 
     private void UpdateMusicVolume(float volume)
@@ -30,11 +55,5 @@ public class UpdateAudioMixer : MonoBehaviour
     private void UpdateSfxVolume(float volume)
     {
     	mixer.SetFloat("Sfx Volume", volume);
-    }
-
-    void OnDestroy()
-    {
-    	Settings.onMusicVolumeChanged -= UpdateMusicVolume;
-    	Settings.onSfxVolumeChanged -= UpdateSfxVolume;
     }
 }
