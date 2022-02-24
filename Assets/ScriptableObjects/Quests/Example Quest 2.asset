@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a6ce5a00dfa4cf9a72283c1997d57e, type: 3}
   m_Name: Example Quest 2
   m_EditorClassIdentifier: 
-  m_questName: Example Quest #2
-  m_description: Have no quest tokens.
-  m_condition:
-    m_type: 0
+  _questName: Example Quest 2
+  _description: Have no quest tokens.
+  _condition:
+    m_type: 1
     m_variable: Quest Token
     m_comparison: 0
     m_target: 0
-  m_nextQuests:
+  _nextQuests:
   - condition:
       m_type: 0
       m_variable: 
