@@ -3,27 +3,31 @@ position: 15,-162
 ---
 //CHAR NAMES
 <<set $CharAName to "Lume">>
-<<set $CharBName to "NPC1">>
+<<set $CharBName to "Chom Chom">>
 <<set $CharCName to "NPC2">>
 //ISLAND NAMES
 <<set $IslandAName to "ISLAND A">>
 
 
 {$CharBName}: Greetings and salutations! I heard someone new was moving in, that must be you.
-    Welcome to {$IslandAName}; here, you'll find bountiful resources for farming, a close knit community, and me!
-    I'm getting ahead of myself though, what's your name?
+{$CharBName}: Welcome to {$IslandAName}; here, you'll find bountiful resources for farming, a close knit community, and me!
+{$CharBName}: I'm getting ahead of myself though, what's your name?
+
 {$CharAName}: {$CharAName}.
+
 {$CharBName}: Nice to meet you, I'm {$CharBName}. I founded this community many years ago, and I'm so happy it's grown to where it is now.
-    We haven't had a new resident in years, but we hope you'll one day regard our little town home.
-    In fact, I got you a little something! I hope it will kickstart a positive stay here.
-    Here is a watering can and some peaches. You can plant any fruit to grow your own crops.
-    Plus, you can sell your crops to earn sand dollars, our local currency.
+{$CharBName}: We haven't had a new resident in years, but we hope you'll one day regard our little town home.
+{$CharBName}: In fact, I got you a little something! I hope it will kickstart a positive stay here.
+{$CharBName}: Here is a watering can and some peaches. You can plant any fruit to grow your own crops.
+{$CharBName}: Plus, you can sell your crops to earn sand dollars, our local currency.
+
 {$CharAName}: ...
+
 {$CharBName}: Not much of a talker, huh?
-    Anyway, you should get out of your shell more!
-    You should meet {$CharCName}. I heard they needs some help, and they're our local handyman.
-    I should mention though, he has a bit of a temper.
-    He'll warm up to you...eventually.
-    Good luck, and safe travels!
+{$CharBName}: Anyway, you should get out of your shell more!
+{$CharBName}: You should meet {$CharCName}. I heard they needs some help, and they're our local handyman.
+{$CharBName}: I should mention though, he has a bit of a temper.
+{$CharBName}: He'll warm up to you...eventually.
+{$CharBName}: Good luck, and safe travels!
 ===
 
