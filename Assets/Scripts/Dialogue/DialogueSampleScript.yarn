@@ -1,0 +1,37 @@
+﻿title: Start
+position: 15,-162
+---
+<<set $CharAName to "Marco">>
+<<set $CharBName to "Polo">>
+
+{$CharAName}: Hello world.
+{$CharAName}: Who should I speak with?
+
+//Choose between speaking with CharB or leaving/ending scene.
+->Speak with {$CharBName}.
+    <<jump SpeakWithCharB>>
+->Speak with no one, and leave.
+    {$CharAName}: Guess I'll wander around and leave...
+
+===
+title: SpeakWithCharB
+position: -111,-26
+---
+{$CharAName}: Hi, {$CharBName}!
+{$CharBName}: Hello, {$CharAName}!
+{$CharAName}: Do you know how I can fly to another island, {$CharBName}?
+{$CharBName}: I sure do, {$CharAName}. Which island did you want to fly to? Fishing or Garbage?
+
+//Choose preferred season only two choices.
+->Fishing!
+    {$CharBName}: Sounds good, here's how to get to Fishing Island!
+->Garbage!
+    {$CharBName}: I see you have interesting taste... Here's how to get to Garbage Island!
+<<jump EndScene>>
+===
+title: EndScene
+position: 165,-19
+---
+{$CharAName}: Thank you so much, {$CharBName}! I'll be off now!
+
+===
