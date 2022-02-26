@@ -11,16 +11,21 @@ using TMPro;
 public class QuestLog : MonoBehaviour
 {
 
-	private static QuestLog m_instance = null;
+	private static QuestLog _instance = null;
 	public static QuestLog instance
 	{
-		get {return m_instance;}
-		private set {m_instance = value;}
+		get {return _instance;}
+		private set {_instance = value;}
 	}
 
 	[SerializeField] private TextMeshProUGUI questText;
 	private FadeCanvasGroup fader;
-	private bool visible = false;
+	private bool _visible = false;
+	public bool visible 
+	{
+		get {return _visible;}
+		private set {_visible = value;}
+	}
 
 	void Awake()
 	{
@@ -38,7 +43,7 @@ public class QuestLog : MonoBehaviour
 		instance = null;
 	}
 
-	private void UpdateQuestText()
+	public void UpdateQuestText()
 	{
 		StringBuilder stringBuilder = new StringBuilder();
 		if (QuestManager.quests.Count > 0)
