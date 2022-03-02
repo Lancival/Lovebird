@@ -10,27 +10,23 @@ public class Interactable : MonoBehaviour
     //function will be called by Unity before gameplay begins 
     //(ie, before the Update function is called for the first time) 
     //and is an ideal place to do any initialization.
-    private DialogueRunner dialogueRunner;
-    //public Dialogue IntroDialogue;
+    private static DialogueRunner dialogueRunner;
     private bool interactable = true;
     private bool isCurrentConversation = false;
     private float defaultIndicatorIntensity;
-    public YarnProject IntroSceneProj;
-    //public string startNode = Yarn.Dialogue.DefaultStartNodeName;
     public string startNode = "Start";
-    //public Camera MainCam;
-    //public Camera CamCHOM;
-
-     //Define List of Cameras
-    //private List<Camera> cameras;
+    
+    
     
     public void Start() 
     {
-       // cameras.Add(MainCam);
-       // cameras.Add(CamCHOM);
+        // cameras.Add(MainCam);
+        // cameras.Add(CamCHOM);
         //SwapCamera(MainCam);
         //dialogueRunner = FindObjectOfType<DialogueRunner>();
-        //dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
+        //check first if dialogueRunner is null then: 
+        dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
+        //else skip
         //dialogueRunner.onDialogueComplete.AddListener(EndConversation);
         
     }
@@ -48,7 +44,7 @@ public class Interactable : MonoBehaviour
         Debug.Log($"Started conversation with {name}.");
         //isCurrentConversation = true;
         //SwapCamera(CamCHOM);
-        dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
+        //dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
         //dialogueRunner.StartDialogue(someStringVariable);
         dialogueRunner.StartDialogue(startNode);
     }

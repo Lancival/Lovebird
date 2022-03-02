@@ -533,7 +533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1bb9d3daafa8d4ba5f57e65efd4ea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IntroSceneProj: {fileID: 7545569452688597077, guid: 36114e3d5b197d24798d771242bf6a29, type: 3}
   startNode: Start
 --- !u!1 &815128777 stripped
 GameObject:
@@ -766,7 +765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1bb9d3daafa8d4ba5f57e65efd4ea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IntroSceneProj: {fileID: 7545569452688597077, guid: 36114e3d5b197d24798d771242bf6a29, type: 3}
   startNode: Start
 --- !u!1 &1537017007
 GameObject:
@@ -914,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcef6332ec1471d419b8c1d0a4d1686a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
 --- !u!1 &2127541719
 GameObject:
   m_ObjectHideFlags: 0
