@@ -20,43 +20,24 @@ public class Interactable : MonoBehaviour
     
     public void Start() 
     {
-        // cameras.Add(MainCam);
-        // cameras.Add(CamCHOM);
-        //SwapCamera(MainCam);
-        //dialogueRunner = FindObjectOfType<DialogueRunner>();
-        //check first if dialogueRunner is null then: 
         dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
-        //else skip
-        //dialogueRunner.onDialogueComplete.AddListener(EndConversation);
-        
+       
     }
 
 
     public void OnMouseDown() {
         if (interactable)
         {
-        //if (interactable && !dialogueRunner.IsDialogueRunning) {
             StartConversation();
         }
     }
 
     private void StartConversation() {
         Debug.Log($"Started conversation with {name}.");
-        //isCurrentConversation = true;
-        //SwapCamera(CamCHOM);
-        //dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
-        //dialogueRunner.StartDialogue(someStringVariable);
         dialogueRunner.StartDialogue(startNode);
     }
 
-   /*  public void SwapCamera(Camera cam){
-            // performance tradeoff
-            foreach(Camera c in cameras){
-                    c.enabled = false;
-            }
-            cam.enabled = true;
-    } */
-
+  
     private void EndConversation() {
         if (isCurrentConversation) {
             isCurrentConversation = false;
