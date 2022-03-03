@@ -50,8 +50,11 @@ public class QuestLog : MonoBehaviour
 		{
 			foreach (Quest quest in QuestManager.quests)
 			{
-				stringBuilder.Append(quest.description);
-				stringBuilder.Append('\n');
+				if (!quest.hidden)
+				{
+					stringBuilder.Append(quest.description);
+					stringBuilder.Append('\n');
+				}
 			}
 			stringBuilder.Length = stringBuilder.Length - 1;
 		}

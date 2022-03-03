@@ -28,6 +28,13 @@ public class Quest : ScriptableObject
 			get {return _description;}
 		}
 
+		[Tooltip("Whether this quest is hidden in the quest log.")]
+		[SerializeField] private bool _hidden = false;
+		public bool hidden
+		{
+			get {return _hidden;}
+		}
+
 		[Tooltip("The condition to complete this quest.")]
 		[SerializeField] private Condition _condition;
 		public Condition condition
