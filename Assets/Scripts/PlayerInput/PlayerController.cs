@@ -41,25 +41,32 @@ public class PlayerController : MonoBehaviour
         if (vertical > 0)
         {
             animator.SetInteger("Direction", 1);
+            Debug.Log("Direction 1");
         }
         //south/down == 3
         else if (vertical < 0)
         {
             animator.SetInteger("Direction", 3);
+            Debug.Log("Direction 3");
         }
-        //west/left ==4
+          //east/right == 2
         else if (horizontal > 0)
         {
-            animator.SetInteger("Direction", 1);
+            animator.SetInteger("Direction", 2);
+            Debug.Log("Direction 2");
         }
-        //east/right == 2
+      
+        //west/left ==4
         else if (horizontal < 0)
         {
-            animator.SetInteger("Direction", 3);
+            animator.SetInteger("Direction", 4);
+            Debug.Log("Direction 4");
         }
+        //else idle == 0
         else
         {
             animator.SetInteger("Direction", 0);
+            Debug.Log("Direction 0");
         }
     }
 }
