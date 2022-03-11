@@ -7,8 +7,8 @@ public static class Inventory
     private static Dictionary<Item, int> _items = new Dictionary<Item, int>();
     public static Dictionary<Item, int> items
     {
-    	get {return _items;}
-    	private set {_items = value;}
+    	get => _items;
+    	private set => _items = value;
     }
 
     // Name/tag to item dictionaries

@@ -7,10 +7,7 @@ public class FadeInOnSceneLoad : MonoBehaviour
 {
 	private FadeCanvasGroup fader;
 
-    void Awake()
-    {
-    	fader = GetComponent<FadeCanvasGroup>();
-    }
+    void Awake() => fader = GetComponent<FadeCanvasGroup>();
 
     void Start()
     {

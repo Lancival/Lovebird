@@ -6,8 +6,8 @@ public static class QuestManager
     private static List<Quest> _quests = new List<Quest>();
     public static List<Quest> quests
     {
-        get {return _quests;}
-        private set {_quests = value;}
+        get => _quests;
+        private set => _quests = value;
     }
 
     public static void Reset()
@@ -42,15 +42,8 @@ public static class QuestManager
         UpdateQuestLog();
     }
 
-    public static void ShowQuestLog(float duration = 1f)
-    {
-        QuestLog.instance?.ShowQuestLog(duration);
-    }
-
-    public static void HideQuestLog(float duration = 1f)
-    {
-        QuestLog.instance?.HideQuestLog(duration);
-    }
+    public static void ShowQuestLog(float duration = 1f) => QuestLog.instance?.ShowQuestLog(duration);
+    public static void HideQuestLog(float duration = 1f) => QuestLog.instance?.HideQuestLog(duration);
 
     private static void UpdateQuestLog()
     {

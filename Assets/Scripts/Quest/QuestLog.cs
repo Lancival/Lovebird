@@ -14,8 +14,8 @@ public class QuestLog : MonoBehaviour
 	private static QuestLog _instance = null;
 	public static QuestLog instance
 	{
-		get {return _instance;}
-		private set {_instance = value;}
+		get => _instance;
+		private set => _instance = value;
 	}
 
 	[SerializeField] private TextMeshProUGUI questText;
@@ -23,8 +23,8 @@ public class QuestLog : MonoBehaviour
 	private bool _visible = false;
 	public bool visible 
 	{
-		get {return _visible;}
-		private set {_visible = value;}
+		get => _visible;
+		private set => _visible = value;
 	}
 
 	void Awake()
@@ -38,10 +38,7 @@ public class QuestLog : MonoBehaviour
 		fader = GetComponent<FadeCanvasGroup>();
 	}
 
-	void OnDestroy()
-	{
-		instance = null;
-	}
+	void OnDestroy() => instance = null;
 
 	public void UpdateQuestText()
 	{
