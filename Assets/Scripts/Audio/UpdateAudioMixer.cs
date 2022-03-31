@@ -42,18 +42,7 @@ public class UpdateAudioMixer : MonoBehaviour
         }
     }
 
-    private void UpdateMasterVolume(float volume)
-    {
-        mixer.SetFloat("Master Volume", volume);
-    }
-
-    private void UpdateMusicVolume(float volume)
-    {
-    	mixer.SetFloat("Music Volume", volume);
-    }
-
-    private void UpdateSfxVolume(float volume)
-    {
-    	mixer.SetFloat("Sfx Volume", volume);
-    }
+    private void UpdateMasterVolume(float volume) => mixer.SetFloat("Master Volume", volume);
+    private void UpdateMusicVolume(float volume) => mixer.SetFloat("Music Volume", volume);
+    private void UpdateSfxVolume(float volume) => mixer.SetFloat("Sfx Volume", volume);
 }

@@ -16,44 +16,26 @@ public class Quest : ScriptableObject
 	[Header("Quest Description")]
 		[Tooltip("The name of this quest.")]
 		[SerializeField] private string _questName;
-		public string questName
-		{
-			get {return _questName;}
-		}
+		public string questName => _questName;
 
 		[Tooltip("The description of this quest.")]
 		[SerializeField] private string _description;
-		public string description
-		{
-			get {return _description;}
-		}
+		public string description => _description;
 
 		[Tooltip("Whether this quest is hidden in the quest log.")]
 		[SerializeField] private bool _hidden = false;
-		public bool hidden
-		{
-			get {return _hidden;}
-		}
+		public bool hidden => _hidden;
 
 		[Tooltip("The condition to complete this quest.")]
 		[SerializeField] private Condition _condition;
-		public Condition condition
-		{
-			get {return _condition;}
-		}
+		public Condition condition => _condition;
 
 	[Header("Quest Chain")]
 		[Tooltip("Subsequent quests and what conditions must be fulfilled to assign them after finishing this quest.")]
 		[SerializeField] private ConditionalQuest[] _nextQuests;
-		public ConditionalQuest[] nextQuests
-		{
-			get {return _nextQuests;}
-		}
+		public ConditionalQuest[] nextQuests => _nextQuests;
 
-	public bool IsComplete()
-	{
-		return ConditionChecker.Check(condition);
-	}
+	public bool IsComplete() => ConditionChecker.Check(condition);
 
 	public void Finish()
 	{
@@ -67,8 +49,5 @@ public class Quest : ScriptableObject
 		QuestManager.Remove(this);
 	}
 
-	public void Subscribe()
-	{
-		ConditionChecker.Subscribe(condition, Finish);
-	}
+	public void Subscribe() => ConditionChecker.Subscribe(condition, Finish);
 }

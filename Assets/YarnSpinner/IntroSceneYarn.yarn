@@ -4,9 +4,9 @@ position: 15,-162
 //CHAR NAMES
 <<set $CharAName to "Lume">>
 <<set $CharBName to "Chom Chom">>
-<<set $CharCName to "NPC2">>
+<<set $CharCName to "Meeko">>
 //ISLAND NAMES
-<<set $IslandAName to "ISLAND A">>
+<<set $IslandAName to "Viridia">>
 
 
 {$CharBName}: Greetings and salutations! I heard someone new was moving in, that must be you.

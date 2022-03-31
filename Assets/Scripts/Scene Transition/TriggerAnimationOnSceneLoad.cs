@@ -10,10 +10,7 @@ public class TriggerAnimationOnSceneLoad : MonoBehaviour
 
 	private Animator animator;
 
-	void Awake()
-	{
-		animator = GetComponent<Animator>();
-	}
+	void Awake() => animator = GetComponent<Animator>();
 
     void Start()
     {
@@ -27,8 +24,5 @@ public class TriggerAnimationOnSceneLoad : MonoBehaviour
     	}
     }
 
-    private void TriggerAnimation(float duration)
-    {
-    	animator.SetTrigger("onSceneLoad");
-    }
+    private void TriggerAnimation(float duration) => animator.SetTrigger("onSceneLoad");
 }

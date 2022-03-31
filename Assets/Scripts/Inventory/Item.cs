@@ -7,34 +7,19 @@ public class Item : ScriptableObject
     [Header("Item Description")]
     	[Tooltip("The name of this item.")]
     	[SerializeField] private string _itemName;
-    	public string itemName
-    	{
-    		get {return _itemName;}
-    	}
+    	public string itemName => _itemName;
 
     	[Tooltip("The description of this item.")]
     	[SerializeField] private string _description;
-    	public string description
-    	{
-    		get {return _description;}
-    	}
+    	public string description => _description;
 
     	[Tooltip("The tags describing this item.")]
     	[SerializeField] private List<string> _tags;
-    	public List<string> tags
-    	{
-    		get {return _tags;}
-    	}
+    	public List<string> tags => _tags;
 
     	[Tooltip("The image for this item.")]
     	[SerializeField] private Sprite _sprite;
-    	public Sprite sprite
-    	{
-    		get {return _sprite;}
-    	}
+    	public Sprite sprite => _sprite;
 
-    public bool HasTag(string tag)
-    {
-    	return (tags.Contains(tag));
-    }
+    public bool HasTag(string tag) => tags.Contains(tag);
 }
