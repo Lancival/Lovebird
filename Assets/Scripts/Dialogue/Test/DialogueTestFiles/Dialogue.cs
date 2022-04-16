@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue
+public class Dialogue : ScriptableObject
 {
-    public string name;
+    public string NPCname;
+    
     public string[] sentences;
 
 }

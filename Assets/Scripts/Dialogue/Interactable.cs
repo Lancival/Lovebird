@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
     private float defaultIndicatorIntensity;
     public string startNode = "Start";
     
-    
+    public Dialogue testdialogue;
     
     public void Start() 
     {
@@ -24,7 +24,7 @@ public class Interactable : MonoBehaviour
        
     }
 
-
+    
     public void OnMouseDown() {
         if (interactable)
         {
@@ -37,7 +37,10 @@ public class Interactable : MonoBehaviour
         dialogueRunner.StartDialogue(startNode);
     }
 
-  
+    public void TriggerDialogue()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(testdialogue);
+    }
     private void EndConversation() {
         if (isCurrentConversation) {
             isCurrentConversation = false;
