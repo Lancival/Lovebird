@@ -6,16 +6,20 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Queue<string> sentences;
+    public Queue<Dialogue> listofdialogue;
     
     
     
     // Start is called before the first frame update
     void Start()
     {
-       // sentences = new Queue<string>();
+       listofdialogue = new Queue<Dialogue>();
 
         
+    }
+    public void StartDialogue(Dialogue testdialogue)
+    {
+        Debug.Log("Started speaking with " + testdialogue.NPCname);
     }
 
    
