@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+// This script is for slider that adjusts the volume
+
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
