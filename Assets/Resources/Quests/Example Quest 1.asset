@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _questName: Example Quest 1
   _description: Collect three quest tokens.
+  _hidden: 0
   _condition:
-    m_type: 1
-    m_variable: Quest Token
-    m_comparison: 4
-    m_target: 3
+    _type: 1
+    _variable: Quest Token
+    _comparison: 4
+    _target: 3
   _nextQuests:
   - condition:
-      m_type: 0
-      m_variable: 
-      m_comparison: 0
-      m_target: 0
+      _type: 0
+      _variable: 
+      _comparison: 0
+      _target: 0
     information: {fileID: 11400000, guid: 688eec14619244ccc9a4f6811fef49b0, type: 2}
