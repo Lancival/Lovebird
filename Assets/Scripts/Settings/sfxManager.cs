@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This script is for background and sfx sliders
+
 public class sfxManager : MonoBehaviour
 {
     private static readonly string FirstPlay = "FirstPlay";
@@ -62,23 +64,4 @@ public class sfxManager : MonoBehaviour
         }
     }
 
-    /* 
-    public AudioSource Audio;
-
-    public AudioClip Click;
-
-    public static sfxManager sfxInstance;
-
-    private void Awake()
-    {
-        if (sfxInstance != null && sfxInstance != this)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-
-        sfxInstance = this;
-        DontDestroyOnLoad(this);
-    }
-    */
 }

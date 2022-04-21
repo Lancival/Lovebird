@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script is for background music
+
 public class bgscript : MonoBehaviour
 {
     /*

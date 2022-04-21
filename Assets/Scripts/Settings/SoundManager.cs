@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 
 // This script is for slider that adjusts the volume
+// Probably not Needed!!!
 
 public class SoundManager : MonoBehaviour
 {
