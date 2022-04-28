@@ -10,11 +10,13 @@ public class sfxManager : MonoBehaviour
     private static readonly string FirstPlay = "FirstPlay";
     private static readonly string BackgroundPref = "BackgroundPref";
     private static readonly string SoundEffectsPref = "SoundEffectsPref";
+    private static readonly string MasterPref = "MasterPref";
     private int firstPlayInt;
-    public Slider backgroundSlider, soundEffectsSlider;
-    private float backgroundFloat, soundEffectsFloat;
+    public Slider backgroundSlider, soundEffectsSlider, masterSlider;
+    private float backgroundFloat, soundEffectsFloat, masterFloat;
     public AudioSource backgroundAudio;
     public AudioSource[] soundEffectsAudio;
+    public AudioSource masterAudio;
 
     void Start()
     {
@@ -22,12 +24,15 @@ public class sfxManager : MonoBehaviour
 
         if(firstPlayInt == 0)
         {
-            backgroundFloat = 0.25f;
+            backgroundFloat = 0.75f;
             soundEffectsFloat = 0.75f;
+            masterFloat = 0.075f;
             backgroundSlider.value = backgroundFloat;
             soundEffectsSlider.value = soundEffectsFloat;
+            masterSlider.value = masterFloat;
             PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
             PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsFloat);
+            PlayerPrefs.SetFloat(MasterPref, masterFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);
         }
         else
@@ -36,6 +41,8 @@ public class sfxManager : MonoBehaviour
             backgroundSlider.value = backgroundFloat;
             soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
             soundEffectsSlider.value = soundEffectsFloat;
+            masterFloat = PlayerPrefs.GetFloat(MasterPref);
+            masterSlider.value = masterFloat;
         }
 
     }
@@ -44,6 +51,7 @@ public class sfxManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat(BackgroundPref, backgroundSlider.value);
         PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsSlider.value);
+        PlayerPrefs.SetFloat(MasterPref, masterSlider.value);
     }
     
     void OnApplicationFocus(bool inFocus)
@@ -62,6 +70,8 @@ public class sfxManager : MonoBehaviour
         {
             soundEffectsAudio[i].volume = soundEffectsSlider.value;
         }
+
+        AudioListener.volume = masterSlider.value;
     }
 
 }
