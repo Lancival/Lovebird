@@ -47,7 +47,7 @@ position: -70,252
 <<if $SpokentoNPC1 && $SpokentoNPC2 && not $AnnouncementDone>>
     Narrator: You spoke with everyone!
     <<set $AnnouncementDone to true>>
-    <<addQuest>>
+    <<addQuest TestQuestA>>
 <<else>>
 <<endif>>
 ===

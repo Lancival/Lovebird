@@ -9,13 +9,17 @@ using Yarn.Unity;
 [System.Serializable]
 public class Dialogue : MonoBehaviour
 {
-    public string NPCname;
     
-    public string[] sentences;
+    [SerializeField] private Quest questToBeAdded;
+    
+    //had issues writing this way:
+    //public static void addQuest()
     [YarnCommand("addQuest")]
-    public static void addQuest()
+    public void addQuest()
     {
         Debug.Log("Adding quest...");
+        //QuestManager.Add(quest);
+        QuestManager.Add(questToBeAdded);
     }
 
 }
