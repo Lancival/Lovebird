@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 [System.Serializable]
-public class textspeed : MonoBehaviour
+public static class TextSpeed
 {
-    public float textspeedval;
+    public static float speedoftext;
     // Start is called before the first frame update
-    void Start () 
+    /*void Start () 
     {
         Debug.Log("I am alive!");
     }
@@ -19,6 +19,6 @@ public class textspeed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
+        //change textspeedval based on Settings textspeed value;
+    }*/
 }

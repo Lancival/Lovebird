@@ -884,6 +884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioMixerManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6874120129220639645, guid: 802f1160590f34824b84122c6a330325, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 802f1160590f34824b84122c6a330325, type: 3}
 --- !u!1 &983304621
@@ -1097,7 +1101,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startNode: Start
-  testdialogue: {fileID: 0}
 --- !u!95 &1471384013
 Animator:
   serializedVersion: 4
