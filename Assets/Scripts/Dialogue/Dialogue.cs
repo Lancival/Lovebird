@@ -10,15 +10,14 @@ using Yarn.Unity;
 public class Dialogue : MonoBehaviour
 {
     
-    [SerializeField] private Quest questToBeAdded;
+    [SerializeField] private Quest testquest;
     
     //had issues writing this way:
     //public static void addQuest()
     [YarnCommand("addQuest")]
-    public void addQuest()
+    public static void addQuest(String questToBeAdded)
     {
-        Debug.Log("Adding quest...");
-        //QuestManager.Add(quest);
+        Debug.Log("Adding quest..." + questToBeAdded);
         QuestManager.Add(questToBeAdded);
     }
 

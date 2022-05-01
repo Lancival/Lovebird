@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
     private float defaultIndicatorIntensity;
     public string startNode = "Start";
     
-    public Dialogue testdialogue;
+    //public Dialogue testdialogue;
     
     public void Start() 
     {
