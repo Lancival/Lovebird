@@ -27,10 +27,7 @@ public class SceneLoader : MonoBehaviour
 		public UnityEvent<float> onSceneLoad = new UnityEvent<float>();
 
 	// Update the current instance at the start of a scene
-	void Awake()
-	{
-		instance = this;
-	}
+	void Awake() => instance = this;
 
 	// Loads the next scene asynchronously, taking at least minDuration seconds
 	private static IEnumerator LoadSceneAsync(string sceneName, float minDuration)
@@ -75,8 +72,5 @@ public class SceneLoader : MonoBehaviour
 	}
 
 	// Wrapper function which loads the nextScene
-	public void LoadScene()
-	{
-		LoadScene(nextScene);
-	}
+	public void LoadScene() => LoadScene(nextScene);
 }

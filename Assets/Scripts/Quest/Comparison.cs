@@ -1,9 +1,11 @@
+using UnityEngine;
+
 public enum Comparison
 {
-	Equal,
-	NotEqual,
-	Greater,
-	Less,
-	GreaterOrEqual,
-	LessOrEqual
+	[InspectorName("=")] Equal,
+	[InspectorName("!=")] NotEqual,
+	[InspectorName(">")] Greater,
+	[InspectorName("<")] Less,
+	[InspectorName(">=")] GreaterOrEqual,
+	[InspectorName("<=")] LessOrEqual
 }
