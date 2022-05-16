@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Flux Heart
   m_EditorClassIdentifier: 
-  _itemName: Flux Heart
   _description: 
   _tags:
-  - Fruit
+  - Fruits
   _sprite: {fileID: -1600901923, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}
