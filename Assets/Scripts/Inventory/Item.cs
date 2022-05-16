@@ -5,10 +5,13 @@ using UnityEditor;
 [CreateAssetMenu(fileName = "Quest", menuName = "ScriptableObjects/Items", order = 1)]
 public class Item : ScriptableObject
 {
+    [HideInInspector]
+        public string itemName => this.name;
+        
     [Header("Item Description")]
-    	[Tooltip("The name of this item.")]
-    	[SerializeField] private string _itemName;
-    	public string itemName => _itemName;
+    	//[Tooltip("The name of this item.")]
+    	//[SerializeField] private string _itemName;
+    	//public string itemName => _itemName;
 
     	[Tooltip("The description of this item.")]
     	[SerializeField] private string _description;
