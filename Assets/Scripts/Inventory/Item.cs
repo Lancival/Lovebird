@@ -7,21 +7,16 @@ public class Item : ScriptableObject
 {
     [HideInInspector]
         public string itemName => this.name;
-        
-    [Header("Item Description")]
-    	//[Tooltip("The name of this item.")]
-    	//[SerializeField] private string _itemName;
-    	//public string itemName => _itemName;
 
-    	[Tooltip("The description of this item.")]
+	[Tooltip("The description of this item.")]
     	[SerializeField] private string _description;
     	public string description => _description;
 
-    	[Tooltip("The tags describing this item.")]
+	[Tooltip("The tags describing this item.")]
     	[SerializeField] private List<string> _tags;
     	public List<string> tags => _tags;
 
-    	[Tooltip("The image for this item.")]
+	[Tooltip("The image for this item.")]
     	[SerializeField] private Sprite _sprite;
     	public Sprite sprite => _sprite;
 
