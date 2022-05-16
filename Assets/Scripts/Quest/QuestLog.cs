@@ -11,72 +11,83 @@ using TMPro;
 public class QuestLog : MonoBehaviour
 {
 
+	// Singleton instance
 	private static QuestLog _instance = null;
-	public static QuestLog instance
-	{
-		get => _instance;
-		private set => _instance = value;
-	}
+	public static QuestLog instance => _instance;
 
+	// Components
 	[SerializeField] private TextMeshProUGUI questText;
 	private FadeCanvasGroup fader;
-	private bool _visible = false;
-	public bool visible 
-	{
-		get => _visible;
-		private set => _visible = value;
-	}
 
+	// Current visibility state of this QuestLog instance
+	private bool _visible = false;
+	public bool visible => _visible;
+
+	// Initialize instance on awake
 	void Awake()
 	{
-		if (instance != null)
+		if (_instance != null)
 		{
 			Destroy(gameObject);
 			return;
 		}
-		instance = this;
+		_instance = this;
 		fader = GetComponent<FadeCanvasGroup>();
 	}
 
-	void OnDestroy() => instance = null;
+	// Release singleton instance when destroyed
+	void OnDestroy()
+	{
+		if (_instance == this)
+		{
+			_instance = null;
+		}
+	}
 
+	// Update the quest log's text based on the current list of quests in QuestManager, if currently visible
 	public void UpdateQuestText()
 	{
-		StringBuilder stringBuilder = new StringBuilder();
-		if (QuestManager.quests.Count > 0)
+		if (!_visible)
 		{
-			foreach (Quest quest in QuestManager.quests)
+			return; // Update unnecessary if quest log isn't visible
+		}
+
+		StringBuilder stringBuilder = new StringBuilder();
+		foreach (Quest quest in QuestManager.quests)
+		{
+			if (!quest.hidden)
 			{
-				if (!quest.hidden)
-				{
-					stringBuilder.Append(quest.description);
-					stringBuilder.Append('\n');
-				}
+				stringBuilder.Append(quest.description);
+				stringBuilder.Append('\n');
 			}
 			stringBuilder.Length = stringBuilder.Length - 1;
 		}
-		else
+
+		// No active, not hidden quests available
+		if (stringBuilder.Length == 0)
 		{
 			stringBuilder.Append("You have no uncompleted quests!");
 		}
 		questText.text = stringBuilder.ToString();
 	}
 
+	// Show the quest log if it's currently hidden, and update the text
 	public void ShowQuestLog(float duration = 1f)
 	{
-		if (!visible)
+		if (!_visible)
 		{
-			visible = true;
+			_visible = true;
 			UpdateQuestText();
 			fader.FadeIn(duration);
 		}
 	}
 
+	// Hide the quest log if it's currently visible, and deactivate the gameObject
 	public void HideQuestLog(float duration = 1f)
 	{
-		if (visible)
+		if (_visible)
 		{
-			visible = false;
+			_visible = false;
 			fader.FadeOutInactive(duration);
 		}
 	}
