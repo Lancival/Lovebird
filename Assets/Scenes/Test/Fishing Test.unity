@@ -525,11 +525,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishes:
-  - {fileID: 11400000, guid: e46ae7210595747e9aeb6cb5cafea9dd, type: 2}
-  - {fileID: 11400000, guid: a452fbe9982234606b156594abafd30e, type: 2}
-  weights:
-  - 10
-  - 5
+  - fish: {fileID: 11400000, guid: 40c7f25c7aac642cd8bec770d5753ccb, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: 21f0e3258b6ac4b18b86749a4de0e5b1, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: 1d426e92bac0c4d80bbf39fcf84160fc, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: c50b69ce65c2944d68f93d6d871e91b3, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: 7646523a09cd9421180ed7ae9c41c291, type: 2}
+    weight: 1
+  - fish: {fileID: 11400000, guid: 5efc65d3ed33c4ed896a934d67120fbb, type: 2}
+    weight: 1
   verbose: 1
 --- !u!4 &1565126725
 Transform:
