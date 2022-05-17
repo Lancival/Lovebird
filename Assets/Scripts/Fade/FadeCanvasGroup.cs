@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class FadeCanvasGroup : Fader<CanvasGroup>
 {
+    protected override float currentAlpha => fadeSubject.alpha;
+
     public override IEnumerator Fade(float startAlpha, float endAlpha, float duration, bool enabled)
     {
         CanvasGroup canvasGroup = fadeSubject;

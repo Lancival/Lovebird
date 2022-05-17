@@ -9,9 +9,13 @@ public class Flag : MonoBehaviour
     private CircleCollider2D col;
     private SpriteCrossFade fader;
 
-    [Header("Flag Sprites")]
+    [Header("Sprites")]
         [SerializeField] private Sprite flagRegular;
         [SerializeField] private Sprite flagGlowing;
+
+    [Header("Banner")]
+        [SerializeField] private Banner banner;
+        [SerializeField] private Sprite bannerSprite;
 
     void Awake()
     {
@@ -26,6 +30,7 @@ public class Flag : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             fader.sprite = flagGlowing;
+            banner.FadeIn(bannerSprite);
         }
     }
 
@@ -34,6 +39,7 @@ public class Flag : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             fader.sprite = flagRegular;
+            banner.FadeOut();
         }
     }
 }

@@ -189,6 +189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagRegular: {fileID: 21300000, guid: d6a81637bec8a4146925d0b30c08a5ce, type: 3}
   flagGlowing: {fileID: 21300000, guid: 8656a1cfd7c65430b8bf5b15b3990314, type: 3}
+  banner: {fileID: 336022232}
+  bannerSprite: {fileID: 377642228, guid: a78f1af3a904d4ea2810c77c1889aa7d, type: 3}
 --- !u!58 &39055090
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -318,6 +320,9 @@ GameObject:
   - component: {fileID: 336022228}
   - component: {fileID: 336022227}
   - component: {fileID: 336022229}
+  - component: {fileID: 336022231}
+  - component: {fileID: 336022230}
+  - component: {fileID: 336022232}
   m_Layer: 5
   m_Name: Banner
   m_TagString: Untagged
@@ -397,6 +402,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &336022230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336022225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6e090ecd0514460a14bdfe60aad64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &336022231
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336022225}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &336022232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336022225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3b8b2f907ba43f6b447d3cc4ac5b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &347280892
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagRegular: {fileID: 21300000, guid: d6a81637bec8a4146925d0b30c08a5ce, type: 3}
   flagGlowing: {fileID: 21300000, guid: 8656a1cfd7c65430b8bf5b15b3990314, type: 3}
+  banner: {fileID: 336022232}
+  bannerSprite: {fileID: -564583222, guid: a78f1af3a904d4ea2810c77c1889aa7d, type: 3}
 --- !u!1 &379806846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +1924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagRegular: {fileID: 21300000, guid: d6a81637bec8a4146925d0b30c08a5ce, type: 3}
   flagGlowing: {fileID: 21300000, guid: 8656a1cfd7c65430b8bf5b15b3990314, type: 3}
+  banner: {fileID: 336022232}
+  bannerSprite: {fileID: -292249218, guid: a78f1af3a904d4ea2810c77c1889aa7d, type: 3}
 --- !u!58 &1075396120
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2470,6 +2515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagRegular: {fileID: 21300000, guid: d6a81637bec8a4146925d0b30c08a5ce, type: 3}
   flagGlowing: {fileID: 21300000, guid: 8656a1cfd7c65430b8bf5b15b3990314, type: 3}
+  banner: {fileID: 336022232}
+  bannerSprite: {fileID: 4724633, guid: a78f1af3a904d4ea2810c77c1889aa7d, type: 3}
 --- !u!58 &1636756023
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2767,6 +2814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagRegular: {fileID: 21300000, guid: d6a81637bec8a4146925d0b30c08a5ce, type: 3}
   flagGlowing: {fileID: 21300000, guid: 8656a1cfd7c65430b8bf5b15b3990314, type: 3}
+  banner: {fileID: 336022232}
+  bannerSprite: {fileID: -1124439512, guid: a78f1af3a904d4ea2810c77c1889aa7d, type: 3}
 --- !u!58 &2133357368
 CircleCollider2D:
   m_ObjectHideFlags: 0

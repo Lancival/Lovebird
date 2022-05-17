@@ -7,6 +7,7 @@ public abstract class Fader<T> : MonoBehaviour
 {
     protected T fadeSubject;
     protected Coroutine fadeCoroutine = null;
+    protected abstract float currentAlpha {get;}
 
     protected virtual void Awake()
     {
@@ -27,18 +28,19 @@ public abstract class Fader<T> : MonoBehaviour
     public virtual void FadeIn(float duration = 1f)
     {
         Stop();
-        fadeCoroutine = StartCoroutine(Fade(0f, 1f, duration, true));
+        gameObject.SetActive(true);
+        fadeCoroutine = StartCoroutine(Fade(currentAlpha, 1f, duration, true));
     }
 
     public virtual void FadeOutInactive(float duration = 1f)
     {
         Stop();
-        fadeCoroutine = StartCoroutine(Fade(1f, 0f, duration, false));
+        fadeCoroutine = StartCoroutine(Fade(currentAlpha, 0f, duration, false));
     }
 
     public virtual void FadeOutActive(float duration = 1f)
     {
         Stop();
-        fadeCoroutine = StartCoroutine(Fade(1f, 0f, duration, true));
+        fadeCoroutine = StartCoroutine(Fade(currentAlpha, 0f, duration, true));
     }
 }

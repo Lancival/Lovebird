@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class FadeSpriteRenderer : Fader<SpriteRenderer>
 {
+    protected override float currentAlpha => fadeSubject.color.a;
+
     public override IEnumerator Fade(float startAlpha, float endAlpha, float duration, bool enabled)
     {
         SpriteRenderer renderer = fadeSubject;
