@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8323182}
   - component: {fileID: 8323183}
+  - component: {fileID: 8323184}
   m_Layer: 0
   m_Name: Sprinkfruit Flower Tent
   m_TagString: Untagged
@@ -148,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8323181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.45, y: -5.7, z: 0}
+  m_LocalPosition: {x: 8.47, y: -6.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207,6 +208,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &8323184
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8323181}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.3}
+    oldSize: {x: 4.6611905, y: 3.99}
+    newSize: {x: 4.6611905, y: 3.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.1102836, y: -1.1369998}
+      - {x: -1.9905083, y: -0.16699986}
+      - {x: -0.030007662, y: 0.74300015}
+      - {x: 2.0505238, y: 0.1830001}
+      - {x: 1.190304, y: -1.1369998}
 --- !u!1 &46849148
 GameObject:
   m_ObjectHideFlags: 0
@@ -4043,6 +4074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1009354232}
   - component: {fileID: 1009354233}
+  - component: {fileID: 1009354234}
   m_Layer: 0
   m_Name: Chowmleon Flower Tent
   m_TagString: Untagged
@@ -4058,7 +4090,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009354231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 7.05, z: 0}
+  m_LocalPosition: {x: -2.01, y: 6.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4117,6 +4149,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &1009354234
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009354231}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.3}
+    oldSize: {x: 4.6011753, y: 4.1}
+    newSize: {x: 4.6011753, y: 4.1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.190304, y: -1.1399997}
+      - {x: -2.1005363, y: -0.13999973}
+      - {x: -0.1100281, y: 0.82000023}
+      - {x: 1.9605007, y: 0.15000023}
+      - {x: 1.1102836, y: -1.1599998}
 --- !u!1 &1061379306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,6 +6063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553422209}
   - component: {fileID: 1553422210}
+  - component: {fileID: 1553422211}
   m_Layer: 0
   m_Name: Warbleberry Flower Tent 1
   m_TagString: Untagged
@@ -6016,7 +6079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553422208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.5, y: 1.84, z: 0}
+  m_LocalPosition: {x: -13.5, y: 1.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6075,6 +6138,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &1553422211
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553422208}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.3}
+    oldSize: {x: 4.58117, y: 3.94}
+    newSize: {x: 4.58117, y: 3.94}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.2303143, y: -1.1020008}
+      - {x: -2.1005363, y: -0.052000847}
+      - {x: -0.10002555, y: 0.7879991}
+      - {x: 1.9905083, y: 0.22799914}
+      - {x: 1.1402912, y: -1.112001}
 --- !u!1 &1559015617
 GameObject:
   m_ObjectHideFlags: 0
@@ -6657,6 +6750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1678932351}
   - component: {fileID: 1678932352}
+  - component: {fileID: 1678932353}
   m_Layer: 0
   m_Name: Warbleberry Flower Tent 2
   m_TagString: Untagged
@@ -6672,7 +6766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678932350}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.05, y: -3.95, z: 0}
+  m_LocalPosition: {x: -3.05, y: -4.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6731,6 +6825,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &1678932353
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678932350}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.3}
+    oldSize: {x: 4.7112036, y: 4.24}
+    newSize: {x: 4.7112036, y: 4.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.1452925, y: -1.1820002}
+      - {x: -2.0255172, y: -0.15200007}
+      - {x: -0.005001277, y: 0.6679999}
+      - {x: 2.1055377, y: 0.14799993}
+      - {x: 1.1652976, y: -1.2420001}
 --- !u!1 &1793676983
 GameObject:
   m_ObjectHideFlags: 0
