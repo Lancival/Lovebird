@@ -12,13 +12,7 @@ public class BirdController : MonoBehaviour
 
     void Awake() => rb = GetComponent<Rigidbody2D>();
 
-    void OnMove(InputValue input)
-    {
-        movement = input.Get<Vector2>();
-    }
+    public void OnMove(InputAction.CallbackContext context) => movement = context.ReadValue<Vector2>();
 
-    void FixedUpdate()
-    {
-        rb.velocity = movement * speed;
-    }
+    void FixedUpdate() => rb.velocity = movement * speed;
 }

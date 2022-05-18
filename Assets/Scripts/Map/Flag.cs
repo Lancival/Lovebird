@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(CircleCollider2D))]
@@ -8,6 +9,8 @@ public class Flag : MonoBehaviour
 {
     private CircleCollider2D col;
     private SpriteCrossFade fader;
+    private string sceneName;
+    private bool inRange;
 
     [Header("Sprites")]
         [SerializeField] private Sprite flagRegular;
@@ -21,6 +24,7 @@ public class Flag : MonoBehaviour
     {
         col = GetComponent<CircleCollider2D>();
         fader = GetComponent<SpriteCrossFade>();
+        sceneName = this.name.Substring(0, this.name.Length - 5);
     }
 
     void Start() => fader.sprite = flagRegular;
@@ -31,6 +35,7 @@ public class Flag : MonoBehaviour
         {
             fader.sprite = flagGlowing;
             banner.FadeIn(bannerSprite);
+            inRange = true;
         }
     }
 
@@ -40,6 +45,16 @@ public class Flag : MonoBehaviour
         {
             fader.sprite = flagRegular;
             banner.FadeOut();
+            inRange = false;
+        }
+    }
+
+    public void LoadIsland(InputAction.CallbackContext context)
+    {
+        if (inRange)
+        {
+            SceneLoader.instance?.LoadScene(sceneName);
+            inRange = false;
         }
     }
 }
