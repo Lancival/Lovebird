@@ -1,0 +1,878 @@
+fileFormatVersion: 2
+guid: ab9ff683f17d947f4aebfc08e6cce2a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warbleberry Flower Tent 1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1660
+        width: 458
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7b177d4b85a4498b31449bd2b296d2
+      internalID: -2010748588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Flower Tent 2
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1660
+        width: 471
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384541530885844b79624eb6c64d69e3
+      internalID: 1866965520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Flower Tent
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1130
+        width: 466
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d0adbb19074cfda5fb58181395c3f
+      internalID: -1278058666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmleon Flower Tent
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1140
+        width: 460
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db39ee88cdd2470e9d14d6e2402d5f8
+      internalID: -1698861996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Plant 4
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 755
+        width: 132
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc34c1f76a9647d98e44be6542e4bb1
+      internalID: 765077203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Plant 3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 755
+        width: 118
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153358d99f24b46d0b2b5153689985ce
+      internalID: 1400460498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Plant 5
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 757
+        width: 131
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07839fc8ef96643b8ba7b98136aedb6f
+      internalID: 1743307925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Plant 2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 758
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaf85dcade744d15a3a7e4605ee8b69
+      internalID: 614826341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warbleberry Plant 1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 757
+        width: 117
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3687b46ad267f457681a8633095077a1
+      internalID: -79373500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmelon Plant 4
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 435
+        width: 149
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41914471eca2748c1bc9cba292135b13
+      internalID: -1310408962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmelon Plant 5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 440
+        width: 132
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d753663f349e427c9ad3abfa5dc26b7
+      internalID: -2099115277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmelon Plant 3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 435
+        width: 122
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa87097f9815484fb5aa836c32ff857
+      internalID: 1833163175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Plant 3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 423
+        width: 118
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d2fdbff00c4271ab127ba1be38a22
+      internalID: -1012228699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmelon Plant 2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 437
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ef46e5b79f94a73a7af3e6b0e73ea6
+      internalID: -859553131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Plant 2
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 427
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598b41d76d6934f50a451405c7e579ad
+      internalID: -104265213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chowmelon Plant 1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 437
+        width: 117
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef67c4cb4784b482888abf7e63409c9c
+      internalID: -1932344500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Plant 1
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 426
+        width: 116
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6ddcdcca721403aa637986a5e15a9f
+      internalID: 433948704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Plant 4
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 423
+        width: 132
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c515f166f22884a5e93b74456f2f6e4e
+      internalID: -1120196845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkfruit Plant 5
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 423
+        width: 131
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba77d73a540042a28212c1fe20ef91d
+      internalID: -649697872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flux Heart Plant 1
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 749
+        width: 117
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055ab4e8bb77046629c0e242af2650a1
+      internalID: -949370141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flux Heart Plant 2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 750
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed16f2bba202e43beb17ce761e387328
+      internalID: 1773703739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flux Heart Plant 3
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 748
+        width: 118
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225d4061d243c4034ab965808a9907f9
+      internalID: 942026859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flux Heart Plant 4
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 748
+        width: 131
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedf6b0fd77884569933d0dec13fdb93
+      internalID: -2032230248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flux Heart Plant 5
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 753
+        width: 132
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8261bc8964d4332ad1fa86c2c15215
+      internalID: -2084784093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bous Plant 1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 100
+        width: 117
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bcddfcab572461085dbd933c28021f
+      internalID: -151359601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bous Plant 2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 100
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b8ac7e3f3d47c2a6c525e780e2d4b
+      internalID: -1679751822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bous Plant 3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 98
+        width: 119
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba25ecfd04544204810261cb87d4b95
+      internalID: 2024100349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bous Plant 4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 98
+        width: 132
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5134962a209ed457789e07e5bdadd6b3
+      internalID: 1776002923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bous Plant 5
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 102
+        width: 131
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3d41f8fc4674a6696b2393b529fd17
+      internalID: -554270476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Chowmelon Plant 4: -1310408962
+      Warbleberry Town Spritesheet_64: -1743942578
+      Warbleberry Town Spritesheet_55: -793743321
+      Warbleberry Town Spritesheet_3: -772281171
+      Warbleberry Town Spritesheet_81: -1918072758
+      Warbleberry Town Spritesheet_80: 810390322
+      Bous Plant 2: -1679751822
+      Warbleberry Town Spritesheet_82: -1232211086
+      Warbleberry Town Spritesheet_54: 141152894
+      Warbleberry Town Spritesheet_101: -1979893438
+      Bous Plant 3: 2024100349
+      Warbleberry Town Spritesheet_77: -1613514849
+      Warbleberry Flower Tent 1: -2010748588
+      Warbleberry Town Spritesheet_4: -314831912
+      Warbleberry Town Spritesheet_95: -1364547066
+      Warbleberry Town Spritesheet_52: 1369209878
+      Flux Heart Plant 4: -2032230248
+      Warbleberry Town Spritesheet_65: -1373956399
+      Warbleberry Town Spritesheet_41: -1796980422
+      Warbleberry Town Spritesheet_93: 2023122014
+      Chowmelon Plant 5: -2099115277
+      Warbleberry Town Spritesheet_96: 762572314
+      Warbleberry Town Spritesheet_6: -1849394736
+      Warbleberry Town Spritesheet_47: -253173783
+      Warbleberry Town Spritesheet_100: -177079140
+      Bous Plant 1: -151359601
+      Warbleberry Town Spritesheet_99: 1549498795
+      Warbleberry Town Spritesheet_105: -2113871887
+      Chowmelon Plant 2: -859553131
+      Chowmelon Plant 1: -1932344500
+      Warbleberry Town Spritesheet_102: 1052451662
+      Warbleberry Town Spritesheet_121: -179103825
+      Warbleberry Town Spritesheet_29: -681543083
+      Flux Heart Plant 3: 942026859
+      Warbleberry Town Spritesheet_51: 857526760
+      Warbleberry Town Spritesheet_12: -1467359573
+      Warbleberry Town Spritesheet_62: 712393361
+      Warbleberry Town Spritesheet_16: -229324595
+      Warbleberry Town Spritesheet_84: 2049154778
+      Warbleberry Town Spritesheet_83: 539066909
+      Chowmleon Flower Tent: -1698861996
+      Warbleberry Town Spritesheet_91: 1268248710
+      Warbleberry Plant 3: 1400460498
+      Warbleberry Town Spritesheet_104: 110633542
+      Warbleberry Town Spritesheet_46: -1645721902
+      Chowmelon Plant 3: 1833163175
+      Warbleberry Town Spritesheet_26: -1436693934
+      Warbleberry Town Spritesheet_58: -833403386
+      Warbleberry Town Spritesheet_60: -734338589
+      Warbleberry Town Spritesheet_86: -1357349421
+      Warbleberry Town Spritesheet_76: 589305715
+      Warbleberry Town Spritesheet_118: 769844374
+      Warbleberry Town Spritesheet_19: 185249724
+      Warbleberry Town Spritesheet_63: 322823735
+      Warbleberry Town Spritesheet_68: -1051767649
+      Warbleberry Town Spritesheet_97: 76560992
+      Warbleberry Town Spritesheet_25: -692682908
+      Warbleberry Town Spritesheet_72: -477426317
+      Warbleberry Town Spritesheet_59: -1414558347
+      Warbleberry Town Spritesheet_106: -1434703714
+      Warbleberry Town Spritesheet_111: 1572067675
+      Warbleberry Town Spritesheet_110: 1342418069
+      Warbleberry Town Spritesheet_112: -1427056330
+      Warbleberry Town Spritesheet_85: 1654189669
+      Bous Plant 4: 1776002923
+      Warbleberry Town Spritesheet_21: 442571565
+      Warbleberry Town Spritesheet_108: -1906314666
+      Warbleberry Town Spritesheet_44: 599530533
+      Warbleberry Town Spritesheet_9: -1374894254
+      Warbleberry Town Spritesheet_87: 1017232883
+      Sprinkfruit Plant 3: -1012228699
+      Warbleberry Town Spritesheet_117: -1361472144
+      Warbleberry Town Spritesheet_107: 831849114
+      Warbleberry Town Spritesheet_90: -203936453
+      Warbleberry Town Spritesheet_109: -717524630
+      Warbleberry Plant 1: -79373500
+      Warbleberry Town Spritesheet_122: 1140881194
+      Warbleberry Town Spritesheet_13: -526445505
+      Warbleberry Town Spritesheet_1: -239533891
+      Warbleberry Town Spritesheet_98: -334553016
+      Flux Heart Plant 2: 1773703739
+      Warbleberry Town Spritesheet_45: -400297109
+      Warbleberry Town Spritesheet_40: 1672706772
+      Warbleberry Town Spritesheet_94: -1915908158
+      Warbleberry Town Spritesheet_89: -1042867037
+      Warbleberry Town Spritesheet_27: -1392663111
+      Warbleberry Town Spritesheet_35: -131526986
+      Warbleberry Town Spritesheet_78: 386127923
+      Warbleberry Town Spritesheet_36: 1788836392
+      Warbleberry Town Spritesheet_120: 488913773
+      Warbleberry Town Spritesheet_92: -802096719
+      Warbleberry Town Spritesheet_11: -404191636
+      Flux Heart Plant 1: -949370141
+      Warbleberry Town Spritesheet_37: 1866196025
+      Warbleberry Town Spritesheet_24: -1665427399
+      Sprinkfruit Plant 4: -1120196845
+      Warbleberry Town Spritesheet_103: 372627080
+      Warbleberry Town Spritesheet_14: -1541762642
+      Warbleberry Town Spritesheet_17: -817516518
+      Warbleberry Town Spritesheet_73: -1226115713
+      Warbleberry Town Spritesheet_114: -481568113
+      Sprinkfruit Plant 5: -649697872
+      Warbleberry Town Spritesheet_48: -1976696936
+      Warbleberry Town Spritesheet_113: 539117357
+      Sprinkfruit Plant 1: 433948704
+      Warbleberry Town Spritesheet_53: 1463837420
+      Warbleberry Town Spritesheet_38: 141352205
+      Warbleberry Town Spritesheet_22: -646614337
+      Warbleberry Town Spritesheet_32: -1300898634
+      Warbleberry Town Spritesheet_33: -377148800
+      Sprinkfruit Plant 2: -104265213
+      Warbleberry Town Spritesheet_8: -621799554
+      Warbleberry Town Spritesheet_23: 907147028
+      Warbleberry Town Spritesheet_67: -736504969
+      Warbleberry Town Spritesheet_49: -76208907
+      Warbleberry Town Spritesheet_69: -1893388389
+      Warbleberry Town Spritesheet_116: 884081755
+      Warbleberry Town Spritesheet_39: -1585809762
+      Warbleberry Plant 5: 1743307925
+      Warbleberry Plant 4: 765077203
+      Sprinkfruit Flower Tent: -1278058666
+      Warbleberry Town Spritesheet_43: 1951078
+      Warbleberry Town Spritesheet_50: -1055552935
+      Warbleberry Town Spritesheet_74: 397239040
+      Warbleberry Plant 2: 614826341
+      Bous Plant 5: -554270476
+      Warbleberry Town Spritesheet_119: 1129883444
+      Flux Heart Plant 5: -2084784093
+      Warbleberry Town Spritesheet_61: -455293479
+      Warbleberry Town Spritesheet_115: 1103816473
+      Warbleberry Town Spritesheet_31: 564125350
+      Warbleberry Flower Tent 2: 1866965520
+      Warbleberry Town Spritesheet_15: -503001283
+      Warbleberry Town Spritesheet_42: 279526659
+      Warbleberry Town Spritesheet_30: -2129112528
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
