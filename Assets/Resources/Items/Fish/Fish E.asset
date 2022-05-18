@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Common Fish 1
+  m_Name: Fish E
   m_EditorClassIdentifier: 
-  _itemName: Common Fish 1
-  _description: A really common fish. Type 1.
+  _description: 
   _tags:
   - Fish
-  _sprite: {fileID: 0}
+  _sprite: {fileID: -1566497333, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
