@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97276849}
   - component: {fileID: 97276848}
+  - component: {fileID: 97276850}
   m_Layer: 0
   m_Name: Chowmelon Plant 3 (1)
   m_TagString: Untagged
@@ -434,13 +435,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97276847}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2506237, y: 5.1567698, z: 0}
+  m_LocalPosition: {x: 5.2506237, y: 4.814, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &97276850
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97276847}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.32}
+    oldSize: {x: 1.2203116, y: 1.8}
+    newSize: {x: 1.2203116, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.2400613, y: -0.39599964}
+      - {x: -0.45011497, y: -0.31599966}
+      - {x: -0.52013284, y: -0.20599966}
+      - {x: -0.46011752, y: -0.09599964}
+      - {x: -0.35008943, y: -0.045999672}
+      - {x: -0.030007662, y: -0.0059996657}
+      - {x: 0.26006642, y: -0.035999645}
+      - {x: 0.41010475, y: -0.16599967}
+      - {x: 0.41010475, y: -0.25599965}
+      - {x: 0.34008688, y: -0.34599966}
+      - {x: 0.12003065, y: -0.41599968}
 --- !u!1 &114457670
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184276031}
   - component: {fileID: 184276030}
+  - component: {fileID: 184276032}
   m_Layer: 0
   m_Name: Warbleberry Plant 1 (1)
   m_TagString: Untagged
@@ -818,13 +856,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184276029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.84, y: -6.45, z: 0}
+  m_LocalPosition: {x: -9.827, y: -6.268, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &184276032
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184276029}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.75}
+    oldSize: {x: 1.1702989, y: 0.76}
+    newSize: {x: 1.1702989, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.025006387, y: -0.40000018}
+      - {x: -0.3750958, y: -0.3300002}
+      - {x: -0.505129, y: -0.19714251}
+      - {x: -0.41510603, y: -0.07000019}
+      - {x: -0.045011494, y: 0.009999826}
+      - {x: 0.40510347, y: -0.060000177}
+      - {x: 0.50512904, y: -0.20000018}
+      - {x: 0.38509834, y: -0.3600002}
 --- !u!1 &187500428
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187500430}
   - component: {fileID: 187500429}
+  - component: {fileID: 187500431}
   m_Layer: 0
   m_Name: Chowmelon Plant 2 (1)
   m_TagString: Untagged
@@ -902,13 +974,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187500428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.757287, y: 5.814255, z: 0}
+  m_LocalPosition: {x: 7.769, y: 5.772, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &187500431
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187500428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.475}
+    oldSize: {x: 1.1502938, y: 1.2}
+    newSize: {x: 1.1502938, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.51513153, y: -0.18999992}
+      - {x: -0.42510858, y: -0.059999917}
+      - {x: -0.21505493, y: 0.00000008046627}
+      - {x: 0.005001277, y: 0.00000008046627}
+      - {x: 0.27507025, y: -0.059999917}
+      - {x: 0.40510347, y: -0.16999993}
+      - {x: 0.40510347, y: -0.26999992}
+      - {x: 0.21505493, y: -0.39999992}
+      - {x: -0.12503193, y: -0.4099999}
+      - {x: -0.4651188, y: -0.26999992}
 --- !u!1 &196492849
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +1026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 196492851}
   - component: {fileID: 196492850}
+  - component: {fileID: 196492852}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 2 (1)
   m_TagString: Untagged
@@ -986,13 +1094,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196492849}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.477324, y: -4.1876764, z: 0}
+  m_LocalPosition: {x: 11.466, y: -4.214, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &196492852
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196492849}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1402912, y: 1.15}
+    newSize: {x: 1.1402912, y: 1.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1100281, y: -0.40199983}
+      - {x: -0.3800971, y: -0.32199982}
+      - {x: -0.4701201, y: -0.26199985}
+      - {x: -0.52013284, y: -0.17199984}
+      - {x: -0.4401124, y: -0.07199984}
+      - {x: -0.30007666, y: -0.011999842}
+      - {x: -0.020005109, y: 0.008000158}
+      - {x: 0.3100792, y: -0.07199984}
+      - {x: 0.4001022, y: -0.17199984}
+      - {x: 0.4001022, y: -0.25199986}
+      - {x: 0.270069, y: -0.37199983}
 --- !u!1 &221592643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229479867}
   - component: {fileID: 229479866}
+  - component: {fileID: 229479868}
   m_Layer: 0
   m_Name: Warbleberry Plant 3 (2)
   m_TagString: Untagged
@@ -1154,13 +1299,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229479865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.9, y: -1.46, z: 0}
+  m_LocalPosition: {x: -11.872, y: -1.761, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1279631359}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &229479868
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229479865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.74}
+    newSize: {x: 1.1803015, y: 1.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25006387, y: -0.4042002}
+      - {x: -0.25006387, y: -0.4042002}
+      - {x: -0.49012518, y: -0.2542002}
+      - {x: -0.49012518, y: -0.14420019}
+      - {x: -0.2400613, y: -0.0042001987}
+      - {x: 0.2000511, y: -0.0042001987}
+      - {x: 0.43010986, y: -0.15420017}
+      - {x: 0.43010986, y: -0.2742002}
 --- !u!1 &280407328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374387333}
   - component: {fileID: 374387334}
+  - component: {fileID: 374387335}
   m_Layer: 0
   m_Name: Warbleberry Plant 2 (2)
   m_TagString: Untagged
@@ -1392,7 +1571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374387332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.7, y: -0.75, z: 0}
+  m_LocalPosition: {x: -9.681, y: -0.772, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1451,6 +1630,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &374387335
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374387332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1502938, y: 1.16}
+    newSize: {x: 1.1502938, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03500894, y: -0.41679996}
+      - {x: -0.40510347, y: -0.31679997}
+      - {x: -0.51513153, y: -0.16679996}
+      - {x: -0.3951009, y: -0.04679996}
+      - {x: -0.045011494, y: 0.013200035}
+      - {x: 0.3050779, y: -0.07679997}
+      - {x: 0.42510858, y: -0.20679997}
+      - {x: 0.32508305, y: -0.34679997}
 --- !u!1 &399262299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466969065}
   - component: {fileID: 466969066}
+  - component: {fileID: 466969067}
   m_Layer: 0
   m_Name: Warbleberry Plant 3
   m_TagString: Untagged
@@ -1644,7 +1857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466969064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.28, y: 0.8, z: 0}
+  m_LocalPosition: {x: -16.284, y: 0.503, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1703,6 +1916,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &466969067
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466969064}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.74}
+    newSize: {x: 1.1803015, y: 1.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25006387, y: -0.4042002}
+      - {x: -0.25006387, y: -0.4042002}
+      - {x: -0.49012518, y: -0.2542002}
+      - {x: -0.49012518, y: -0.14420019}
+      - {x: -0.2400613, y: -0.0042001987}
+      - {x: 0.2000511, y: -0.0042001987}
+      - {x: 0.43010986, y: -0.15420017}
+      - {x: 0.43010986, y: -0.2742002}
 --- !u!1 &469098632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469098634}
   - component: {fileID: 469098633}
+  - component: {fileID: 469098635}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 2 (2)
   m_TagString: Untagged
@@ -1780,13 +2027,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469098632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.87507, y: -4.1876764, z: 0}
+  m_LocalPosition: {x: 12.895, y: -4.249, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &469098635
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469098632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1402912, y: 1.15}
+    newSize: {x: 1.1402912, y: 1.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1100281, y: -0.40199983}
+      - {x: -0.3800971, y: -0.32199982}
+      - {x: -0.4701201, y: -0.26199985}
+      - {x: -0.52013284, y: -0.17199984}
+      - {x: -0.4401124, y: -0.07199984}
+      - {x: -0.30007666, y: -0.011999842}
+      - {x: -0.020005109, y: 0.008000158}
+      - {x: 0.3100792, y: -0.07199984}
+      - {x: 0.4001022, y: -0.17199984}
+      - {x: 0.4001022, y: -0.25199986}
+      - {x: 0.270069, y: -0.37199983}
 --- !u!1 &472720203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,7 +2295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472720203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.09, y: -1.075, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2427,6 +2710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 565205177}
   - component: {fileID: 565205176}
+  - component: {fileID: 565205178}
   m_Layer: 0
   m_Name: Chowmelon Plant 4
   m_TagString: Untagged
@@ -2494,13 +2778,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565205175}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.96, y: 8.060425, z: 0}
+  m_LocalPosition: {x: -3.982, y: 7.347, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &565205178
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565205175}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.4903806, y: 2.55}
+    newSize: {x: 1.4903806, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.05501405, y: -0.40374997}
+      - {x: -0.36509326, y: -0.36374995}
+      - {x: -0.54513925, y: -0.25375}
+      - {x: -0.5551418, y: -0.15374996}
+      - {x: -0.4951265, y: -0.08374994}
+      - {x: -0.29507536, y: -0.013749996}
+      - {x: 0.08502172, y: -0.0037499696}
+      - {x: 0.3550907, y: -0.07375}
+      - {x: 0.42510858, y: -0.17374994}
+      - {x: 0.41510603, y: -0.25375}
+      - {x: 0.25506514, y: -0.39374995}
 --- !u!1 &571129551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,6 +2831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571129553}
   - component: {fileID: 571129552}
+  - component: {fileID: 571129554}
   m_Layer: 0
   m_Name: Warbleberry Plant 2 (2)
   m_TagString: Untagged
@@ -2578,13 +2899,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571129551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.41, y: -6.26, z: 0}
+  m_LocalPosition: {x: -8.419, y: -6.288, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &571129554
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571129551}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1502938, y: 1.16}
+    newSize: {x: 1.1502938, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03500894, y: -0.41679996}
+      - {x: -0.40510347, y: -0.31679997}
+      - {x: -0.51513153, y: -0.16679996}
+      - {x: -0.3951009, y: -0.04679996}
+      - {x: -0.045011494, y: 0.013200035}
+      - {x: 0.3050779, y: -0.07679997}
+      - {x: 0.42510858, y: -0.20679997}
+      - {x: 0.32508305, y: -0.34679997}
 --- !u!1 &576334055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,6 +2949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576334057}
   - component: {fileID: 576334056}
+  - component: {fileID: 576334058}
   m_Layer: 0
   m_Name: Warbleberry Plant 3 (1)
   m_TagString: Untagged
@@ -2662,13 +3017,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576334055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.75, y: -1.8, z: 0}
+  m_LocalPosition: {x: -15.758, y: -2.113, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1279631359}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &576334058
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576334055}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.74}
+    newSize: {x: 1.1803015, y: 1.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25006387, y: -0.4042002}
+      - {x: -0.25006387, y: -0.4042002}
+      - {x: -0.49012518, y: -0.2542002}
+      - {x: -0.49012518, y: -0.14420019}
+      - {x: -0.2400613, y: -0.0042001987}
+      - {x: 0.2000511, y: -0.0042001987}
+      - {x: 0.43010986, y: -0.15420017}
+      - {x: 0.43010986, y: -0.2742002}
 --- !u!1 &578088522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,6 +3107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599980908}
   - component: {fileID: 599980907}
+  - component: {fileID: 599980909}
   m_Layer: 0
   m_Name: Warbleberry Plant 1
   m_TagString: Untagged
@@ -2786,13 +3175,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599980906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7, y: -6.47, z: 0}
+  m_LocalPosition: {x: -7.013, y: -6.294, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &599980909
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599980906}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.75}
+    oldSize: {x: 1.1702989, y: 0.76}
+    newSize: {x: 1.1702989, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.025006387, y: -0.40000018}
+      - {x: -0.3750958, y: -0.3300002}
+      - {x: -0.505129, y: -0.19714251}
+      - {x: -0.41510603, y: -0.07000019}
+      - {x: -0.045011494, y: 0.009999826}
+      - {x: 0.40510347, y: -0.060000177}
+      - {x: 0.50512904, y: -0.20000018}
+      - {x: 0.38509834, y: -0.3600002}
 --- !u!1 &615285537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,6 +3225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615285538}
   - component: {fileID: 615285539}
+  - component: {fileID: 615285540}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 4 (1)
   m_TagString: Untagged
@@ -2818,7 +3241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615285537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.57, y: -6.85, z: 0}
+  m_LocalPosition: {x: 14.58, y: -7.555, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2877,6 +3300,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &615285540
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615285537}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.56}
+    newSize: {x: 1.3203373, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.4701201, y: -0.32599992}
+      - {x: -0.5701456, y: -0.17599994}
+      - {x: -0.45011497, y: -0.04599991}
+      - {x: -0.21005364, y: 0.004000059}
+      - {x: 0, y: 0.004000059}
+      - {x: 0.23005876, y: -0.035999965}
+      - {x: 0.41010475, y: -0.12599996}
+      - {x: 0.42010728, y: -0.20599993}
+      - {x: 0.39009964, y: -0.2959999}
+      - {x: 0.2200562, y: -0.38599992}
+      - {x: -0.07001788, y: -0.39599994}
 --- !u!1 &633851739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,6 +3755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715788132}
   - component: {fileID: 715788131}
+  - component: {fileID: 715788133}
   m_Layer: 0
   m_Name: Chowmelon Plant 4 (1)
   m_TagString: Untagged
@@ -3363,13 +3823,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715788130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.6887245, y: 7.4305735, z: 0}
+  m_LocalPosition: {x: 8.678, y: 6.681, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &715788133
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715788130}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.4903806, y: 2.55}
+    newSize: {x: 1.4903806, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.05501405, y: -0.40374997}
+      - {x: -0.36509326, y: -0.36374995}
+      - {x: -0.54513925, y: -0.25375}
+      - {x: -0.5551418, y: -0.15374996}
+      - {x: -0.4951265, y: -0.08374994}
+      - {x: -0.29507536, y: -0.013749996}
+      - {x: 0.08502172, y: -0.0037499696}
+      - {x: 0.3550907, y: -0.07375}
+      - {x: 0.42510858, y: -0.17374994}
+      - {x: 0.41510603, y: -0.25375}
+      - {x: 0.25506514, y: -0.39374995}
 --- !u!1 &778964971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,6 +3876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 778964973}
   - component: {fileID: 778964972}
+  - component: {fileID: 778964974}
   m_Layer: 0
   m_Name: Chowmelon Plant 3
   m_TagString: Untagged
@@ -3447,13 +3944,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778964971}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.3876, y: 7.0470405, z: 0}
+  m_LocalPosition: {x: 5.38, y: 6.689, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &778964974
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778964971}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.32}
+    oldSize: {x: 1.2203116, y: 1.8}
+    newSize: {x: 1.2203116, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.2400613, y: -0.39599964}
+      - {x: -0.45011497, y: -0.31599966}
+      - {x: -0.52013284, y: -0.20599966}
+      - {x: -0.46011752, y: -0.09599964}
+      - {x: -0.35008943, y: -0.045999672}
+      - {x: -0.030007662, y: -0.0059996657}
+      - {x: 0.26006642, y: -0.035999645}
+      - {x: 0.41010475, y: -0.16599967}
+      - {x: 0.41010475, y: -0.25599965}
+      - {x: 0.34008688, y: -0.34599966}
+      - {x: 0.12003065, y: -0.41599968}
 --- !u!1 &784385519
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,6 +4081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800120514}
   - component: {fileID: 800120513}
+  - component: {fileID: 800120515}
   m_Layer: 0
   m_Name: Warbleberry Plant 4 (1)
   m_TagString: Untagged
@@ -3615,13 +4149,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800120512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.75, y: -2.2, z: 0}
+  m_LocalPosition: {x: 2.745, y: -2.932, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &800120515
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800120512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.55}
+    newSize: {x: 1.3203373, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23005876, y: -0.3937506}
+      - {x: -0.080020435, y: -0.40375063}
+      - {x: -0.39009964, y: -0.3637506}
+      - {x: -0.56014305, y: -0.23375058}
+      - {x: -0.56014305, y: -0.15375061}
+      - {x: -0.3700945, y: -0.023750586}
+      - {x: -0.020005109, y: -0.0037506134}
+      - {x: 0.32008174, y: -0.06375061}
+      - {x: 0.42010728, y: -0.16375063}
+      - {x: 0.42010728, y: -0.25375062}
 --- !u!1 &802891180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,6 +4201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 802891182}
   - component: {fileID: 802891181}
+  - component: {fileID: 802891183}
   m_Layer: 0
   m_Name: Flux Heart Plant 3
   m_TagString: Untagged
@@ -3699,13 +4269,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802891180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.432117, y: 1.7291442, z: 0}
+  m_LocalPosition: {x: 15.436, y: 1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2045800881}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &802891183
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802891180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.77}
+    newSize: {x: 1.1803015, y: 1.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.25006387, y: -0.40409994}
+      - {x: -0.4701201, y: -0.28409994}
+      - {x: -0.4801226, y: -0.15409991}
+      - {x: -0.34008688, y: -0.0440999}
+      - {x: -0.020005109, y: -0.014099924}
+      - {x: 0.2200562, y: -0.02409991}
+      - {x: 0.43010986, y: -0.1640999}
+      - {x: 0.4401124, y: -0.27409992}
+      - {x: 0.25006387, y: -0.4240999}
 --- !u!1 &823596606
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,6 +4320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 823596608}
   - component: {fileID: 823596607}
+  - component: {fileID: 823596609}
   m_Layer: 0
   m_Name: Warbleberry Plant 4
   m_TagString: Untagged
@@ -3783,13 +4388,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823596606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.4, y: 1.28, z: 0}
+  m_LocalPosition: {x: -10.427, y: 0.575, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1279631359}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &823596609
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823596606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.55}
+    newSize: {x: 1.3203373, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23005876, y: -0.3937506}
+      - {x: -0.080020435, y: -0.40375063}
+      - {x: -0.39009964, y: -0.3637506}
+      - {x: -0.56014305, y: -0.23375058}
+      - {x: -0.56014305, y: -0.15375061}
+      - {x: -0.3700945, y: -0.023750586}
+      - {x: -0.020005109, y: -0.0037506134}
+      - {x: 0.32008174, y: -0.06375061}
+      - {x: 0.42010728, y: -0.16375063}
+      - {x: 0.42010728, y: -0.25375062}
 --- !u!1 &847517916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,6 +4630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 851315674}
   - component: {fileID: 851315673}
+  - component: {fileID: 851315675}
   m_Layer: 0
   m_Name: Chowmelon Plant 2
   m_TagString: Untagged
@@ -4057,13 +4698,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851315672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.058783, y: 5.855348, z: 0}
+  m_LocalPosition: {x: 6.07, y: 5.794, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &851315675
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851315672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.475}
+    oldSize: {x: 1.1502938, y: 1.2}
+    newSize: {x: 1.1502938, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.51513153, y: -0.18999992}
+      - {x: -0.42510858, y: -0.059999917}
+      - {x: -0.21505493, y: 0.00000008046627}
+      - {x: 0.005001277, y: 0.00000008046627}
+      - {x: 0.27507025, y: -0.059999917}
+      - {x: 0.40510347, y: -0.16999993}
+      - {x: 0.40510347, y: -0.26999992}
+      - {x: 0.21505493, y: -0.39999992}
+      - {x: -0.12503193, y: -0.4099999}
+      - {x: -0.4651188, y: -0.26999992}
 --- !u!1 &866934375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,6 +5131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121855059}
   - component: {fileID: 1121855058}
+  - component: {fileID: 1121855060}
   m_Layer: 0
   m_Name: Chowmelon Plant 2 (1)
   m_TagString: Untagged
@@ -4522,13 +5199,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121855057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.092866, y: 6.6328444, z: 0}
+  m_LocalPosition: {x: -5.099, y: 6.604, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1121855060
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121855057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.475}
+    oldSize: {x: 1.1502938, y: 1.2}
+    newSize: {x: 1.1502938, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.51513153, y: -0.18999992}
+      - {x: -0.42510858, y: -0.059999917}
+      - {x: -0.21505493, y: 0.00000008046627}
+      - {x: 0.005001277, y: 0.00000008046627}
+      - {x: 0.27507025, y: -0.059999917}
+      - {x: 0.40510347, y: -0.16999993}
+      - {x: 0.40510347, y: -0.26999992}
+      - {x: 0.21505493, y: -0.39999992}
+      - {x: -0.12503193, y: -0.4099999}
+      - {x: -0.4651188, y: -0.26999992}
 --- !u!1 &1136337163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,6 +5288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138130947}
   - component: {fileID: 1138130946}
+  - component: {fileID: 1138130948}
   m_Layer: 0
   m_Name: Chowmelon Plant 2
   m_TagString: Untagged
@@ -4643,13 +5356,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138130945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.3283434, y: 7.913252, z: 0}
+  m_LocalPosition: {x: -5.338, y: 7.899, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1138130948
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138130945}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.475}
+    oldSize: {x: 1.1502938, y: 1.2}
+    newSize: {x: 1.1502938, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.51513153, y: -0.18999992}
+      - {x: -0.42510858, y: -0.059999917}
+      - {x: -0.21505493, y: 0.00000008046627}
+      - {x: 0.005001277, y: 0.00000008046627}
+      - {x: 0.27507025, y: -0.059999917}
+      - {x: 0.40510347, y: -0.16999993}
+      - {x: 0.40510347, y: -0.26999992}
+      - {x: 0.21505493, y: -0.39999992}
+      - {x: -0.12503193, y: -0.4099999}
+      - {x: -0.4651188, y: -0.26999992}
 --- !u!1 &1144751859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4660,6 +5408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144751861}
   - component: {fileID: 1144751860}
+  - component: {fileID: 1144751862}
   m_Layer: 0
   m_Name: Chowmelon Plant 3 (2)
   m_TagString: Untagged
@@ -4727,13 +5476,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144751859}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.729966, y: 5.1567698, z: 0}
+  m_LocalPosition: {x: 6.729966, y: 4.814, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1144751862
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144751859}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.32}
+    oldSize: {x: 1.2203116, y: 1.8}
+    newSize: {x: 1.2203116, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.2400613, y: -0.39599964}
+      - {x: -0.45011497, y: -0.31599966}
+      - {x: -0.52013284, y: -0.20599966}
+      - {x: -0.46011752, y: -0.09599964}
+      - {x: -0.35008943, y: -0.045999672}
+      - {x: -0.030007662, y: -0.0059996657}
+      - {x: 0.26006642, y: -0.035999645}
+      - {x: 0.41010475, y: -0.16599967}
+      - {x: 0.41010475, y: -0.25599965}
+      - {x: 0.34008688, y: -0.34599966}
+      - {x: 0.12003065, y: -0.41599968}
 --- !u!1 &1164417852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4744,6 +5529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164417854}
   - component: {fileID: 1164417853}
+  - component: {fileID: 1164417855}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 2
   m_TagString: Untagged
@@ -4811,13 +5597,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164417852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.494873, y: -3.3096054, z: 0}
+  m_LocalPosition: {x: 16.48, y: -3.333, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1164417855
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164417852}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1402912, y: 1.15}
+    newSize: {x: 1.1402912, y: 1.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1100281, y: -0.40199983}
+      - {x: -0.3800971, y: -0.32199982}
+      - {x: -0.4701201, y: -0.26199985}
+      - {x: -0.52013284, y: -0.17199984}
+      - {x: -0.4401124, y: -0.07199984}
+      - {x: -0.30007666, y: -0.011999842}
+      - {x: -0.020005109, y: 0.008000158}
+      - {x: 0.3100792, y: -0.07199984}
+      - {x: 0.4001022, y: -0.17199984}
+      - {x: 0.4001022, y: -0.25199986}
+      - {x: 0.270069, y: -0.37199983}
 --- !u!1 &1177718256
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,6 +5734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272917277}
   - component: {fileID: 1272917276}
+  - component: {fileID: 1272917278}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 3
   m_TagString: Untagged
@@ -4979,13 +5802,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272917275}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.140357, y: -3.040808, z: 0}
+  m_LocalPosition: {x: 12.167, y: -3.353, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1272917278
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272917275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.77}
+    newSize: {x: 1.1803015, y: 1.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.30007666, y: -0.3841003}
+      - {x: -0.50012773, y: -0.21410023}
+      - {x: -0.43010986, y: -0.08410025}
+      - {x: -0.19004855, y: -0.014100245}
+      - {x: 0.1100281, y: -0.0041002394}
+      - {x: 0.39009964, y: -0.10410022}
+      - {x: 0.43010986, y: -0.19410026}
+      - {x: 0.43010986, y: -0.2741002}
+      - {x: 0.29007408, y: -0.39410022}
+      - {x: -0.020005109, y: -0.40410024}
 --- !u!1 &1279631358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5203,6 +6061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285728700}
   - component: {fileID: 1285728699}
+  - component: {fileID: 1285728701}
   m_Layer: 0
   m_Name: Flux Heart Plant 4
   m_TagString: Untagged
@@ -5270,13 +6129,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285728698}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.68449, y: 2.886998, z: 0}
+  m_LocalPosition: {x: 16.68449, y: 2.188, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2045800881}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1285728701
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285728698}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3103347, y: 2.56}
+    newSize: {x: 1.3103347, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.065016605, y: -0.406}
+      - {x: -0.3951009, y: -0.36599997}
+      - {x: -0.5551418, y: -0.23599993}
+      - {x: -0.51513153, y: -0.09599996}
+      - {x: -0.34508812, y: -0.02599994}
+      - {x: -0.03500894, y: -0.0059999675}
+      - {x: 0.25506514, y: -0.04599991}
+      - {x: 0.41510603, y: -0.14599994}
+      - {x: 0.42510858, y: -0.27599996}
+      - {x: 0.20505238, y: -0.39599994}
 --- !u!1 &1302094003
 GameObject:
   m_ObjectHideFlags: 0
@@ -5287,6 +6181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1302094005}
   - component: {fileID: 1302094004}
+  - component: {fileID: 1302094006}
   m_Layer: 0
   m_Name: Chowmelon Plant 4
   m_TagString: Untagged
@@ -5354,13 +6249,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302094003}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.95, y: 7.3894806, z: 0}
+  m_LocalPosition: {x: 6.931, y: 6.689, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866934376}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1302094006
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302094003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.4903806, y: 2.55}
+    newSize: {x: 1.4903806, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.05501405, y: -0.40374997}
+      - {x: -0.36509326, y: -0.36374995}
+      - {x: -0.54513925, y: -0.25375}
+      - {x: -0.5551418, y: -0.15374996}
+      - {x: -0.4951265, y: -0.08374994}
+      - {x: -0.29507536, y: -0.013749996}
+      - {x: 0.08502172, y: -0.0037499696}
+      - {x: 0.3550907, y: -0.07375}
+      - {x: 0.42510858, y: -0.17374994}
+      - {x: 0.41510603, y: -0.25375}
+      - {x: 0.25506514, y: -0.39374995}
 --- !u!1 &1309816019
 GameObject:
   m_ObjectHideFlags: 0
@@ -5859,6 +6790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375620076}
   - component: {fileID: 1375620077}
+  - component: {fileID: 1375620078}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 3 (3)
   m_TagString: Untagged
@@ -5874,7 +6806,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375620075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.04, y: -7.2, z: 0}
+  m_LocalPosition: {x: 13.04, y: -7.505, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5933,6 +6865,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &1375620078
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375620075}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.77}
+    newSize: {x: 1.1803015, y: 1.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.30007666, y: -0.3841003}
+      - {x: -0.50012773, y: -0.21410023}
+      - {x: -0.43010986, y: -0.08410025}
+      - {x: -0.19004855, y: -0.014100245}
+      - {x: 0.1100281, y: -0.0041002394}
+      - {x: 0.39009964, y: -0.10410022}
+      - {x: 0.43010986, y: -0.19410026}
+      - {x: 0.43010986, y: -0.2741002}
+      - {x: 0.29007408, y: -0.39410022}
+      - {x: -0.020005109, y: -0.40410024}
 --- !u!1 &1377578449
 GameObject:
   m_ObjectHideFlags: 0
@@ -6734,6 +7701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637621401}
   - component: {fileID: 1637621400}
+  - component: {fileID: 1637621402}
   m_Layer: 0
   m_Name: Warbleberry Plant 4 (3)
   m_TagString: Untagged
@@ -6801,13 +7769,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637621399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.28, y: -3.65, z: 0}
+  m_LocalPosition: {x: 0.285, y: -4.366, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1637621402
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637621399}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.55}
+    newSize: {x: 1.3203373, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23005876, y: -0.3937506}
+      - {x: -0.080020435, y: -0.40375063}
+      - {x: -0.39009964, y: -0.3637506}
+      - {x: -0.56014305, y: -0.23375058}
+      - {x: -0.56014305, y: -0.15375061}
+      - {x: -0.3700945, y: -0.023750586}
+      - {x: -0.020005109, y: -0.0037506134}
+      - {x: 0.32008174, y: -0.06375061}
+      - {x: 0.42010728, y: -0.16375063}
+      - {x: 0.42010728, y: -0.25375062}
 --- !u!1 &1664942121
 GameObject:
   m_ObjectHideFlags: 0
@@ -6818,6 +7821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664942122}
   - component: {fileID: 1664942123}
+  - component: {fileID: 1664942124}
   m_Layer: 0
   m_Name: Warbleberry Plant 2
   m_TagString: Untagged
@@ -6833,7 +7837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664942121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.1, y: -0.76, z: 0}
+  m_LocalPosition: {x: -16.103, y: -0.779, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6892,6 +7896,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!60 &1664942124
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664942121}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1502938, y: 1.16}
+    newSize: {x: 1.1502938, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03500894, y: -0.41679996}
+      - {x: -0.40510347, y: -0.31679997}
+      - {x: -0.51513153, y: -0.16679996}
+      - {x: -0.3951009, y: -0.04679996}
+      - {x: -0.045011494, y: 0.013200035}
+      - {x: 0.3050779, y: -0.07679997}
+      - {x: 0.42510858, y: -0.20679997}
+      - {x: 0.32508305, y: -0.34679997}
 --- !u!1 &1678932350
 GameObject:
   m_ObjectHideFlags: 0
@@ -7017,6 +8054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793676985}
   - component: {fileID: 1793676984}
+  - component: {fileID: 1793676986}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 4
   m_TagString: Untagged
@@ -7084,13 +8122,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793676983}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.609782, y: -2.628652, z: 0}
+  m_LocalPosition: {x: 13.589, y: -3.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1793676986
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793676983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.56}
+    newSize: {x: 1.3203373, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.4701201, y: -0.32599992}
+      - {x: -0.5701456, y: -0.17599994}
+      - {x: -0.45011497, y: -0.04599991}
+      - {x: -0.21005364, y: 0.004000059}
+      - {x: 0, y: 0.004000059}
+      - {x: 0.23005876, y: -0.035999965}
+      - {x: 0.41010475, y: -0.12599996}
+      - {x: 0.42010728, y: -0.20599993}
+      - {x: 0.39009964, y: -0.2959999}
+      - {x: 0.2200562, y: -0.38599992}
+      - {x: -0.07001788, y: -0.39599994}
 --- !u!1 &1798681067
 GameObject:
   m_ObjectHideFlags: 0
@@ -7299,6 +8373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1821086775}
   - component: {fileID: 1821086774}
+  - component: {fileID: 1821086776}
   m_Layer: 0
   m_Name: Warbleberry Plant 4
   m_TagString: Untagged
@@ -7366,13 +8441,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821086773}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: -1.53, z: 0}
+  m_LocalPosition: {x: 3.973, y: -2.246, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1821086776
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821086773}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.55}
+    newSize: {x: 1.3203373, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23005876, y: -0.3937506}
+      - {x: -0.080020435, y: -0.40375063}
+      - {x: -0.39009964, y: -0.3637506}
+      - {x: -0.56014305, y: -0.23375058}
+      - {x: -0.56014305, y: -0.15375061}
+      - {x: -0.3700945, y: -0.023750586}
+      - {x: -0.020005109, y: -0.0037506134}
+      - {x: 0.32008174, y: -0.06375061}
+      - {x: 0.42010728, y: -0.16375063}
+      - {x: 0.42010728, y: -0.25375062}
 --- !u!1 &1845115259
 GameObject:
   m_ObjectHideFlags: 0
@@ -7706,6 +8816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1898103482}
   - component: {fileID: 1898103481}
+  - component: {fileID: 1898103483}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 3 (1)
   m_TagString: Untagged
@@ -7773,13 +8884,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898103480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.77845, y: -3.0228882, z: 0}
+  m_LocalPosition: {x: 10.797, y: -3.339, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1898103483
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898103480}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.77}
+    newSize: {x: 1.1803015, y: 1.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.30007666, y: -0.3841003}
+      - {x: -0.50012773, y: -0.21410023}
+      - {x: -0.43010986, y: -0.08410025}
+      - {x: -0.19004855, y: -0.014100245}
+      - {x: 0.1100281, y: -0.0041002394}
+      - {x: 0.39009964, y: -0.10410022}
+      - {x: 0.43010986, y: -0.19410026}
+      - {x: 0.43010986, y: -0.2741002}
+      - {x: 0.29007408, y: -0.39410022}
+      - {x: -0.020005109, y: -0.40410024}
 --- !u!1 &1925318856
 GameObject:
   m_ObjectHideFlags: 0
@@ -7790,6 +8936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925318858}
   - component: {fileID: 1925318857}
+  - component: {fileID: 1925318859}
   m_Layer: 0
   m_Name: Chowmelon Plant 3
   m_TagString: Untagged
@@ -7857,13 +9004,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925318856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.558588, y: 5.2346983, z: 0}
+  m_LocalPosition: {x: 0.579, y: 4.903, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1925318859
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925318856}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.32}
+    oldSize: {x: 1.2203116, y: 1.8}
+    newSize: {x: 1.2203116, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.2400613, y: -0.39599964}
+      - {x: -0.45011497, y: -0.31599966}
+      - {x: -0.52013284, y: -0.20599966}
+      - {x: -0.46011752, y: -0.09599964}
+      - {x: -0.35008943, y: -0.045999672}
+      - {x: -0.030007662, y: -0.0059996657}
+      - {x: 0.26006642, y: -0.035999645}
+      - {x: 0.41010475, y: -0.16599967}
+      - {x: 0.41010475, y: -0.25599965}
+      - {x: 0.34008688, y: -0.34599966}
+      - {x: 0.12003065, y: -0.41599968}
 --- !u!1 &1964762234
 GameObject:
   m_ObjectHideFlags: 0
@@ -7996,6 +9179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967869665}
   - component: {fileID: 1967869664}
+  - component: {fileID: 1967869666}
   m_Layer: 0
   m_Name: Warbleberry Plant 4 (2)
   m_TagString: Untagged
@@ -8063,13 +9247,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967869663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.47, y: -2.94, z: 0}
+  m_LocalPosition: {x: 1.454, y: -3.639, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1967869666
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967869663}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.3203373, y: 2.55}
+    newSize: {x: 1.3203373, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23005876, y: -0.3937506}
+      - {x: -0.080020435, y: -0.40375063}
+      - {x: -0.39009964, y: -0.3637506}
+      - {x: -0.56014305, y: -0.23375058}
+      - {x: -0.56014305, y: -0.15375061}
+      - {x: -0.3700945, y: -0.023750586}
+      - {x: -0.020005109, y: -0.0037506134}
+      - {x: 0.32008174, y: -0.06375061}
+      - {x: 0.42010728, y: -0.16375063}
+      - {x: 0.42010728, y: -0.25375062}
 --- !u!1 &1991964082
 GameObject:
   m_ObjectHideFlags: 0
@@ -8080,6 +9299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1991964084}
   - component: {fileID: 1991964083}
+  - component: {fileID: 1991964085}
   m_Layer: 0
   m_Name: Sprinkfruit Plant 3 (2)
   m_TagString: Untagged
@@ -8147,13 +9367,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991964082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.972058, y: -3.8830397, z: 0}
+  m_LocalPosition: {x: 9.983, y: -4.203, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 578088523}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1991964085
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991964082}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.77}
+    newSize: {x: 1.1803015, y: 1.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.30007666, y: -0.3841003}
+      - {x: -0.50012773, y: -0.21410023}
+      - {x: -0.43010986, y: -0.08410025}
+      - {x: -0.19004855, y: -0.014100245}
+      - {x: 0.1100281, y: -0.0041002394}
+      - {x: 0.39009964, y: -0.10410022}
+      - {x: 0.43010986, y: -0.19410026}
+      - {x: 0.43010986, y: -0.2741002}
+      - {x: 0.29007408, y: -0.39410022}
+      - {x: -0.020005109, y: -0.40410024}
 --- !u!1 &1994372533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8248,6 +9503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997734994}
   - component: {fileID: 1997734993}
+  - component: {fileID: 1997734995}
   m_Layer: 0
   m_Name: Warbleberry Plant 2
   m_TagString: Untagged
@@ -8315,13 +9571,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997734992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.53, y: -6.13, z: 0}
+  m_LocalPosition: {x: -0.536, y: -6.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 661201452}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1997734995
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997734992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1502938, y: 1.16}
+    newSize: {x: 1.1502938, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03500894, y: -0.41679996}
+      - {x: -0.40510347, y: -0.31679997}
+      - {x: -0.51513153, y: -0.16679996}
+      - {x: -0.3951009, y: -0.04679996}
+      - {x: -0.045011494, y: 0.013200035}
+      - {x: 0.3050779, y: -0.07679997}
+      - {x: 0.42510858, y: -0.20679997}
+      - {x: 0.32508305, y: -0.34679997}
 --- !u!1 &2022467219
 GameObject:
   m_ObjectHideFlags: 0
@@ -8492,6 +9781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2022916134}
   - component: {fileID: 2022916133}
+  - component: {fileID: 2022916135}
   m_Layer: 0
   m_Name: Warbleberry Plant 3 (3)
   m_TagString: Untagged
@@ -8559,13 +9849,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022916132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.5, y: -1.45, z: 0}
+  m_LocalPosition: {x: -10.5, y: -1.751, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1279631359}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2022916135
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022916132}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.33}
+    oldSize: {x: 1.1803015, y: 1.74}
+    newSize: {x: 1.1803015, y: 1.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25006387, y: -0.4042002}
+      - {x: -0.25006387, y: -0.4042002}
+      - {x: -0.49012518, y: -0.2542002}
+      - {x: -0.49012518, y: -0.14420019}
+      - {x: -0.2400613, y: -0.0042001987}
+      - {x: 0.2000511, y: -0.0042001987}
+      - {x: 0.43010986, y: -0.15420017}
+      - {x: 0.43010986, y: -0.2742002}
 --- !u!1 &2039436953
 GameObject:
   m_ObjectHideFlags: 0
@@ -8576,6 +9899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2039436955}
   - component: {fileID: 2039436954}
+  - component: {fileID: 2039436956}
   m_Layer: 0
   m_Name: Chowmelon Plant 4 (1)
   m_TagString: Untagged
@@ -8643,13 +9967,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039436953}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9420168, y: 6.6328444, z: 0}
+  m_LocalPosition: {x: 1.936, y: 5.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2039436956
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039436953}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.225}
+    oldSize: {x: 1.4903806, y: 2.55}
+    newSize: {x: 1.4903806, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.05501405, y: -0.40374997}
+      - {x: -0.36509326, y: -0.36374995}
+      - {x: -0.54513925, y: -0.25375}
+      - {x: -0.5551418, y: -0.15374996}
+      - {x: -0.4951265, y: -0.08374994}
+      - {x: -0.29507536, y: -0.013749996}
+      - {x: 0.08502172, y: -0.0037499696}
+      - {x: 0.3550907, y: -0.07375}
+      - {x: 0.42510858, y: -0.17374994}
+      - {x: 0.41510603, y: -0.25375}
+      - {x: 0.25506514, y: -0.39374995}
 --- !u!1 &2045800880
 GameObject:
   m_ObjectHideFlags: 0
@@ -8901,6 +10261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072944313}
   - component: {fileID: 2072944312}
+  - component: {fileID: 2072944314}
   m_Layer: 0
   m_Name: Warbleberry Plant 2 (1)
   m_TagString: Untagged
@@ -8968,13 +10329,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072944311}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.15, y: -0.725, z: 0}
+  m_LocalPosition: {x: -11.162, y: -0.759, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1279631359}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2072944314
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072944311}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.48}
+    oldSize: {x: 1.1502938, y: 1.16}
+    newSize: {x: 1.1502938, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03500894, y: -0.41679996}
+      - {x: -0.40510347, y: -0.31679997}
+      - {x: -0.51513153, y: -0.16679996}
+      - {x: -0.3951009, y: -0.04679996}
+      - {x: -0.045011494, y: 0.013200035}
+      - {x: 0.3050779, y: -0.07679997}
+      - {x: 0.42510858, y: -0.20679997}
+      - {x: 0.32508305, y: -0.34679997}
 --- !u!1 &2098366657
 GameObject:
   m_ObjectHideFlags: 0
@@ -9183,6 +10577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2111036376}
   - component: {fileID: 2111036375}
+  - component: {fileID: 2111036377}
   m_Layer: 0
   m_Name: Chowmelon Plant 1
   m_TagString: Untagged
@@ -9250,13 +10645,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111036374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8684299, y: 4.8078957, z: 0}
+  m_LocalPosition: {x: 1.888, y: 4.977, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1136337164}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2111036377
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111036374}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.7}
+    oldSize: {x: 1.1702989, y: 0.81}
+    newSize: {x: 1.1702989, y: 0.81}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1550396, y: -0.37699986}
+      - {x: -0.34508812, y: -0.33699983}
+      - {x: -0.4951265, y: -0.20699985}
+      - {x: -0.41510603, y: -0.07699984}
+      - {x: -0.24506259, y: -0.0069998517}
+      - {x: 0.065016605, y: 0.0030001549}
+      - {x: 0.3951009, y: -0.05699985}
+      - {x: 0.4951265, y: -0.16699985}
+      - {x: 0.47512135, y: -0.27699986}
+      - {x: 0.2850728, y: -0.38699985}
 --- !u!1 &2120697788
 GameObject:
   m_ObjectHideFlags: 0
