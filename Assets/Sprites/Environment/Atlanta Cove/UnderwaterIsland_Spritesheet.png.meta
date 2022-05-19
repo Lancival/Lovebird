@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: f602bcd64027145debdbdeab68864c53
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shell 1
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1556
+        width: 83
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a598ff7c21b2b4a1c82d27ec0fc5a2a5
+      internalID: -107916948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell 2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1565
+        width: 116
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16551a0dd34c2415697bd2e1d1024cfa
+      internalID: 920916947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell 3
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1560
+        width: 73
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22f8996f93e04704af60ab6beefede5
+      internalID: 1954267634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell 4
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1552
+        width: 63
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769160abfaff94bd19ba161a652f508c
+      internalID: -389952953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell 5
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 1544
+        width: 91
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06910521fe824cba930df52c2a12d90
+      internalID: -1130351236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kelp 1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 688
+        width: 170
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75df150ad5f8d4a3c8017aefcfebfbae
+      internalID: 250263798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kelp 3
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 684
+        width: 122
+        height: 454
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0e3498ad881406c8ef617044bf9382
+      internalID: 972810884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kelp 5
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 677
+        width: 163
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363d68a914bf54046a37b7b7970c32f1
+      internalID: -909499919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kelp 2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 697
+        width: 111
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6eb5f4cc44c4e2dbb8d39888fb6b83
+      internalID: 1566663102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kelp 4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 688
+        width: 72
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ef8c492d5744d119b8e0c6ba162d60
+      internalID: 1498608405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral 1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 101
+        width: 320
+        height: 460
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -153, y: -20}
+        - {x: -6, y: 70}
+        - {x: 137, y: -24}
+        - {x: -12, y: -121}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598e11244ade4a0a97f7b46c62508e9
+      internalID: -1528548310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral 2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 153
+        width: 167
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -82.5, y: -30.5}
+        - {x: -82.5, y: 28.5}
+        - {x: 82.5, y: 28.5}
+        - {x: 82.5, y: -30.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93848e042b3ac4da28fbea87a6f1525c
+      internalID: 1522763583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral 3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 142
+        width: 261
+        height: 273
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -126.5, y: -18.5}
+        - {x: -7.5, y: 44.5}
+        - {x: 118.5, y: -16.5}
+        - {x: -6.5, y: -88.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e593250d81a848bc96301d306279dd9
+      internalID: -852360358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral 4
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 117
+        width: 347
+        height: 501
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28.5, y: -179.5}
+        - {x: -166.5, y: -58.5}
+        - {x: -30.5, y: 50.5}
+        - {x: 173.5, y: -63.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b53a4614bd244199ead2b3aae0202e
+      internalID: 926240902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell House 1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1246
+        width: 522
+        height: 583
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 108, y: -192.5}
+        - {x: -166, y: -194.5}
+        - {x: -234, y: -148.5}
+        - {x: -256, y: -91.5}
+        - {x: -249, y: -57.5}
+        - {x: 216, y: -55.5}
+        - {x: 179, y: -140.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244b9f9dd06d4ef98398e659e83d8b9
+      internalID: 423843854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shell House 2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1130
+        width: 608
+        height: 726
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -138, y: -172}
+        - {x: -208, y: -113}
+        - {x: -208, y: -86}
+        - {x: -171, y: -29}
+        - {x: 143, y: -27}
+        - {x: 178, y: -81}
+        - {x: 176, y: -134}
+        - {x: 26, y: -179}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca93b78359549538e4189a2ac0c8bc
+      internalID: -2053304622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underwater Palace
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 208
+        width: 1073
+        height: 1209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -117.5, y: -408.5}
+        - {x: -111.5, y: -372.5}
+        - {x: -245.5, y: -339.5}
+        - {x: -250.5, y: -318.5}
+        - {x: -336.5, y: -285.5}
+        - {x: -475.5, y: -310.5}
+        - {x: -402.5, y: -126.5}
+        - {x: -210.5, y: -124.5}
+        - {x: -157.5, y: 36.5}
+        - {x: 90.5, y: 39.5}
+        - {x: 146.54785, y: -123.85199}
+        - {x: 340.5, y: -123.5}
+        - {x: 407.5, y: -309.5}
+        - {x: 257.5, y: -289.5}
+        - {x: 184.5, y: -320.5}
+        - {x: 179.5, y: -342.5}
+        - {x: 50.5, y: -369.5}
+        - {x: 51.5, y: -410.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a3dd215844642ddb6c5d709a873aaf
+      internalID: -1280430410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shell House 2: -2053304622
+      UnderwaterIsland_Spritesheet_8: 1681278419
+      Coral 1: -1528548310
+      UnderwaterIsland_Spritesheet_22: -1413291504
+      UnderwaterIsland_Spritesheet_9: 334113542
+      Shell 2: 920916947
+      UnderwaterIsland_Spritesheet_1: -601552233
+      Shell 3: 1954267634
+      Coral 2: 1522763583
+      UnderwaterIsland_Spritesheet_4: 54072034
+      Kelp 3: 972810884
+      Coral 3: -852360358
+      Shell 1: -107916948
+      Shell 5: -1130351236
+      UnderwaterIsland_Spritesheet_10: 1978023308
+      Kelp 1: 250263798
+      UnderwaterIsland_Spritesheet_6: 1363328560
+      Shell House 1: 423843854
+      Underwater Palace: -1280430410
+      UnderwaterIsland_Spritesheet_3: 135297124
+      UnderwaterIsland_Spritesheet_7: 956091670
+      UnderwaterIsland_Spritesheet_21: -1905925600
+      Coral 4: 926240902
+      Shell 4: -389952953
+      UnderwaterIsland_Spritesheet_5: -1918195705
+      UnderwaterIsland_Spritesheet_11: 1932264085
+      Kelp 2: 1566663102
+      Kelp 4: 1498608405
+      UnderwaterIsland_Spritesheet_2: 1986258701
+      UnderwaterIsland_Spritesheet_19: 260162755
+      Kelp 5: -909499919
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
