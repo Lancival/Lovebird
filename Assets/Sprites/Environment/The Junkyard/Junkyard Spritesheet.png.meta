@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 529a204b8982e41779edfcf214282ff9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Junkyard Building
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 512
+        width: 1089
+        height: 715
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 416.5, y: -37.5}
+        - {x: 387.5, y: -65.5}
+        - {x: 348.5, y: -78.5}
+        - {x: 311.5, y: -115.5}
+        - {x: 283.5, y: -116.5}
+        - {x: 282.5, y: -113.5}
+        - {x: 305.5, y: -105.5}
+        - {x: 340.5, y: -66.5}
+        - {x: 390.5, y: -36.5}
+        - {x: 88.5, y: -35.5}
+        - {x: 88.5, y: -191.5}
+        - {x: 79.5, y: -200.5}
+        - {x: -38.5, y: -200.5}
+        - {x: -38.5, y: -224.5}
+        - {x: -61.5, y: -232.5}
+        - {x: -82.5, y: -232.5}
+        - {x: -99.5, y: -230.5}
+        - {x: -112.5, y: -223.5}
+        - {x: -117.5, y: -238.5}
+        - {x: -117.5, y: -254.5}
+        - {x: -331.5, y: -252.5}
+        - {x: -332.5, y: -222.5}
+        - {x: -348.5, y: -231.5}
+        - {x: -363.5, y: -234.5}
+        - {x: -383.5, y: -234.5}
+        - {x: -397.5, y: -229.5}
+        - {x: -413.5, y: -219.5}
+        - {x: -413.5, y: -199.5}
+        - {x: -536.5, y: -198.5}
+        - {x: -541.5, y: -190.5}
+        - {x: -542.5, y: 16.5}
+        - {x: 88.5, y: 16.5}
+        - {x: 86.5, y: 177.5}
+        - {x: 524.5, y: 174.5}
+        - {x: 525.5, y: -33.5}
+        - {x: 519.5, y: -37.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54abfeaec6374b6b83349c22851e4cb
+      internalID: 1828457730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 1
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 981
+        width: 89
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb9641d70a204df89dffff74db76908
+      internalID: 1094561425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 4
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 765
+        width: 81
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea292b70c45b4133be98ea7b498c61a
+      internalID: -769928186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 2
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 981
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4204ed249841c4bc6861efad5efbcee7
+      internalID: 1810827990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 5
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 755
+        width: 77
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b77fdc9e542b41e782db21b82670860
+      internalID: -376067864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 3
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 984
+        width: 111
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3c2165ae7244472b78fd6224ac73a7
+      internalID: -242343416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 6
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 757
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f33756ca3e9b45d2b0e37829ce93f59
+      internalID: 761722468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash 7
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 845
+        width: 61
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750cedf5e94f40949f8b8bf8213f6d5
+      internalID: -937290004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bridge
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 60
+        width: 751
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2d8fe731154f10afded53feb4d2e3
+      internalID: -892579664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Junkyard Tree 2
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 162
+        height: 434
+      alignment: 9
+      pivot: {x: 0.5, y: 0.115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b4c17a4d4b4dd0959860c03de6e4b
+      internalID: 953917669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Junkyard Tree 1
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 253
+        height: 434
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f0c09dca1e341aba8bd347ad757890
+      internalID: 594630474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Junkyard Tree 3
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 268
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c643b32ea2c4aee852b16f1bc7aaa2
+      internalID: -1103523637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bridge: -892579664
+      Trash 3: -242343416
+      Junkyard Tree 1: 594630474
+      Junkyard Building: 1828457730
+      Junkyard Tree 2: 953917669
+      Trash 2: 1810827990
+      Tree 1: 345438177
+      Trash 1: 1094561425
+      Trash 7: -937290004
+      Trash 6: 761722468
+      Trash 5: -376067864
+      Trash 4: -769928186
+      Junkyard Tree 3: -1103523637
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

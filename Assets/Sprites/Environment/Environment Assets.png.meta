@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: bc944beb196234bb488d6e709b23a6bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree 1 Pink
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1132
+        width: 253
+        height: 440
+      alignment: 9
+      pivot: {x: 0.5, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3536916f07cce40fa8a063f90f33fe38
+      internalID: -442614611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2 Pink
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1141
+        width: 149
+        height: 433
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca465e74b7cc40d88a49694160644dd
+      internalID: 1131743366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 3 Pink
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1130
+        width: 253
+        height: 441
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f8727bb0ac4877b3fbafc5e189696
+      internalID: -1417825699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 1 Light Green
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1130
+        width: 254
+        height: 425
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8aedf241c1546d6a702fa2e3de0f79
+      internalID: 957122071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2 Light Green
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1141
+        width: 154
+        height: 448
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bd74f1b960141b6a7133105f7f0d68
+      internalID: 1734712613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 3 Light Green
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1113
+        width: 270
+        height: 465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ff2dfa636e483ab8f0a8e799a4556
+      internalID: -1360008652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 1 Dark Green
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 253
+        height: 436
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6ca344ac265433a91de57407599fe6
+      internalID: -1771677539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2 Dark Green
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 650
+        width: 149
+        height: 426
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214dd8267d1664eebb8fd9eada576d8b
+      internalID: 1719432471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 3 Dark Green
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 640
+        width: 270
+        height: 462
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6683dad4280fb49ad9d6890d38e7d731
+      internalID: 711891630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 1 Orange
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 637
+        width: 254
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5, y: 0.165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc596ed946db042c882911301568686a
+      internalID: 1326192042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2 Orange
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 648
+        width: 152
+        height: 434
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef08c22c2307d43b29c1038d060cac20
+      internalID: 520716862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 3 Orange
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 621
+        width: 270
+        height: 469
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae7085fb86c84a5a8029956fc08bf3a
+      internalID: 2113599968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks 1
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 974
+        width: 156
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 50.74414, y: -26.54132}
+        - {x: 40.06201, y: -26.547424}
+        - {x: 29.935059, y: -20.550964}
+        - {x: 19.010742, y: -24.109802}
+        - {x: -15.041504, y: -26.315979}
+        - {x: -55.820557, y: -23.298767}
+        - {x: -78, y: -5.1936035}
+        - {x: -78, y: 7.48291}
+        - {x: -71.79053, y: 25.122437}
+        - {x: 68.52295, y: 25.406494}
+        - {x: 78, y: 11.855347}
+        - {x: 78, y: -12.630066}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d9c17dd89dc426b8635bd6d18b290d
+      internalID: 271264667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks 2
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 978
+        width: 150
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -17.5}
+        - {x: -53, y: -16.5}
+        - {x: -75, y: 13.5}
+        - {x: -75, y: 21.5}
+        - {x: 75, y: 17.5}
+        - {x: 75, y: 5.5}
+        - {x: 65, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b751bd4f71c3487d89b9e267e8049f3
+      internalID: -1925743087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks 3
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 711
+        width: 192
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: -38}
+        - {x: 14, y: -29}
+        - {x: -77, y: -29}
+        - {x: -94, y: -8}
+        - {x: -94, y: 23}
+        - {x: 69, y: 22}
+        - {x: 73, y: -2}
+        - {x: 96, y: -2}
+        - {x: 96, y: -13}
+        - {x: 84, y: -38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8608b53ba192949399dfb1db45a185d8
+      internalID: -397050429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks 4
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 706
+        width: 177
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -30}
+        - {x: -28.5, y: -42}
+        - {x: -43.5, y: -42}
+        - {x: -55.5, y: -38}
+        - {x: -73.5, y: -38}
+        - {x: -87.5, y: -29}
+        - {x: -87.5, y: -8}
+        - {x: -66.5, y: -8}
+        - {x: -70.5, y: 11}
+        - {x: 88.5, y: 10}
+        - {x: 88.5, y: -17}
+        - {x: 80.5, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251336b8f83ab477aa1c0bcc7043b4b7
+      internalID: 1813831496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 464
+        width: 122
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d1b679c42d648a38baa15ed3f6d3c9
+      internalID: -679249416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 460
+        width: 110
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa507c5ce6964532b31a79436c956eb
+      internalID: 324531517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 466
+        width: 61
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ffadcc7c70482b84795b2565a5d2d
+      internalID: 1727496771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 446
+        width: 82
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f7d5a0d367486988348226d54ca88
+      internalID: -451222514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stump 1
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 418
+        width: 167
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07f3239a43e3496e93b6d8d0107a4aa
+      internalID: 219714094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence Long
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 402
+        width: 301
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -150.5, y: -22}
+        - {x: -150.5, y: 2}
+        - {x: 150.5, y: 1}
+        - {x: 150.5, y: -23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c6cdca6298f4f0ca4bc044157aa3ba
+      internalID: -39463191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush 1 Dark Green
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 382
+        width: 259
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8703973ae53f445d8f864ae420af4fa
+      internalID: -965914843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush 2 Dark Green
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 385
+        width: 213
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac831351570c46be89b2647696ed5e3
+      internalID: 1262616012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 218
+        width: 117
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8951814195d243d7bd0cae361b52f94
+      internalID: -1605977002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 195
+        width: 78
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add922c9625bc44efb6f6e097d72a2e3
+      internalID: 975719944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 196
+        width: 67
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d71fa37774f41778fd1c4ddbf347a3
+      internalID: 2145144181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 184
+        width: 92
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28207f1b578a84afabb495551f94d87a
+      internalID: 98918708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stump 2
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 153
+        width: 159
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7131395571674fe18763a75f1001826
+      internalID: -1707683706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence Short
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 160
+        width: 119
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -59.5, y: -24.5}
+        - {x: -59.5, y: -1.5}
+        - {x: 59.5, y: -0.5}
+        - {x: 59.5, y: -24.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a5986f9927448938b1f3bed101720f
+      internalID: -1651774074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence Medium
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 152
+        width: 219
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -109.5, y: -21.5}
+        - {x: -109.5, y: 1.5}
+        - {x: 109.5, y: 2.5}
+        - {x: 109.5, y: -20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c163487c384164bcc9e2eb72c5020e6a
+      internalID: 1305191151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush 1 Light Green
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 104
+        width: 264
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d45ba9cd324f50b9f0be81734d3ce
+      internalID: 136753122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush 2 Light Green
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 108
+        width: 213
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc195a88cb7d455daeb56a9d6105455
+      internalID: 1662287344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stump 1: 219714094
+      Tree 1 Light Green: 957122071
+      Plant 5: -1605977002
+      Fence Long: -39463191
+      Fence Medium: 1305191151
+      Fence Short: -1651774074
+      Plant 8: 98918708
+      Environment Assets_25: -331230829
+      Tree 2 Light Green: 1734712613
+      Tree 1 Pink: -442614611
+      Rocks 4: 1813831496
+      Plant 3: 1727496771
+      Tree 3 Light Green: -1360008652
+      Tree 3 Dark Green: 711891630
+      Plant 6: 975719944
+      Tree 3 Pink: -1417825699
+      Bush 1 Dark Green: -965914843
+      Plant 2: 324531517
+      Rocks 1: 271264667
+      Tree 3 Orange: 2113599968
+      Stump 2: -1707683706
+      Rocks 2: -1925743087
+      Plant 1: -679249416
+      Tree 2 Pink: 1131743366
+      Bush 2 Light Green: 1662287344
+      Bush 1 Light Green: 136753122
+      Rocks 3: -397050429
+      Plant 7: 2145144181
+      Plant 4: -451222514
+      Environment Assets_0: -413981365
+      Tree 2 Orange: 520716862
+      Tree 2 Dark Green: 1719432471
+      Tree 1 Dark Green: -1771677539
+      Tree 1 Orange: 1326192042
+      Environment Assets_1: 2012251851
+      Bush 2 Dark Green: 1262616012
+      Environment Assets_2: -95498039
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
