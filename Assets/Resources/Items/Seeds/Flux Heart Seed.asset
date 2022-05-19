@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Flux Heart Seed
   m_EditorClassIdentifier: 
-  _description: 
+  _description: A flux heart seed.
   _tags:
   - Seeds
   _sprite: {fileID: -1015095734, guid: e8ffb9d12855749d8b0d1ed428cc7b80, type: 3}

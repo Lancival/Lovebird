@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Warbleberry
   m_EditorClassIdentifier: 
-  _description: 
+  _description: "It looks somewhat ordinary, but recently it\u2019s been all the
+    rage. Honey\u2019s garden is full of warbleberries."
   _tags:
   - Fruits
   _sprite: {fileID: -1525692611, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}

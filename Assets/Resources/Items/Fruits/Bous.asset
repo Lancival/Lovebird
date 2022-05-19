@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Bous
   m_EditorClassIdentifier: 
-  _description: 
+  _description: "Fleshy, orange fruitlings. Wait \u2018til they're ripe!\u2014they
+    can get a little sour."
   _tags:
   - Fruits
   _sprite: {fileID: 1607276245, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}

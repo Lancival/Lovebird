@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Sprinkfruit
   m_EditorClassIdentifier: 
-  _description: 
+  _description: 'A fruit of the most royal color. It also sparkles! '
   _tags:
   - Fruits
   _sprite: {fileID: -78396620, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}

@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Craftable 6
+  m_Name: Puffatfish
   m_EditorClassIdentifier: 
-  _description: 
+  _description: A wise fellow that stays with its young to maturity. How could you
+    slaughter a family like this??
   _tags:
-  - Craftable
-  _sprite: {fileID: 1068859227, guid: 428df57e594c94e09860d88287c4b40b, type: 3}
+  - Fish
+  _sprite: {fileID: 1404215995, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}

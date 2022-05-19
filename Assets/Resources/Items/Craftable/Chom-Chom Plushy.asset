@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Fish D
+  m_Name: Chom-Chom Plushy
   m_EditorClassIdentifier: 
-  _description: 
+  _description: Made with 100% love and cuteness!
   _tags:
-  - Fish
-  _sprite: {fileID: 640293102, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
+  - Craftable
+  _sprite: {fileID: 1677647140, guid: 428df57e594c94e09860d88287c4b40b, type: 3}

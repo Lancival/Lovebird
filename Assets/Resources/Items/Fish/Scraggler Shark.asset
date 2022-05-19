@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Fish C
+  m_Name: Scraggler Shark
   m_EditorClassIdentifier: 
-  _description: 
+  _description: A patchy shark that is always up-to-date with the newest trends!
+    Currently, their lure of choice is the Warbleberry.
   _tags:
   - Fish
-  _sprite: {fileID: -872476706, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
+  _sprite: {fileID: -1749232066, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
