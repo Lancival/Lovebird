@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Fabric
+  m_Name: Pendant
   m_EditorClassIdentifier: 
-  _description: A worn out towel.
+  _description: 'Need to spice up your outfit? We got you.   '
   _tags:
-  - Trash
-  _sprite: {fileID: 1611700638, guid: 5cbe28a006b2e4a9dabd52671681de93, type: 3}
+  - Craftable
+  _sprite: {fileID: -1450323321, guid: 428df57e594c94e09860d88287c4b40b, type: 3}

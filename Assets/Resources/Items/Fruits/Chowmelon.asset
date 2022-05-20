@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Chowmelon
   m_EditorClassIdentifier: 
-  _description: A heart-shaped fruit for those days you just feel blue. It tastes
-    bittersweet.
+  _description: A bittersweet fruit for those days you just feel blue.
   _tags:
   - Fruits
   _sprite: {fileID: 1341159954, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}

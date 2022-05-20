@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Chow Melon Seed
   m_EditorClassIdentifier: 
-  _description: A chowmelon seed.
+  _description: It looks like it could grow into a bitter fruit!
   _tags:
   - Seeds
   _sprite: {fileID: -2067990305, guid: e8ffb9d12855749d8b0d1ed428cc7b80, type: 3}

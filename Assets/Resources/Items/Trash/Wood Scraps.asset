@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Wood Scraps
   m_EditorClassIdentifier: 
-  _description: Scraps of wood.
+  _description: Some good ol' wood is always good to have on hand.
   _tags:
   - Trash
   _sprite: {fileID: -129758266, guid: 5cbe28a006b2e4a9dabd52671681de93, type: 3}

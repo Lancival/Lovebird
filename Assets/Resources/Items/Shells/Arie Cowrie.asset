@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Citrus Scallop
+  m_Name: Arie Cowrie
   m_EditorClassIdentifier: 
-  _description: A shell often mistaken for a stray orange slice. (Oranges are a popular
-    underwater-picnic fruit)
+  _description: Ouch! Pinch it and you're in for pain!
   _tags:
   - Shells
-  _sprite: {fileID: -541072802, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}
+  _sprite: {fileID: -1214134532, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}

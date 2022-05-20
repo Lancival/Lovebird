@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Pillow Bream
+  m_Name: Hoka Conch
   m_EditorClassIdentifier: 
-  _description: A beautiful brown fish with billowing fins. Often braised.
+  _description: This conch can bounce in water to evade predators!
   _tags:
-  - Fish
-  _sprite: {fileID: -1566497333, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
+  - Shells
+  _sprite: {fileID: 2064282970, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}

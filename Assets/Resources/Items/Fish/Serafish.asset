@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Serafish
   m_EditorClassIdentifier: 
-  _description: "A delicate sea butterfly that is only found near GEORGE\u2019S POINT.
-    It produces only one pearl in its lifetime, which can be found in between its
-    eyes."
+  _description: 'This chirping fish has magical healing properties!   '
   _tags:
   - Fish
   _sprite: {fileID: -376350149, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}

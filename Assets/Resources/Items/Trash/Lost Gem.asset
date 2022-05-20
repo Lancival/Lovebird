@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Narwhal Tusk
+  m_Name: Lost Gem
   m_EditorClassIdentifier: 
-  _description: Polished to perfection. It's probably even prettier than an actual
-    Narwhal's tusk.
+  _description: "It lost its glow under the years of dust\u2014it can still be restored."
   _tags:
-  - Shells
-  _sprite: {fileID: -1214134532, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}
+  - Trash
+  _sprite: {fileID: -1604703390, guid: 5cbe28a006b2e4a9dabd52671681de93, type: 3}

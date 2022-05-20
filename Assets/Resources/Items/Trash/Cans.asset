@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
   m_Name: Cans
   m_EditorClassIdentifier: 
-  _description: Empty cans.
+  _description: It seems you can't reuse this. Maybe Chom Chom wants it?
   _tags:
   - Trash
   _sprite: {fileID: -1326962749, guid: 5cbe28a006b2e4a9dabd52671681de93, type: 3}

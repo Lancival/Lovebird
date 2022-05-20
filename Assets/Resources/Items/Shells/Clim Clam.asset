@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Pink Orb
+  m_Name: Clim Clam
   m_EditorClassIdentifier: 
-  _description: 'Is this magic?! SO. COOL. '
+  _description: Its sensitive antennae can detect ocean currents!
   _tags:
-  - Craftable
-  _sprite: {fileID: -1941577022, guid: 428df57e594c94e09860d88287c4b40b, type: 3}
+  - Shells
+  _sprite: {fileID: 1776906284, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Bristlefin Loach
+  m_Name: Wind-up Chom
   m_EditorClassIdentifier: 
-  _description: 'A spiky bottom-feeder. A common snack for children when dried. '
+  _description: 'Wind up the back for a cheerful song and dance!   '
   _tags:
-  - Fish
-  _sprite: {fileID: -1136937402, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
+  - Craftable
+  _sprite: {fileID: 1068859227, guid: 428df57e594c94e09860d88287c4b40b, type: 3}

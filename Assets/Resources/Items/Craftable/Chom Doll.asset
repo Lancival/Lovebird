@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Waltz Shell
+  m_Name: Chom Doll
   m_EditorClassIdentifier: 
-  _description: A swirling triangle pattern that makes you go 1-2-3-1-2-3-
+  _description: Chom Chom doesn't like this item... don't show it to him.
   _tags:
-  - Shells
-  _sprite: {fileID: 750756533, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}
+  - Craftable
+  _sprite: {fileID: 1677647140, guid: 428df57e594c94e09860d88287c4b40b, type: 3}
