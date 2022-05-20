@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 002a439ac4ff84cf3b6a902e36c902da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishing Pole Rack
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 787
+        width: 505
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -222.5, y: -166}
+        - {x: -221.5, y: -147}
+        - {x: 224.5, y: -148}
+        - {x: 224.5, y: -172}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751241bb4b9e5409291a9d13eb4f732b
+      internalID: 245836787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buckets
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 813
+        width: 218
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -56, y: -57}
+        - {x: -83, y: -52}
+        - {x: -97, y: -41}
+        - {x: -83, y: -36}
+        - {x: -57, y: -30}
+        - {x: -34, y: -35}
+        - {x: -21, y: -40}
+        - {x: -34, y: -53}
+      - - {x: 47, y: -36}
+        - {x: 21, y: -30}
+        - {x: 4, y: -18}
+        - {x: 20, y: -10}
+        - {x: 47, y: -6}
+        - {x: 73, y: -12}
+        - {x: 85, y: -20}
+        - {x: 73, y: -31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93dc6e5306aa4fe986d0c4ebe097561
+      internalID: -438185405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 296
+        width: 1063
+        height: 966
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -29.5, y: -289}
+        - {x: -44.5, y: -268}
+        - {x: -89.5, y: -278}
+        - {x: -109.5, y: -265}
+        - {x: -138.5, y: -274}
+        - {x: -138.5, y: -262}
+        - {x: -114.5, y: -246}
+        - {x: -94.5, y: -222}
+        - {x: -52.5, y: -219}
+        - {x: -17.5, y: -210}
+        - {x: 22.5, y: -198}
+        - {x: 77.5, y: -214}
+        - {x: 123.5, y: -240}
+        - {x: 136.23767, y: -249.88495}
+        - {x: 243.5, y: -262}
+        - {x: 291.5, y: -283}
+        - {x: 310.5, y: -293}
+        - {x: 283.5, y: -293}
+        - {x: 228.5, y: -282}
+        - {x: 121.5, y: -281}
+        - {x: 77.5, y: -272}
+        - {x: 76.5, y: -289}
+        - {x: 20.5, y: -300}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d242f6dda8944cf1a830a53078ac4ec
+      internalID: 112163854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bridge
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 486
+        width: 346
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b93f46dceca468fba354eec4fae9a1
+      internalID: 1308331339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bridge: 1308331339
+      Tree: 112163854
+      Buckets: -438185405
+      Fishing Pole Rack: 245836787
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
