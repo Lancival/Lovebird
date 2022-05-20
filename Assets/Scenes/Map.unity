@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 121149818}
   - component: {fileID: 121149817}
   - component: {fileID: 121149819}
+  - component: {fileID: 121149820}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -308,6 +309,31 @@ MonoBehaviour:
   cloudsUncovered: {fileID: 21300000, guid: fc8878f3402ec442693d6360827e4bcb, type: 3}
   flag: {fileID: 1636756019}
   clouds: {fileID: 379806846}
+--- !u!68 &121149820
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121149816}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -19.206244, y: -11.535}
+  - {x: 19.206244, y: -11.535}
+  - {x: 19.206244, y: 11.535}
+  - {x: -19.20624, y: 11.535}
+  - {x: -19.20624, y: -11.535}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1001 &299892582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1364,7 +1390,7 @@ Animator:
   m_GameObject: {fileID: 723864846}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 14fd1be3309734a608aecf055ecb64ba, type: 2}
+  m_Controller: {fileID: 9100000, guid: a2f32f96bf0f34147bc203b2ff58886e, type: 2}
   m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2053,6 +2079,7 @@ GameObject:
   - component: {fileID: 1098749882}
   - component: {fileID: 1098749881}
   - component: {fileID: 1098749883}
+  - component: {fileID: 1098749884}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2297,6 +2324,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &1098749884
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098749877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 144a55ded48364b2697cabdbf0c34e6a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1152194411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,7 +2950,7 @@ Animator:
   m_GameObject: {fileID: 2111178546}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 14fd1be3309734a608aecf055ecb64ba, type: 2}
+  m_Controller: {fileID: 9100000, guid: a2f32f96bf0f34147bc203b2ff58886e, type: 2}
   m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
