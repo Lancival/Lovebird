@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 90a81834603eb490d8f80ab42c723e3b
+guid: 5a948418b565f4305ab5a2c3f7777555
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,169 +116,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Magu Idle_0
+      name: Guro Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19163b53c50de47bba6ef9e687d5fee9
-      internalID: 985506070
+      spriteID: 8a6077e97aa364c6e961cfe6122ae72c
+      internalID: 165293560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_1
+      name: Guro Idle_1
       rect:
         serializedVersion: 2
-        x: 328
+        x: 227
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146e49ea03b794a64a273ffbbe3e763f
-      internalID: -638416718
+      spriteID: 434ba9877930842c493bc3ab1be36aaf
+      internalID: 755932822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_2
+      name: Guro Idle_2
       rect:
         serializedVersion: 2
-        x: 656
+        x: 454
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6b31f484fb894c039793e6fe7c5bb6b
-      internalID: 1229785250
+      spriteID: 6e768a57ea87e499b83c6dbed1870fcf
+      internalID: -1658415214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_3
+      name: Guro Idle_3
       rect:
         serializedVersion: 2
-        x: 984
+        x: 681
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0641262436549129922611e486ecf2
-      internalID: -1606413522
+      spriteID: dfe436eca4c5d4c63acb8f226274eb6a
+      internalID: 1859219682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_4
+      name: Guro Idle_4
       rect:
         serializedVersion: 2
-        x: 1312
+        x: 908
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a842b94cb1cbc46038d5fbbeed6e4273
-      internalID: -2035689648
+      spriteID: 1ab3b889a517047be8976e318a7a3425
+      internalID: -883994391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_5
+      name: Guro Idle_5
       rect:
         serializedVersion: 2
-        x: 1640
+        x: 1135
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d738a627cdb941c2ac6e5f2682c1564
-      internalID: -530102723
+      spriteID: ab10c7e99584a47fcbb44b1e455e3b09
+      internalID: -952713181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_6
+      name: Guro Idle_6
       rect:
         serializedVersion: 2
-        x: 1968
+        x: 1362
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb60b3060f0345859f821b515750104
-      internalID: -654758215
+      spriteID: aeb5423a3e69b41adbf81803c493a071
+      internalID: -1938911172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magu Idle_7
+      name: Guro Idle_7
       rect:
         serializedVersion: 2
-        x: 2296
+        x: 1589
         y: 0
-        width: 328
-        height: 204
+        width: 227
+        height: 227
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.5, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f50dee30fdf434eef86f061160c6d670
-      internalID: -1365063951
+      spriteID: 0d50e003afd304f3186d2c06214cb3c7
+      internalID: -273545195
       vertices: []
       indices: 
       edges: []
@@ -294,14 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Magu Idle_7: -1365063951
-      Magu Idle_1: -638416718
-      Magu Idle_5: -530102723
-      Magu Idle_4: -2035689648
-      Magu Idle_2: 1229785250
-      Magu Idle_6: -654758215
-      Magu Idle_0: 985506070
-      Magu Idle_3: -1606413522
+      Guro Idle_5: -952713181
+      Guro Idle_1: 755932822
+      Guro Idle_7: -273545195
+      Guro Idle_3: 1859219682
+      Guro Idle_4: -883994391
+      Guro Idle_0: 165293560
+      Guro Idle_6: -1938911172
+      Guro Idle_2: -1658415214
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
