@@ -39,7 +39,7 @@ public class InventoryDisplay : MonoBehaviour
                 {
                     itemBoxes.Add(Instantiate(itemBoxPrefab, content.transform).GetComponent<ItemBox>());
                 }
-                itemBoxes[itemDisplayCount++]._item = itemCount.Key;
+                itemBoxes[itemDisplayCount++].SetItem(itemCount.Key);
             }
         }
 
@@ -67,6 +67,6 @@ public class InventoryDisplay : MonoBehaviour
     {
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
-        fader.FadeOutInactive();
+        gameObject.SetActive(false);
     }
 }

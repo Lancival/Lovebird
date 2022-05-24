@@ -6,19 +6,12 @@ using TMPro;
 public class ItemBox : MonoBehaviour
 {
     // Data
-    public Item _item;
+    private Item _item;
 
     // Components
-    private Image image;
-    private GameObject counter;
-    private TextMeshProUGUI counterText;
-
-    void Awake()
-    {
-        image = transform.GetChild(0).GetComponent<Image>();
-        counter = transform.GetChild(1).gameObject;
-        counterText = counter.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-    }
+    [SerializeField] private Image image;
+    [SerializeField] private GameObject counter;
+    [SerializeField] private TextMeshProUGUI counterText;
 
     public void SetItem(Item item)
     {

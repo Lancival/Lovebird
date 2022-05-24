@@ -227,7 +227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee4e127e127f54a8db63d7fce2870114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 11400000, guid: e3d5a3555f4d04f258dc3be071e13fcb, type: 2}
+  image: {fileID: 8807209803970982304}
+  counter: {fileID: 8807209803133024786}
+  counterText: {fileID: 8807209802852265601}
 --- !u!114 &8807209802865283980
 MonoBehaviour:
   m_ObjectHideFlags: 0
