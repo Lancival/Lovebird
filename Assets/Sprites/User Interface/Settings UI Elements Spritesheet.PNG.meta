@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 428df57e594c94e09860d88287c4b40b
+guid: 847babf22a57a4f7185d559690bc20f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Birdhouse
+      name: Settings Box
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 200
+        x: 58
+        y: 313
+        width: 935
+        height: 582
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4fa2d39b1f4d40f6aab7a7c901854d2
-      internalID: 1837592398
+      spriteID: c73024ed410e94d598df7688f2a08358
+      internalID: 992997778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Windchime
+      name: Sand Dollar Counter
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 200
-        height: 200
+        x: 1029
+        y: 787
+        width: 230
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d7ad403639d4e58afc25ddb8c131e7
-      internalID: -1246989724
+      spriteID: f29c48d54c39f4719af5a11f954edd36
+      internalID: 1739721459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chom Doll
+      name: Inventory Button
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 200
-        height: 200
+        x: 1280
+        y: 783
+        width: 116
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8a713ed6badb4c498eb6512b89c8ca6
-      internalID: 1677647140
+      spriteID: 5ea77a26352cb44efbfcd62f1ace9df7
+      internalID: -438889008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pendant
+      name: Close Button
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 200
-        height: 200
+        x: 1065
+        y: 675
+        width: 62
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e7b44c408a24228a3b331a62ebbf49
-      internalID: -1450323321
+      spriteID: d333b7c2528374e8fbf94afe0f6a41bc
+      internalID: -66690841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magic Orb
+      name: Scrollbar
       rect:
         serializedVersion: 2
-        x: 795
-        y: 0
-        width: 200
-        height: 200
+        x: 1173
+        y: 246
+        width: 55
+        height: 494
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692480659ddaa4077a9a102de499a8c7
-      internalID: -1941577022
+      spriteID: e3e594dd39fb242ea9f3640fd27f423f
+      internalID: -1924543614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wind-up Chom
+      name: Map Button
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 200
-        height: 200
+        x: 1279
+        y: 650
+        width: 116
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,8 +235,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fadecf24780364832b83c0795b826784
-      internalID: 1068859227
+      spriteID: 6d678ea8e8ee5481db8dd08194ce9e30
+      internalID: 1785496320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings Button
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 518
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e497d7cd4a324705a4d312c7349489a
+      internalID: 525149515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider Handle
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 201
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8437e1fa0a6e8427a9eae9028d53c11b
+      internalID: 1022076050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider Bar
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 206
+        width: 682
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab176a032084b9089e60035a6c1d6f
+      internalID: 943700981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 38
+        width: 547
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8f5d954a7794b05ba59accd7b3801a
+      internalID: -1023402949
       vertices: []
       indices: 
       edges: []
@@ -252,12 +336,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Magic Orb: -1941577022
-      Birdhouse: 1837592398
-      Pendant: -1450323321
-      Windchime: -1246989724
-      Wind-up Chom: 1068859227
-      Chom Doll: 1677647140
+      Slider Handle: 1022076050
+      Inventory: -1023402949
+      Slider Bar: 943700981
+      Close Button: -66690841
+      Settings Button: 525149515
+      Settings Box: 992997778
+      Scrollbar: -1924543614
+      Map Button: 1785496320
+      Sand Dollar Counter: 1739721459
+      Inventory Button: -438889008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
