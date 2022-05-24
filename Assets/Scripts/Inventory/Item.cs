@@ -9,6 +9,7 @@ public class Item : ScriptableObject
         public string itemName => this.name;
 
 	[Tooltip("The description of this item.")]
+        [TextArea(3,10)]
     	[SerializeField] private string _description;
     	public string description => _description;
 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 259cbadcd7d1a4d36ac9bc66896f856d
+guid: 847babf22a57a4f7185d559690bc20f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoka Conch
+      name: Settings Box
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 200
+        x: 58
+        y: 313
+        width: 935
+        height: 582
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c567122a5f6d84718ab5972031256648
-      internalID: 2064282970
+      spriteID: c73024ed410e94d598df7688f2a08358
+      internalID: 992997778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ooboo Scallop
+      name: Sand Dollar Counter
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 200
-        height: 200
+        x: 1029
+        y: 787
+        width: 230
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685976600251b46ac9a47399c5c30ed2
-      internalID: -541072802
+      spriteID: f29c48d54c39f4719af5a11f954edd36
+      internalID: 1739721459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nop Shell
+      name: Close Button
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 200
-        height: 200
+        x: 1065
+        y: 675
+        width: 62
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d68956f58134233842f01f20b5743e
-      internalID: 750756533
+      spriteID: d333b7c2528374e8fbf94afe0f6a41bc
+      internalID: -66690841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arie Cowrie
+      name: Scrollbar
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 200
-        height: 200
+        x: 1173
+        y: 246
+        width: 55
+        height: 494
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a64fa2decbcfb455495a6edc65ccaf99
-      internalID: -1214134532
+      spriteID: e3e594dd39fb242ea9f3640fd27f423f
+      internalID: -1924543614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clim Clam
+      name: Map Button
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 200
-        height: 200
+        x: 1279
+        y: 650
+        width: 116
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,8 +214,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e08a411823b0849c8b211d120ba5bbf6
-      internalID: 1776906284
+      spriteID: 6d678ea8e8ee5481db8dd08194ce9e30
+      internalID: 1785496320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings Button
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 518
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e497d7cd4a324705a4d312c7349489a
+      internalID: 525149515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider Handle
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 201
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8437e1fa0a6e8427a9eae9028d53c11b
+      internalID: 1022076050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider Bar
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 206
+        width: 682
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab176a032084b9089e60035a6c1d6f
+      internalID: 943700981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 38
+        width: 547
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8f5d954a7794b05ba59accd7b3801a
+      internalID: -1023402949
       vertices: []
       indices: 
       edges: []
@@ -231,11 +315,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ooboo Scallop: -541072802
-      Arie Cowrie: -1214134532
-      Hoka Conch: 2064282970
-      Clim Clam: 1776906284
-      Nop Shell: 750756533
+      Slider Handle: 1022076050
+      Inventory: -1023402949
+      Slider Bar: 943700981
+      Close Button: -66690841
+      Settings Button: 525149515
+      Settings Box: 992997778
+      Scrollbar: -1924543614
+      Map Button: 1785496320
+      Sand Dollar Counter: 1739721459
+      Inventory Button: -438889008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

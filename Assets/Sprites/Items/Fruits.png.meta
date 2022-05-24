@@ -140,7 +140,7 @@ TextureImporter:
       name: Chowmelon
       rect:
         serializedVersion: 2
-        x: 115
+        x: 110
         y: 0
         width: 115
         height: 115
@@ -161,7 +161,7 @@ TextureImporter:
       name: Sprinkfruit
       rect:
         serializedVersion: 2
-        x: 230
+        x: 227
         y: 0
         width: 115
         height: 115
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bous Lentil
+      name: Bous
       rect:
         serializedVersion: 2
         x: 460
@@ -233,8 +233,8 @@ TextureImporter:
     nameFileIdTable:
       Sprinkfruit: -78396620
       Flux Heart: -1600901923
+      Bous: 1607276245
       Chowmelon: 1341159954
-      Bous Lentil: 1607276245
       Warbleberry: -1525692611
   spritePackingTag: 
   pSDRemoveMatte: 0

@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trash_0
+      name: Lost Gem
       rect:
         serializedVersion: 2
         x: 0
@@ -124,7 +124,7 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,15 +137,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_1
+      name: Loose Thread
       rect:
         serializedVersion: 2
-        x: 200
+        x: 185
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,15 +158,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_2
+      name: Torn Fabric
       rect:
         serializedVersion: 2
-        x: 400
+        x: 380
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,15 +179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_3
+      name: Glass Bottles
       rect:
         serializedVersion: 2
-        x: 600
+        x: 585
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,15 +200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_4
+      name: Trash Bag
       rect:
         serializedVersion: 2
-        x: 800
+        x: 795
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,15 +221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_5
+      name: Wood Scraps
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 995
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,15 +242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash_6
+      name: Cans
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 1185
         y: 0
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,13 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Trash_5: -129758266
-      Trash_0: -1604703390
-      Trash_1: -757371275
-      Trash_3: -422719422
-      Trash_2: 1611700638
-      Trash_6: -1326962749
-      Trash_4: -194688256
+      Lost Gem: -1604703390
+      Cans: -1326962749
+      Trash Bag: -194688256
+      Torn Fabric: 1611700638
+      Loose Thread: -757371275
+      Wood Scraps: -129758266
+      Glass Bottles: -422719422
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

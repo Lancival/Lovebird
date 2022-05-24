@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 259cbadcd7d1a4d36ac9bc66896f856d
+guid: 29badb770c500426c9dbee0222ad7c7b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoka Conch
+      name: Name Box
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 200
+        x: 26
+        y: 320
+        width: 325
+        height: 89
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c567122a5f6d84718ab5972031256648
-      internalID: 2064282970
+      spriteID: 12704e7c8a14b482eb9cf73e8b475fcf
+      internalID: -2032650293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ooboo Scallop
+      name: Choice Bubble
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 200
-        height: 200
+        x: 420
+        y: 353
+        width: 22
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685976600251b46ac9a47399c5c30ed2
-      internalID: -541072802
+      spriteID: 099260a3e94b44fc98c565a9a7ca4395
+      internalID: -1748697591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nop Shell
+      name: Dialogue Box
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 200
-        height: 200
+        x: 29
+        y: 21
+        width: 1314
+        height: 259
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,50 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d68956f58134233842f01f20b5743e
-      internalID: 750756533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arie Cowrie
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a64fa2decbcfb455495a6edc65ccaf99
-      internalID: -1214134532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clim Clam
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e08a411823b0849c8b211d120ba5bbf6
-      internalID: 1776906284
+      spriteID: c059d0a9cf65942aebdedf2e420477c3
+      internalID: 2122389986
       vertices: []
       indices: 
       edges: []
@@ -231,11 +189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ooboo Scallop: -541072802
-      Arie Cowrie: -1214134532
-      Hoka Conch: 2064282970
-      Clim Clam: 1776906284
-      Nop Shell: 750756533
+      Choice Bubble: -1748697591
+      Dialogue Box: 2122389986
+      Name Box: -2032650293
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
