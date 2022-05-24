@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Craftable
   _sprite: {fileID: -1450323321, guid: 428df57e594c94e09860d88287c4b40b, type: 3}
+  _price: 8

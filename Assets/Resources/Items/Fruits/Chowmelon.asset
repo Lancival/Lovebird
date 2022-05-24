@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Fruits
   _sprite: {fileID: 1341159954, guid: 645030a66d4e64cf8b31ae2bcd28e320, type: 3}
+  _price: 2

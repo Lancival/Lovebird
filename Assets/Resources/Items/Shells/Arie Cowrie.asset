@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Shells
   _sprite: {fileID: -1214134532, guid: 259cbadcd7d1a4d36ac9bc66896f856d, type: 3}
+  _price: 1

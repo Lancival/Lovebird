@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Seeds
   _sprite: {fileID: -2067990305, guid: e8ffb9d12855749d8b0d1ed428cc7b80, type: 3}
+  _price: 1

@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Fish
   _sprite: {fileID: 1404215995, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
+  _price: 6

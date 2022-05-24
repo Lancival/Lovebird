@@ -16,3 +16,4 @@ MonoBehaviour:
   _tags:
   - Trash
   _sprite: {fileID: -1326962749, guid: 5cbe28a006b2e4a9dabd52671681de93, type: 3}
+  _price: 1
