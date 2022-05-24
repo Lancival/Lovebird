@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 [DisallowMultipleComponent]
@@ -13,9 +14,14 @@ public class ItemBox : MonoBehaviour
     [SerializeField] private GameObject counter;
     [SerializeField] private TextMeshProUGUI counterText;
 
-    public void SetItem(Item item)
+    [SerializeField] private Material silhouetteMaterial;
+
+    private bool isCollection = false;
+
+    public void SetItem(Item item, bool collection = false)
     {
         _item = item;
+        isCollection = collection;
     }
 
     public void UpdateDisplay()
@@ -28,7 +34,7 @@ public class ItemBox : MonoBehaviour
         gameObject.SetActive(true);
 
         int quantity = Inventory.GetQuantity(_item);
-        if (quantity <= 1)
+        if (isCollection || quantity <= 1)
         {
             counter.SetActive(false);
         }
@@ -39,6 +45,19 @@ public class ItemBox : MonoBehaviour
         }
 
         image.sprite = _item.sprite;
+        if (isCollection)
+        {
+            if (Inventory.collection[_item] == false)
+            {
+                GetComponent<EventTrigger>().enabled = false;
+                image.material = silhouetteMaterial;
+            }
+            else
+            {
+                GetComponent<EventTrigger>().enabled = true;
+                image.material = null;
+            }
+        }
     }
 
     public void ShowDescription() => ItemDescription.instance?.Show(transform.position, _item.name, _item.description);

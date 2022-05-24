@@ -230,6 +230,7 @@ MonoBehaviour:
   image: {fileID: 8807209803970982304}
   counter: {fileID: 8807209803133024786}
   counterText: {fileID: 8807209802852265601}
+  silhouetteMaterial: {fileID: 2100000, guid: 128372a477b67438e9497014c0b186e7, type: 2}
 --- !u!114 &8807209802865283980
 MonoBehaviour:
   m_ObjectHideFlags: 0

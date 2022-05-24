@@ -13,7 +13,8 @@ public static class Inventory
 
     // Name/tag to item dictionaries
     private static Dictionary<string, Item> nameToItem = new Dictionary<string, Item>();
-    private static Dictionary<string, List<Item>> tagToItem = new Dictionary<string, List<Item>>();
+    private static Dictionary<string, List<Item>> _tagToItem = new Dictionary<string, List<Item>>();
+    public static Dictionary<string, List<Item>> tagToItem => _tagToItem;
 
     // Inventory change handler dictionary
     public delegate bool InventoryChangeHandler(int quantity);
@@ -30,11 +31,11 @@ public static class Inventory
             nameToItem.Add(item.itemName, item);
             foreach (string tag in item.tags)
             {
-                if (!tagToItem.ContainsKey(tag))
+                if (!_tagToItem.ContainsKey(tag))
                 {
-                    tagToItem.Add(tag, new List<Item>());
+                    _tagToItem.Add(tag, new List<Item>());
                 }
-                tagToItem[tag].Add(item);
+                _tagToItem[tag].Add(item);
             }
     	}
     }
@@ -123,10 +124,10 @@ public static class Inventory
         {
             return _items[nameToItem[nameOrTag]];
         }
-        else if (tagToItem.ContainsKey(nameOrTag))
+        else if (_tagToItem.ContainsKey(nameOrTag))
         {
             int quantity = 0;
-            foreach (Item item in tagToItem[nameOrTag])
+            foreach (Item item in _tagToItem[nameOrTag])
             {
                 quantity += _items[item];
             }
