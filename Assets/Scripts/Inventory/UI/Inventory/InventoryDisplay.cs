@@ -7,13 +7,13 @@ using UnityEngine.UI;
 
 public class InventoryDisplay : MonoBehaviour
 {
-    [SerializeField] private GameObject itemBoxPrefab;
+    [SerializeField] protected GameObject itemBoxPrefab;
 
     [Header("Other GameObjects")]
-        [SerializeField] private GameObject emptyInventory;
-        [SerializeField] private GameObject content;
+        [SerializeField] protected GameObject emptyInventory;
+        [SerializeField] protected GameObject content;
 
-    private List<ItemBox> itemBoxes;
+    protected List<ItemBox> itemBoxes;
 
     private CanvasGroup canvasGroup;
 
@@ -23,6 +23,7 @@ public class InventoryDisplay : MonoBehaviour
         itemBoxes = new List<ItemBox>();
     }
 
+    protected virtual ItemBox InstantiateItemBox() => Instantiate(itemBoxPrefab, content.transform).GetComponent<ItemBox>();
     public void Show()
     {
         int itemDisplayCount = 0;
@@ -32,7 +33,7 @@ public class InventoryDisplay : MonoBehaviour
             {
                 if (itemBoxes.Count <= itemDisplayCount)
                 {
-                    itemBoxes.Add(Instantiate(itemBoxPrefab, content.transform).GetComponent<ItemBox>());
+                    itemBoxes.Add(InstantiateItemBox());
                 }
                 itemBoxes[itemDisplayCount++].SetItem(itemCount.Key);
             }

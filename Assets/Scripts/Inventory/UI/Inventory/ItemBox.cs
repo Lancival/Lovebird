@@ -8,6 +8,7 @@ public class ItemBox : MonoBehaviour
 {
     // Data
     private Item _item;
+    public Item item => _item;
 
     // Components
     [SerializeField] private Image image;
@@ -18,17 +19,18 @@ public class ItemBox : MonoBehaviour
 
     private bool isCollection = false;
 
-    public void SetItem(Item item, bool collection = false)
+    public void SetItem(Item newItem, bool collection = false)
     {
-        _item = item;
+        _item = newItem;
         isCollection = collection;
     }
 
     public void UpdateDisplay()
     {
-        if (_item == null)
+        if (_item == null || (!isCollection && Inventory.GetQuantity(_item) <= 0))
         {
             gameObject.SetActive(false);
+            HideDescription();
             return;
         }
         gameObject.SetActive(true);
