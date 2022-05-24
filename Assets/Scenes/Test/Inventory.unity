@@ -1433,7 +1433,6 @@ GameObject:
   - component: {fileID: 1478099144}
   - component: {fileID: 1478099143}
   - component: {fileID: 1478099147}
-  - component: {fileID: 1478099146}
   - component: {fileID: 1478099145}
   m_Layer: 5
   m_Name: Inventory
@@ -1516,18 +1515,6 @@ MonoBehaviour:
   itemBoxPrefab: {fileID: 8807209802865283979, guid: 3703a71c5c5fc492cb93ffca3d0d4fc6, type: 3}
   emptyInventory: {fileID: 1528967586}
   content: {fileID: 460164103}
---- !u!114 &1478099146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478099141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b6e090ecd0514460a14bdfe60aad64a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!225 &1478099147
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1537,8 +1524,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1478099141}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &1528967586
 GameObject:

@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [DisallowMultipleComponent]
-[RequireComponent(typeof(FadeCanvasGroup))]
 [RequireComponent(typeof(CanvasGroup))]
 
 public class InventoryDisplay : MonoBehaviour
@@ -16,16 +15,12 @@ public class InventoryDisplay : MonoBehaviour
 
     private List<ItemBox> itemBoxes;
 
-    private FadeCanvasGroup fader;
     private CanvasGroup canvasGroup;
 
     void Awake()
     {
-        fader = GetComponent<FadeCanvasGroup>();
         canvasGroup = GetComponent<CanvasGroup>();
-
         itemBoxes = new List<ItemBox>();
-        //gameObject.SetActive(false);
     }
 
     public void Show()
@@ -60,7 +55,7 @@ public class InventoryDisplay : MonoBehaviour
 
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
-        fader.FadeIn();
+        gameObject.SetActive(true);
     }
 
     public void Hide()
