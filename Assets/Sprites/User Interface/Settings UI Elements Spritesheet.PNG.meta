@@ -158,27 +158,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inventory Button
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 783
-        width: 116
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ea77a26352cb44efbfcd62f1ace9df7
-      internalID: -438889008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Close Button
       rect:
         serializedVersion: 2
