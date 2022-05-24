@@ -37,4 +37,7 @@ public class SaleEntry : MonoBehaviour
             }
         }
     }
+
+    public void ShowDescription() => ItemDescription.instance?.Show(image.transform.position, item.name, item.description);
+    public void HideDescription() => ItemDescription.instance?.Hide();
 }

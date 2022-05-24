@@ -222,7 +222,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 88693815145617908, guid: 0b07d104fc50f422886eb39d6c550941, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneLoader, SceneTransition
         m_MethodName: LoadScene
         m_Mode: 1

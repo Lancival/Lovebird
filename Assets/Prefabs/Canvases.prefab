@@ -151,14 +151,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6914162996091101748, guid: 32597824ec1884df2878eedd09b91d13, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914162996091101748, guid: 32597824ec1884df2878eedd09b91d13, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6914162996314019760, guid: 32597824ec1884df2878eedd09b91d13, type: 3}
       propertyPath: m_Name
       value: Inventory Canvas
