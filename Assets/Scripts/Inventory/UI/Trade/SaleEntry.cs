@@ -20,6 +20,7 @@ public class SaleEntry : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(true);
             image.sprite = item.sprite;
             itemName.text = item.name;
             itemPrice.text = item.price.ToString();

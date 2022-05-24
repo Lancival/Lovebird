@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ea40f61c827e4119af1a820e020ce16, type: 3}
-  m_Name: Flux Heart Seed
+  m_Name: Chowmelon Seed
   m_EditorClassIdentifier: 
-  _description: It looks like it could grow into a sweet fruit!
+  _description: It looks like it could grow into a bitter fruit!
   _tags:
   - Seeds
-  _sprite: {fileID: -1015095734, guid: e8ffb9d12855749d8b0d1ed428cc7b80, type: 3}
-  _price: 3
+  _sprite: {fileID: -2067990305, guid: e8ffb9d12855749d8b0d1ed428cc7b80, type: 3}
+  _price: 1
