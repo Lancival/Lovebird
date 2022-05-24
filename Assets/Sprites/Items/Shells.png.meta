@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Butterfly Bonnet
+      name: Hoka Conch
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Citrus Scallop
+      name: Ooboo Scallop
       rect:
         serializedVersion: 2
         x: 200
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waltz Shell
+      name: Nop Shell
       rect:
         serializedVersion: 2
         x: 400
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Narwhal Tusk
+      name: Arie Cowrie
       rect:
         serializedVersion: 2
         x: 600
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Melodious Murex
+      name: Clim Clam
       rect:
         serializedVersion: 2
         x: 800
@@ -231,11 +231,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Waltz Shell: 750756533
-      Narwhal Tusk: -1214134532
-      Butterfly Bonnet: 2064282970
-      Melodious Murex: 1776906284
-      Citrus Scallop: -541072802
+      Ooboo Scallop: -541072802
+      Arie Cowrie: -1214134532
+      Hoka Conch: 2064282970
+      Clim Clam: 1776906284
+      Nop Shell: 750756533
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
