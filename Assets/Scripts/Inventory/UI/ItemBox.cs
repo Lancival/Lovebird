@@ -48,6 +48,9 @@ public class ItemBox : MonoBehaviour
         image.sprite = _item.sprite;
     }
 
+    public void ShowDescription() => ItemDescription.instance?.Show(transform.position, _item.name, _item.description);
+    public void HideDescription() => ItemDescription.instance?.Hide();
+
     public void AddItem(int quantity)
     {
         Inventory.Add(_item, quantity);
