@@ -19,4 +19,14 @@ public static class Money
         onChange?.Invoke(sandDollars);
     }
     public static void AddMoney(int dollars) => SetMoney(sandDollars + dollars);
+    public static bool Purchase(int dollars)
+    {
+        if (sandDollars >= dollars)
+        {
+            SetMoney(sandDollars - dollars);
+            onChange?.Invoke(sandDollars);
+            return true;
+        }
+        return false;
+    }
 }
