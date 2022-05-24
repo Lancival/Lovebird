@@ -21,6 +21,10 @@ public class Item : ScriptableObject
     	[SerializeField] private Sprite _sprite;
     	public Sprite sprite => _sprite;
 
+    [Tooltip("The price of this item.")]
+        [SerializeField] private int _price;
+        public int price => _price;
+
     public bool HasTag(string tag) => tags.Contains(tag);
 }
 
