@@ -16,8 +16,12 @@ public class QuestLog : MonoBehaviour
 	public static QuestLog instance => _instance;
 
 	// Components
-	[SerializeField] private TextMeshProUGUI questText;
+	[SerializeField] private GameObject questEntryPrefab;
+	[SerializeField] private Transform content;
 	private FadeCanvasGroup fader;
+
+	private List<GameObject> entries;
+	private GameObject noQuests;
 
 	// Current visibility state of this QuestLog instance
 	private bool _visible = false;
@@ -33,6 +37,9 @@ public class QuestLog : MonoBehaviour
 		}
 		_instance = this;
 		fader = GetComponent<FadeCanvasGroup>();
+
+		entries = new List<GameObject>();
+		noQuests = content.GetChild(0).gameObject;
 	}
 
 	// Release singleton instance when destroyed
@@ -52,23 +59,27 @@ public class QuestLog : MonoBehaviour
 			return; // Update unnecessary if quest log isn't visible
 		}
 
-		StringBuilder stringBuilder = new StringBuilder();
+		int usedEntries = 0;
 		foreach (Quest quest in QuestManager.quests)
 		{
 			if (!quest.hidden)
 			{
-				stringBuilder.Append(quest.description);
-				stringBuilder.Append('\n');
+				if (entries.Count <= usedEntries)
+				{
+					entries.Add(Instantiate(questEntryPrefab, content));
+				}
+				entries[usedEntries].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = quest.description;
 			}
-			stringBuilder.Length = stringBuilder.Length - 1;
 		}
 
 		// No active, not hidden quests available
-		if (stringBuilder.Length == 0)
+		noQuests.SetActive(usedEntries == 0);
+
+		// Hide unused entries
+		for (; usedEntries < entries.Count; usedEntries++)
 		{
-			stringBuilder.Append("You have no uncompleted quests!");
+			entries[usedEntries].SetActive(false);
 		}
-		questText.text = stringBuilder.ToString();
 	}
 
 	// Show the quest log if it's currently hidden, and update the text

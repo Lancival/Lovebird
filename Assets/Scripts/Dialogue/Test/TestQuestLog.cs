@@ -12,7 +12,6 @@ public class TestQuestLog : MonoBehaviour
     void Start()
     {
         QuestManager.Add(quest);
-        QuestManager.ShowQuestLog();
     }
 
     public void AddQuestToken()
