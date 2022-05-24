@@ -6,7 +6,7 @@ using TMPro;
 public class ItemBox : MonoBehaviour
 {
     // Data
-    [SerializeField] private Item _item;
+    public Item _item;
 
     // Components
     private Image image;
@@ -50,9 +50,4 @@ public class ItemBox : MonoBehaviour
 
     public void ShowDescription() => ItemDescription.instance?.Show(transform.position, _item.name, _item.description);
     public void HideDescription() => ItemDescription.instance?.Hide();
-
-    public void AddItem(int quantity)
-    {
-        Inventory.Add(_item, quantity);
-    }
 }
