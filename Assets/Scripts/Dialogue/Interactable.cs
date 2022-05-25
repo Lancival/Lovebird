@@ -37,10 +37,6 @@ public class Interactable : MonoBehaviour
         dialogueRunner.StartDialogue(startNode);
     }
 
-    public void TriggerDialogue()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(testdialogue);
-    }
     private void EndConversation() {
         if (isCurrentConversation) {
             isCurrentConversation = false;

@@ -19,6 +19,7 @@ public class Quest : ScriptableObject
 		public string questName => _questName;
 
 		[Tooltip("The description of this quest.")]
+		[TextArea(3,10)]
 		[SerializeField] private string _description;
 		public string description => _description;
 
