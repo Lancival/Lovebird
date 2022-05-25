@@ -58,15 +58,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Fish",
-                    "type": "Button",
-                    "id": "dafc3280-5cc3-49c4-a46f-cc8f74b2e7eb",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -232,17 +223,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Settings",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8f7fdfeb-7656-4f8d-8e41-d4c1ada1456c",
-                    "path": "<Keyboard>/f",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Fish",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

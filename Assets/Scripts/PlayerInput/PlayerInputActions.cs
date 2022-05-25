@@ -80,15 +80,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Fish"",
-                    ""type"": ""Button"",
-                    ""id"": ""dafc3280-5cc3-49c4-a46f-cc8f74b2e7eb"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -256,17 +247,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""Settings"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8f7fdfeb-7656-4f8d-8e41-d4c1ada1456c"",
-                    ""path"": ""<Keyboard>/f"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Fish"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -281,7 +261,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_Actions_Quest = m_Actions.FindAction("Quest", throwIfNotFound: true);
         m_Actions_Map = m_Actions.FindAction("Map", throwIfNotFound: true);
         m_Actions_Settings = m_Actions.FindAction("Settings", throwIfNotFound: true);
-        m_Actions_Fish = m_Actions.FindAction("Fish", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -347,7 +326,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private readonly InputAction m_Actions_Quest;
     private readonly InputAction m_Actions_Map;
     private readonly InputAction m_Actions_Settings;
-    private readonly InputAction m_Actions_Fish;
     public struct ActionsActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -358,7 +336,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         public InputAction @Quest => m_Wrapper.m_Actions_Quest;
         public InputAction @Map => m_Wrapper.m_Actions_Map;
         public InputAction @Settings => m_Wrapper.m_Actions_Settings;
-        public InputAction @Fish => m_Wrapper.m_Actions_Fish;
         public InputActionMap Get() { return m_Wrapper.m_Actions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -386,9 +363,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Settings.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
                 @Settings.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
                 @Settings.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
-                @Fish.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
-                @Fish.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
-                @Fish.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
             }
             m_Wrapper.m_ActionsActionsCallbackInterface = instance;
             if (instance != null)
@@ -411,9 +385,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Settings.started += instance.OnSettings;
                 @Settings.performed += instance.OnSettings;
                 @Settings.canceled += instance.OnSettings;
-                @Fish.started += instance.OnFish;
-                @Fish.performed += instance.OnFish;
-                @Fish.canceled += instance.OnFish;
             }
         }
     }
@@ -426,6 +397,5 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         void OnQuest(InputAction.CallbackContext context);
         void OnMap(InputAction.CallbackContext context);
         void OnSettings(InputAction.CallbackContext context);
-        void OnFish(InputAction.CallbackContext context);
     }
 }
