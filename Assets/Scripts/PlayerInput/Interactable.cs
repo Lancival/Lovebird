@@ -14,7 +14,23 @@ public class Interactable : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            Interact();
+            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                player.interactables.Add(this);
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.name == "Player")
+        {
+            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                player.interactables.Remove(this);
+            }
         }
     }
 

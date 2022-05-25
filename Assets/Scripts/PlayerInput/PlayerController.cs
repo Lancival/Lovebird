@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : BirdController
 {
+    [HideInInspector] public List<Interactable> interactables = new List<Interactable>();
+
     public override void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
