@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CanvasController : MonoBehaviour
 {
@@ -8,17 +9,18 @@ public class CanvasController : MonoBehaviour
     [SerializeField] private float duration = 0.5f;
 
     [Header("Canvases")]
-        [SerializeField] private FadeCanvasGroup inventory;
-        [SerializeField] private FadeCanvasGroup questLog;
-        [SerializeField] private FadeCanvasGroup settings;
+        [SerializeField] private Button inventory;
+        [SerializeField] private Button questLog;
+        [SerializeField] private Button map;
+        [SerializeField] private Button settings;
         [SerializeField] private LineView dialogue;
 
     void Awake() => _instance = this;
     void OnDestroy() => _instance = null;
 
-    public static void OpenInventory() => _instance?.inventory?.FadeIn(_instance.duration);
-    public static void OpenQuestLog() => _instance?.questLog?.FadeIn(_instance.duration);
-    public static void OpenSettings() => _instance?.settings?.FadeIn(_instance.duration);
+    public static void OpenInventory() => _instance?.inventory?.onClick?.Invoke();
+    public static void OpenQuestLog() => _instance?.questLog?.onClick?.Invoke();
+    public static void OpenSettings() => _instance?.settings?.onClick?.Invoke();
     public static void ContinueDialogue() => _instance?.dialogue?.OnContinueClicked();
     public static void OpenMap() => SceneLoader.instance?.LoadScene("Map");
 }
