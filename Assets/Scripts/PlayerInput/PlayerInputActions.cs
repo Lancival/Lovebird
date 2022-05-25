@@ -24,7 +24,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     ""name"": ""PlayerInputActions"",
     ""maps"": [
         {
-            ""name"": ""Movement"",
+            ""name"": ""Actions"",
             ""id"": ""af9828cb-3928-4545-a09c-189f2c4e82e8"",
             ""actions"": [
                 {
@@ -40,6 +40,51 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""name"": ""Select"",
                     ""type"": ""Button"",
                     ""id"": ""62f72934-dc3d-4ce9-8e0e-89677abcfa16"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Inventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""262c4bef-9f60-487b-b379-b2e025c11042"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Quest"",
+                    ""type"": ""Button"",
+                    ""id"": ""71dd7534-14b4-4239-9d14-b3cdff717ced"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Map"",
+                    ""type"": ""Button"",
+                    ""id"": ""3cd505c2-7950-4ebc-98fa-d2d77d1542a8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Settings"",
+                    ""type"": ""Button"",
+                    ""id"": ""8c2cdca2-cb60-4c97-a2cb-df52f35adbe6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Fish"",
+                    ""type"": ""Button"",
+                    ""id"": ""dafc3280-5cc3-49c4-a46f-cc8f74b2e7eb"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -156,16 +201,87 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""18ffd50a-e5b9-41f9-996b-9db4a2d20848"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a05dc457-dfdc-42bf-a81b-9352f6391af6"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dcb75deb-c87f-49e3-a5b3-4cf050dc0582"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Quest"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dd4ad506-143c-44c8-a37b-bb2c42905e66"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Map"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8132add1-d32d-4dc5-8650-127a921212aa"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Settings"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8f7fdfeb-7656-4f8d-8e41-d4c1ada1456c"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fish"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
     ],
     ""controlSchemes"": []
 }");
-        // Movement
-        m_Movement = asset.FindActionMap("Movement", throwIfNotFound: true);
-        m_Movement_Move = m_Movement.FindAction("Move", throwIfNotFound: true);
-        m_Movement_Select = m_Movement.FindAction("Select", throwIfNotFound: true);
+        // Actions
+        m_Actions = asset.FindActionMap("Actions", throwIfNotFound: true);
+        m_Actions_Move = m_Actions.FindAction("Move", throwIfNotFound: true);
+        m_Actions_Select = m_Actions.FindAction("Select", throwIfNotFound: true);
+        m_Actions_Inventory = m_Actions.FindAction("Inventory", throwIfNotFound: true);
+        m_Actions_Quest = m_Actions.FindAction("Quest", throwIfNotFound: true);
+        m_Actions_Map = m_Actions.FindAction("Map", throwIfNotFound: true);
+        m_Actions_Settings = m_Actions.FindAction("Settings", throwIfNotFound: true);
+        m_Actions_Fish = m_Actions.FindAction("Fish", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -222,34 +338,59 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // Movement
-    private readonly InputActionMap m_Movement;
-    private IMovementActions m_MovementActionsCallbackInterface;
-    private readonly InputAction m_Movement_Move;
-    private readonly InputAction m_Movement_Select;
-    public struct MovementActions
+    // Actions
+    private readonly InputActionMap m_Actions;
+    private IActionsActions m_ActionsActionsCallbackInterface;
+    private readonly InputAction m_Actions_Move;
+    private readonly InputAction m_Actions_Select;
+    private readonly InputAction m_Actions_Inventory;
+    private readonly InputAction m_Actions_Quest;
+    private readonly InputAction m_Actions_Map;
+    private readonly InputAction m_Actions_Settings;
+    private readonly InputAction m_Actions_Fish;
+    public struct ActionsActions
     {
         private @PlayerInputActions m_Wrapper;
-        public MovementActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_Movement_Move;
-        public InputAction @Select => m_Wrapper.m_Movement_Select;
-        public InputActionMap Get() { return m_Wrapper.m_Movement; }
+        public ActionsActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Actions_Move;
+        public InputAction @Select => m_Wrapper.m_Actions_Select;
+        public InputAction @Inventory => m_Wrapper.m_Actions_Inventory;
+        public InputAction @Quest => m_Wrapper.m_Actions_Quest;
+        public InputAction @Map => m_Wrapper.m_Actions_Map;
+        public InputAction @Settings => m_Wrapper.m_Actions_Settings;
+        public InputAction @Fish => m_Wrapper.m_Actions_Fish;
+        public InputActionMap Get() { return m_Wrapper.m_Actions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(MovementActions set) { return set.Get(); }
-        public void SetCallbacks(IMovementActions instance)
+        public static implicit operator InputActionMap(ActionsActions set) { return set.Get(); }
+        public void SetCallbacks(IActionsActions instance)
         {
-            if (m_Wrapper.m_MovementActionsCallbackInterface != null)
+            if (m_Wrapper.m_ActionsActionsCallbackInterface != null)
             {
-                @Move.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnMove;
-                @Select.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnSelect;
-                @Select.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnSelect;
-                @Select.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnSelect;
+                @Move.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMove;
+                @Select.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSelect;
+                @Select.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSelect;
+                @Select.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSelect;
+                @Inventory.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnInventory;
+                @Inventory.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnInventory;
+                @Inventory.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnInventory;
+                @Quest.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnQuest;
+                @Quest.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnQuest;
+                @Quest.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnQuest;
+                @Map.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMap;
+                @Map.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMap;
+                @Map.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnMap;
+                @Settings.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
+                @Settings.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
+                @Settings.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnSettings;
+                @Fish.started -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
+                @Fish.performed -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
+                @Fish.canceled -= m_Wrapper.m_ActionsActionsCallbackInterface.OnFish;
             }
-            m_Wrapper.m_MovementActionsCallbackInterface = instance;
+            m_Wrapper.m_ActionsActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Move.started += instance.OnMove;
@@ -258,13 +399,33 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Select.started += instance.OnSelect;
                 @Select.performed += instance.OnSelect;
                 @Select.canceled += instance.OnSelect;
+                @Inventory.started += instance.OnInventory;
+                @Inventory.performed += instance.OnInventory;
+                @Inventory.canceled += instance.OnInventory;
+                @Quest.started += instance.OnQuest;
+                @Quest.performed += instance.OnQuest;
+                @Quest.canceled += instance.OnQuest;
+                @Map.started += instance.OnMap;
+                @Map.performed += instance.OnMap;
+                @Map.canceled += instance.OnMap;
+                @Settings.started += instance.OnSettings;
+                @Settings.performed += instance.OnSettings;
+                @Settings.canceled += instance.OnSettings;
+                @Fish.started += instance.OnFish;
+                @Fish.performed += instance.OnFish;
+                @Fish.canceled += instance.OnFish;
             }
         }
     }
-    public MovementActions @Movement => new MovementActions(this);
-    public interface IMovementActions
+    public ActionsActions @Actions => new ActionsActions(this);
+    public interface IActionsActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnInventory(InputAction.CallbackContext context);
+        void OnQuest(InputAction.CallbackContext context);
+        void OnMap(InputAction.CallbackContext context);
+        void OnSettings(InputAction.CallbackContext context);
+        void OnFish(InputAction.CallbackContext context);
     }
 }
