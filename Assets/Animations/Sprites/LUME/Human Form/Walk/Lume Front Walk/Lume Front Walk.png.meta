@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfd90fb7ccc9a774ab6b41c2e40d44af
+guid: 8bd0bc6eee15b4a16a1688335e4c3611
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,6 +100,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -109,8 +121,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f0955caf4b8e4c4ba2bb9c66c8bbaeb
-      internalID: -1152990786
+      spriteID: 96ce1673c26184523ab629fa6f2d0d03
+      internalID: 718769720
       vertices: []
       indices: 
       edges: []
@@ -128,10 +140,10 @@ TextureImporter:
       name: Lume Front Walk_1
       rect:
         serializedVersion: 2
-        x: 131
+        x: 133
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf86070e2569940d7b2e638a567db233
-      internalID: -1181810152
+      spriteID: 4942dc0c36c9744bdabf5c735ab583af
+      internalID: 228503355
       vertices: []
       indices: 
       edges: []
@@ -149,10 +161,10 @@ TextureImporter:
       name: Lume Front Walk_2
       rect:
         serializedVersion: 2
-        x: 262
+        x: 266
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f44d2a54d1bdd4740a16b9257fbfb72c
-      internalID: 134051737
+      spriteID: 18d7d31c846ca4c1a8572147a08919e4
+      internalID: -1749739899
       vertices: []
       indices: 
       edges: []
@@ -170,10 +182,10 @@ TextureImporter:
       name: Lume Front Walk_3
       rect:
         serializedVersion: 2
-        x: 393
+        x: 399
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639033806f6204796a87478336709adb
-      internalID: -1523521067
+      spriteID: 6dfbec8949aa2460da76d5018c716128
+      internalID: 1808228075
       vertices: []
       indices: 
       edges: []
@@ -191,10 +203,10 @@ TextureImporter:
       name: Lume Front Walk_4
       rect:
         serializedVersion: 2
-        x: 524
+        x: 532
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114e1aabae3134900a656dbb428916ab
-      internalID: 1878788043
+      spriteID: bd28a8820f50f4435b2e90ff72fa5b50
+      internalID: 1744972217
       vertices: []
       indices: 
       edges: []
@@ -212,10 +224,10 @@ TextureImporter:
       name: Lume Front Walk_5
       rect:
         serializedVersion: 2
-        x: 655
+        x: 665
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f0f04ccb8e2463fb5835be2bb75a0c
-      internalID: 1765665922
+      spriteID: 8ee4f571ac472402aaade5177fbe89c2
+      internalID: 210469127
       vertices: []
       indices: 
       edges: []
@@ -233,10 +245,10 @@ TextureImporter:
       name: Lume Front Walk_6
       rect:
         serializedVersion: 2
-        x: 786
+        x: 798
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589c52604dace49e89f396f4b56b7685
-      internalID: 1346153774
+      spriteID: 21d0b4db2a3a94a9d929c25b90c428fe
+      internalID: -1725340104
       vertices: []
       indices: 
       edges: []
@@ -254,10 +266,10 @@ TextureImporter:
       name: Lume Front Walk_7
       rect:
         serializedVersion: 2
-        x: 917
+        x: 931
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40236b2f020a4e86ba1217c23f11849
-      internalID: -1556312257
+      spriteID: b1a638cfcc9e1498c834cf550f73758a
+      internalID: 1004994255
       vertices: []
       indices: 
       edges: []
@@ -275,10 +287,10 @@ TextureImporter:
       name: Lume Front Walk_8
       rect:
         serializedVersion: 2
-        x: 1048
+        x: 1064
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,8 +298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aa51eef6ee9040d7bcf41e3d37f35d1
-      internalID: 38476504
+      spriteID: b9a79c7c8171044618a1b1abfe4d5461
+      internalID: -941819075
       vertices: []
       indices: 
       edges: []
@@ -296,10 +308,10 @@ TextureImporter:
       name: Lume Front Walk_9
       rect:
         serializedVersion: 2
-        x: 1179
+        x: 1197
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,8 +319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b120370d2eb3349c6b25d02ff28a68b4
-      internalID: 1854190796
+      spriteID: 9b877b9d0383a4bbfafed47a7bcd5813
+      internalID: -954208175
       vertices: []
       indices: 
       edges: []
@@ -317,10 +329,10 @@ TextureImporter:
       name: Lume Front Walk_10
       rect:
         serializedVersion: 2
-        x: 1310
+        x: 1330
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101e81c7cfb1940ffad22b0efda86bd2
-      internalID: -1853881931
+      spriteID: 640b4be4b711540d9a71516ba342b9f0
+      internalID: -1249281214
       vertices: []
       indices: 
       edges: []
@@ -338,10 +350,10 @@ TextureImporter:
       name: Lume Front Walk_11
       rect:
         serializedVersion: 2
-        x: 1441
+        x: 1463
         y: 0
-        width: 131
-        height: 182
+        width: 133
+        height: 184
       alignment: 9
       pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,8 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3295ab3dfc9493eadadd812ce8e085
-      internalID: -847539960
+      spriteID: a115304c5f43d4854b00afc60a410b25
+      internalID: -32130781
       vertices: []
       indices: 
       edges: []
@@ -366,18 +378,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lume Front Walk_10: -1853881931
-      Lume Front Walk_7: -1556312257
-      Lume Front Walk_11: -847539960
-      Lume Front Walk_9: 1854190796
-      Lume Front Walk_8: 38476504
-      Lume Front Walk_6: 1346153774
-      Lume Front Walk_0: -1152990786
-      Lume Front Walk_2: 134051737
-      Lume Front Walk_5: 1765665922
-      Lume Front Walk_1: -1181810152
-      Lume Front Walk_3: -1523521067
-      Lume Front Walk_4: 1878788043
+      Lume Front Walk_10: -1249281214
+      Lume Front Walk_7: 1004994255
+      Lume Front Walk_11: -32130781
+      Lume Front Walk_9: -954208175
+      Lume Front Walk_8: -941819075
+      Lume Front Walk_6: -1725340104
+      Lume Front Walk_0: 718769720
+      Lume Front Walk_2: -1749739899
+      Lume Front Walk_5: 210469127
+      Lume Front Walk_1: 228503355
+      Lume Front Walk_3: 1808228075
+      Lume Front Walk_4: 1744972217
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
