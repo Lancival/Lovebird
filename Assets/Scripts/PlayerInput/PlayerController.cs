@@ -30,4 +30,9 @@ public class PlayerController : BirdController
             }
         }
     }
+
+    public void OnInventory() => CanvasController.OpenInventory();
+    public void OnQuest() => CanvasController.OpenQuestLog();
+    public void OnSettings() => CanvasController.OpenSettings();
+    public void OnMap() => CanvasController.OpenMap();
 }
