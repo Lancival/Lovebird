@@ -619,7 +619,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6914162997142121290}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.9741379
+  m_Size: 0.974138
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1727,7 +1727,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6914162996832352761}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.9741379
+  m_Size: 0.974138
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1861,7 +1861,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2143,7 +2143,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
