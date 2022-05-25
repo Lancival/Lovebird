@@ -31,6 +31,25 @@ public class PlayerController : BirdController
         }
     }
 
+    public void OnSelect()
+    {
+        if (interactables.Count > 0)
+        {
+            float minDistance = 0;
+            Interactable closest = null;
+            foreach (Interactable interactable in interactables)
+            {
+                float distance = Vector3.Distance(transform.position, interactable.transform.position);
+                if (closest == null || distance < minDistance)
+                {
+                    minDistance = distance;
+                    closest = interactable;
+                }
+            }
+            closest.Interact();
+        }
+    }
+
     public void OnInventory() => CanvasController.OpenInventory();
     public void OnQuest() => CanvasController.OpenQuestLog();
     public void OnSettings() => CanvasController.OpenSettings();
