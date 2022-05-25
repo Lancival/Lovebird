@@ -52,7 +52,7 @@ public class SellScreen : InventoryDisplay
                 {
                     confirmButton.interactable = false;
                     itemImage.enabled = false;
-                    priceText.text = "";
+                    priceText.text = "--";
                 }
 
                 emptyInventory.SetActive(true);
