@@ -10,6 +10,8 @@ position: 15,-162
 
 
 {$CharBName}: Greetings and salutations! I heard someone new was moving in, that must be you.
+    -> Hello!
+    -> Nice to meet you!
 {$CharBName}: Welcome to {$IslandAName}; here, you'll find bountiful resources for farming, a close knit community, and me!
 {$CharBName}: I'm getting ahead of myself though, what's your name?
 
