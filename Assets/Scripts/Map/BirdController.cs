@@ -9,13 +9,13 @@ using UnityEngine.InputSystem;
 public class BirdController : MonoBehaviour
 {
     // Components
-    private Rigidbody2D rigidBody;
-    private SpriteRenderer spriteRenderer;
-    private Animator animator;
+    protected Rigidbody2D rigidBody;
+    protected SpriteRenderer spriteRenderer;
+    protected Animator animator;
 
     // Movement Variables
-    private Vector2 movement = new Vector2();
-    [SerializeField] private float speed = 5.0f;
+    protected Vector2 movement = new Vector2();
+    [SerializeField] protected float speed = 5.0f;
 
     void Awake()
     {
@@ -24,7 +24,7 @@ public class BirdController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    public virtual void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
         animator.SetBool("isMoving", movement.magnitude != 0);
