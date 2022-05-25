@@ -230,7 +230,7 @@ TextureImporter:
         width: 346
         height: 496
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,6 +238,174 @@ TextureImporter:
       bones: []
       spriteID: 54b93f46dceca468fba354eec4fae9a1
       internalID: 1308331339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 438
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec08df108124f45ae6f8ec0cef99c4
+      internalID: 1037190331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 416
+        width: 195
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec7722989047e41a9de351df545cad
+      internalID: -1160717122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 3
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 438
+        width: 109
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a7ec1ea26fff499dbb0d12d3acb1c
+      internalID: -1417624577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 442
+        width: 109
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af976c0f0d198946a5ea00e37cd6609
+      internalID: -1011786839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 158
+        width: 138
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2e8bcdf22e3c744b3d011b9c93356d
+      internalID: 1918516867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 123
+        width: 130
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0255899b8f6039546a6323f5f0f5494c
+      internalID: 761398601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 7
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 149
+        width: 154
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8730943de96e93b4ea41131ecb0df93d
+      internalID: 714566236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant 8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 135
+        width: 108
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bf8987dde2f764eb0bbf4003c92a2f
+      internalID: -413943537
       vertices: []
       indices: 
       edges: []
@@ -254,9 +422,17 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Bridge: 1308331339
+      Plant 5: 1918516867
       Tree: 112163854
+      Plant 8: -413943537
       Buckets: -438185405
+      Plant 3: -1417624577
+      Plant 6: 761398601
       Fishing Pole Rack: 245836787
+      Plant 2: -1160717122
+      Plant 1: 1037190331
+      Plant 7: 714566236
+      Plant 4: -1011786839
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
