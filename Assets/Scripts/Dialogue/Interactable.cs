@@ -1,53 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using Yarn.Unity;
+
+[RequireComponent(typeof(Collider2D))]
 
 public class Interactable : MonoBehaviour
 {
-    // Start is called before the first frame update The Start 
-    //function will be called by Unity before gameplay begins 
-    //(ie, before the Update function is called for the first time) 
-    //and is an ideal place to do any initialization.
-    private static DialogueRunner dialogueRunner;
-    private bool interactable = true;
-    private bool isCurrentConversation = false;
-    private float defaultIndicatorIntensity;
-    public string startNode = "Start";
-    
-    public Dialogue testdialogue;
-    
-    public void Start() 
-    {
-        dialogueRunner = GameObject.FindObjectOfType<DialogueRunner>();
-       
-    }
+    [SerializeField] new private Collider2D collider;
 
-    
-    public void OnMouseDown() {
-        if (interactable)
+    void Awake() => collider = GetComponent<Collider2D>();
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name == "Player")
         {
-            StartConversation();
+            Interact();
         }
     }
 
-    private void StartConversation() {
-        Debug.Log($"Started conversation with {name}.");
-        dialogueRunner.StartDialogue(startNode);
-    }
-
-    private void EndConversation() {
-        if (isCurrentConversation) {
-            isCurrentConversation = false;
-            Debug.Log($"Ended conversation with {name}.");
-        }
-    }
-
-//    [YarnCommand("disable")]
-    public void DisableConversation() 
+    public virtual void Interact()
     {
-        interactable = false;
+        Debug.Log(string.Format("Interacted with {0}.", this.name));
     }
-
 }
