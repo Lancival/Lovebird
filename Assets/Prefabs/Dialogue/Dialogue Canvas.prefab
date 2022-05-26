@@ -204,8 +204,8 @@ GameObject:
   - component: {fileID: 6161418403024347129}
   - component: {fileID: 6161418403024347110}
   - component: {fileID: 6161418403024347131}
-  - component: {fileID: 6161418403024347128}
   - component: {fileID: 6161418403024347130}
+  - component: {fileID: 4314285970158608670}
   m_Layer: 5
   m_Name: Dialogue Canvas
   m_TagString: Untagged
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnProject: {fileID: 7545569452688597077, guid: 5d4785f916cdb404ab86a42b5bce44f5, type: 3}
-  _variableStorage: {fileID: 6161418403024347128}
+  _variableStorage: {fileID: 4314285970158608670}
   dialogueViews:
   - {fileID: 6161418402752551556}
   - {fileID: 6161418403794623244}
@@ -396,7 +396,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -427,20 +427,6 @@ MonoBehaviour:
   onCommand:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6161418403024347128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6161418403024347107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showDebug: 0
-  debugTextView: {fileID: 0}
 --- !u!114 &6161418403024347130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,6 +440,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textLanguageCode: en-US
+--- !u!114 &4314285970158608670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161418403024347107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d046f3c26c448e2a13f375902f80ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showDebug: 0
+  debugTextView: {fileID: 0}
 --- !u!1 &6161418403358591800
 GameObject:
   m_ObjectHideFlags: 0
