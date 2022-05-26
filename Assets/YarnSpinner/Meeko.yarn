@@ -4,7 +4,7 @@ title: Meeko
 <<declare $meekoQuestFinished = false as bool>>
 <<declare $meekoQuestRewarded = false as bool>>
 
-<<if $metmeeko is false>>
+<<if $metMeeko is false>>
     <<jump MeekoFirstMeeting>>
 <<elseif $meekoQuestFinished is false>>
     Meeko: What are you waiting for? Go out and explore!
