@@ -1,0 +1,156 @@
+title: Weed
+---
+<<declare $metWeed = false as bool>>
+
+<<if $metWeed is false>>
+    Lume: It's sparkling...
+    <<set $metWeed to true>>
+<<else>>
+    Would you like to pull the weed out?
+    -> Yes
+        <<jump Turtle>>
+    -> No
+        Lume: (You decided to leave the weed.)
+        Lume: ... But it's so pretty...
+<<endif>>
+===
+
+title: Turtle
+---
+<<declare $metTurtle = false as bool>>
+
+<<if $metTurtle is false>>
+    <<jump TurtleFirstMeeting>>
+<<elseif $has_fishingrod == false>>
+    <<if $fe_turtle2 == false>>
+        <<jump Turtle2>>
+    <<else>>
+        <<jump Turtle2_short>>
+    <<endif>>
+
+<<elseif $has_allfish == false>>
+    <<if $fe_turtle3 == false>>
+        <<jump Turtle3>>
+    <<else>>
+        <<jump Turtle3_short>>
+    <<endif>>
+
+<<elseif $complete_quest4 == false>>
+    <<jump Turtle4>>
+
+<<else>>
+    <<jump retired_Turtle>>
+
+<<endif>>
+
+===
+
+title: TurtleFirstMeeting
+---
+<<ShowTurtle>>
+
+Giant Turtle: Ouch!!!
+Lume: !!!
+Giant Turtle: Oh man...*yawn*...how long was I asleep?
+Giant Turtle: ...
+Giant Turtle: *gurgles*
+Giant Turtle: ...
+Giant Turtle: Oh, hey there. 
+George: I am George. 
+George: If you haven't noticed yet, I'm down here.
+Lume: ???
+George: HA HA HA!! 
+George: I mean, under your feet. You're standing on my shell.
+George: If you don't mind, I'm feeling a bit peckish right now.
+George: It's been... a while since I've eaten.
+George: You seem a fine, young bird.
+George: Would you be willing to help grab a bite for an elderly tortoise such as myself?
+    -> Yes
+        George: Oh, you are willing to do me this little favor?
+    -> No
+        George: Oh, you wouldn't mind doing me this little favor?
+George: Thank you so much, little one!
+George: Oh my manners, and your name?
+Lume: Lume.
+George: Thank you, Lume.
+George: Let me know if you need any fishing tips, just come to this same place. I'm simply too famished to move at all!
+<<set $metTurtle to true>>
+===
+
+title: Turtle2
+position: -77,265
+---
+George: Goodday, Lume! How goes the fishing?
+George: ... Ah, you don't know where to start.
+George: If he's still around, the shopkeeper at VIRIDIA sells good quality FISH PERFUME.
+George: His name is CHOM-CHOM.
+George: While you're at it, could you send him my regards? We go a long ways back. He is a dear friend.
+<<set $fe_turtle2 to true>>
+===
+
+title: Turtle2_short
+position: -105,223
+---
+George: I wonder how CHOM-CHOM is doing in VIRIDIA...
+===
+
+title: Turtle3
+position: 335,255
+---
+George: Mm...sashimi...
+George: Hi, Lume. Were you able to procure any fish?
+George: ...
+George: Hmm...
+George: It seems that you don't have the right fish.
+George: So sorry to bother you with an old man's cravings, but could you come back after you've gotten TWO POPSNAPPERS, TWO CHEDDARFINS, and ONE FLUTTERFLY?
+George: Don't worry about hurrying, hunger makes the best spice!
+George: HA HA *gurgle* HA!!
+George: ...
+<<set $fe_turtle3 to true>>
+===
+
+title: Turtle3_short
+position: 370,198
+---
+George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY...
+===
+
+title: Turtle4
+position: 69,325
+---
+George: *gurgle gurgle gurgle*
+George: Lume... *gurgle gurgle*
+George: Is that you? *gurgle*
+George: ...
+George: Oh my goodness! Is that really the fish I asked you for?
+George: GOBBLE GOBBLE GOBBLE
+George: MUNCH MUNCH MUNCH
+George: CHOMP CHOMP CHOMP
+George: ... *BURP*
+George: Ah...
+George: That was a lovely meal, Lume. Thank you so much. 
+George: How could I ever repay you?
+George: ...
+George: Oh, were you interested in exploring the other islands?
+George: It is definitely a bit of a challenge to get to ATLANTA COVE...That is an island located underwater.
+George: ...
+George: HA HA HA! How is it an island if it is underwater?
+George: Beats me!
+George: But I could show you the way, if you'd like.
+George: Take this little friend, he will guide you. 
+George: I hope for you to find whatever it is you are looking for on your travels.
+George: Don't be afraid to visit this old chap if you are ever in need of a listening ear.
+
+You have received Guide Turtle!
+... You notice something in his mouth.
+It's a Magical Feather!
+<<set $complete_quest4 to true>>
+
+===
+title: retired_Turtle
+position: 117,399
+---
+George: Goodday, Lume! How goes it?
+George: You've never used fish perfume before this?
+George: It's neat, isn't it! Back when I was a wee lad no bigger than you, we had to use fishing rods! 
+===
