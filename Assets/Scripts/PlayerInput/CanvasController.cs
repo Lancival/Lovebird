@@ -6,8 +6,6 @@ public class CanvasController : MonoBehaviour
     private static CanvasController _instance;
     public static CanvasController instance => _instance;
 
-    [SerializeField] private float duration = 0.5f;
-
     [Header("Canvases")]
         [SerializeField] private Button inventory;
         [SerializeField] private Button questLog;

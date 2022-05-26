@@ -2316,7 +2316,19 @@ MonoBehaviour:
     m_ActionId: 3ce38741-50ff-4af4-87bf-744c65dadf48
     m_ActionName: Movement/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 472720212}
+        m_TargetAssemblyTypeName: PlayerController, PlayerInput
+        m_MethodName: OnSelect
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 62f72934-dc3d-4ce9-8e0e-89677abcfa16
     m_ActionName: Movement/Select[/Keyboard/space]
   - m_PersistentCalls:
@@ -7305,6 +7317,8 @@ GameObject:
   - component: {fileID: 1323296759}
   - component: {fileID: 1323296758}
   - component: {fileID: 1323296757}
+  - component: {fileID: 1323296760}
+  - component: {fileID: 1323296761}
   m_Layer: 0
   m_Name: Honey
   m_TagString: Untagged
@@ -7399,6 +7413,35 @@ Transform:
   m_Father: {fileID: 1130586529}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1323296760
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323296756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.7999999}
+  serializedVersion: 2
+  m_Radius: 2
+--- !u!114 &1323296761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323296756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1bb9d3daafa8d4ba5f57e65efd4ea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startNode: Honey
 --- !u!1 &1341893841
 GameObject:
   m_ObjectHideFlags: 0

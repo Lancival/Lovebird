@@ -31,8 +31,12 @@ public class PlayerController : BirdController
         }
     }
 
-    public void OnSelect()
+    public void OnSelect(InputAction.CallbackContext context)
     {
+        if (context.performed == false)
+        {
+            return;
+        }
         if (interactables.Count > 0)
         {
             float minDistance = 0;
