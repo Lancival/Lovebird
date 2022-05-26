@@ -248,9 +248,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 974990700}
-        m_TargetAssemblyTypeName: soundButton, SettingsAssembly
-        m_MethodName: PlayButtonSound
+      - m_Target: {fileID: 522128430}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -719,7 +719,7 @@ AudioSource:
   m_GameObject: {fileID: 522128429}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2812657496684942654, guid: e36bc89562eee4ec08f8dddd4b7372b5, type: 2}
   m_audioClip: {fileID: 8300000, guid: 852446999faf74b80bc84b3b6295fdd8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -817,8 +817,7 @@ Transform:
   m_LocalPosition: {x: -105.92679, y: -7.5370483, z: 0.1733079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 974990699}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1313,51 +1312,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912764125}
   m_CullTransparentMesh: 1
---- !u!1 &974990698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 974990699}
-  - component: {fileID: 974990700}
-  m_Layer: 0
-  m_Name: SoundButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &974990699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974990698}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 522128431}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &974990700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974990698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90f7f71495c94908b7eca3dd35a2c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonSound: {fileID: 522128430}
 --- !u!1 &1145994689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,9 +1668,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 974990700}
-        m_TargetAssemblyTypeName: soundButton, SettingsAssembly
-        m_MethodName: PlayButtonSound
+      - m_Target: {fileID: 522128430}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2429,9 +2383,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 974990700}
-        m_TargetAssemblyTypeName: soundButton, Assembly-CSharp
-        m_MethodName: PlayButtonSound
+      - m_Target: {fileID: 522128430}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2746,9 +2700,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 974990700}
-        m_TargetAssemblyTypeName: soundButton, SettingsAssembly
-        m_MethodName: PlayButtonSound
+      - m_Target: {fileID: 522128430}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3159,14 +3113,14 @@ PrefabInstance:
     - target: {fileID: 5659245741255176869, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 974990700}
+      objectReference: {fileID: 522128430}
     - target: {fileID: 5659245741255176869, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayButtonSound
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 5659245741255176869, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: soundButton, Settings
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5659245741307178942, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3350,7 +3304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3450,7 +3404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3490,7 +3444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3526,7 +3480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
