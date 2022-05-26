@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8031282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8417187390381783094, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+  m_PrefabInstance: {fileID: 1987452491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8031287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8031282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e76fab67e244dfbb4ef573a7a4c457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &28357494
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,6 +6328,42 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8417187389807648853, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187389807648853, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 8031287}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FinishMeekoQuest, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417187390381783090, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8417187390504041276, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6487,12 +6540,28 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9028073078810440528, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028073078810440528, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9028073078838203983, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9028073078838203983, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028073079100341269, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028073079100341269, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
