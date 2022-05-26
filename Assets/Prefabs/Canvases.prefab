@@ -747,10 +747,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1855785009500983290, guid: 6f9fd49931c364942ae2f5ccbd5162c2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8499631547173764866}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f9fd49931c364942ae2f5ccbd5162c2, type: 3}
 --- !u!114 &8417187390381783090 stripped
@@ -798,10 +794,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5718516025763674118, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718516026317708157, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
-      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5718516026317708157, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
@@ -1067,17 +1059,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b07d104fc50f422886eb39d6c550941, type: 3}
---- !u!114 &8499631547173764866 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 88693815145617908, guid: 0b07d104fc50f422886eb39d6c550941, type: 3}
-  m_PrefabInstance: {fileID: 8417187390513850102}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51dbb29b5d1d44d8c9e003ce1073cebe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &8499631547173764870 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 88693815145617904, guid: 0b07d104fc50f422886eb39d6c550941, type: 3}
