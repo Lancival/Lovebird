@@ -7,11 +7,10 @@ public static class ConditionChecker
 			case ConditionType.Always:
 				return true;
 			case ConditionType.Inventory:
-				Compare(condition.comparison, Inventory.GetQuantity(condition.variable), condition.target);
-				break;
+				return Compare(condition.comparison, Inventory.GetQuantity(condition.variable), condition.target);
 			case ConditionType.Dialogue:
-				// TO DO
-				break;
+				Compare(condition.comparison, Inventory.GetQuantity(condition.variable), condition.target);
+				return false;
 			case ConditionType.Never:
 				return false;
 		}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField] new private Collider2D collider;
+    new private Collider2D collider;
 
     void Awake() => collider = GetComponent<Collider2D>();
 

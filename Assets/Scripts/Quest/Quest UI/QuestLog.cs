@@ -68,7 +68,7 @@ public class QuestLog : MonoBehaviour
 				{
 					entries.Add(Instantiate(questEntryPrefab, content));
 				}
-				entries[usedEntries].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = quest.description;
+				entries[usedEntries++].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = quest.description;
 			}
 		}
 

@@ -77,6 +77,25 @@ public static class QuestManager
         }
     }
 
+    public static void FinishQuest(Quest quest) => quest.Finish();
+    public static void FinishQuest(string questName)
+    {
+        if (allQuests.ContainsKey(questName))
+        {
+            FinishQuest(allQuests[questName]);
+        }
+    }
+
+    public static bool CheckQuest(Quest quest) => quest.IsComplete();
+    public static bool CheckQuest(string questName)
+    {
+        if (allQuests.ContainsKey(questName))
+        {
+            return CheckQuest(allQuests[questName]);
+        }
+        return false;
+    }
+
     // Call QuestLog functions to show, hide, and update the quest log, if it exists
     public static void ShowQuestLog(float duration = 1f) => QuestLog.instance?.ShowQuestLog(duration);
     public static void HideQuestLog(float duration = 1f) => QuestLog.instance?.HideQuestLog(duration);
