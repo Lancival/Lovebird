@@ -86,7 +86,10 @@ public static class QuestManager
         }
     }
 
-    public static bool CheckQuest(Quest quest) => quest.IsComplete();
+    public static bool CheckQuest(Quest quest)
+    {
+        return quests.Contains(quest) && quest.IsComplete();
+    }
     public static bool CheckQuest(string questName)
     {
         if (allQuests.ContainsKey(questName))

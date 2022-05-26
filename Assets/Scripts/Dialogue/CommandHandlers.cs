@@ -14,5 +14,5 @@ public static class CommandHandlers
     [YarnCommand("FinishQuest")]
     public static void FinishQuest(string questName) => QuestManager.FinishQuest(questName);
     [YarnCommand("CheckQuest")]
-    public static void CheckQuest(string questName) => QuestManager.CheckQuest(questName);
+    public static void CheckQuest(string questName, string variableName) => VariableStorage.instance?.SetValue(variableName, QuestManager.CheckQuest(questName));
 }
