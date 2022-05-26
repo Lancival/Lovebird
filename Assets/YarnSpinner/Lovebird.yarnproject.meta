@@ -9,11 +9,36 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
   sourceScripts:
+  - {fileID: 6391573757903218779, guid: 86c3d4eb6298845738b4e89dec9739f6, type: 3}
   - {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
   - {fileID: 6391573757903218779, guid: addec22f52c294553b53bd59f0b4d2e5, type: 3}
   - {fileID: 6391573757903218779, guid: 087f9af63479c427da7c82a7dc8aa644, type: 3}
   compileErrors: []
   serializedDeclarations:
+  - name: $metMeeko
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
+  - name: $meekoQuestFinished
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
+  - name: $meekoQuestRewarded
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
   - name: $metHoney
     typeName: Bool
     defaultValueBool: 0
@@ -46,6 +71,14 @@ ScriptedImporter:
     description: 
     isImplicit: 0
     sourceYarnAsset: {fileID: 6391573757903218779, guid: 087f9af63479c427da7c82a7dc8aa644, type: 3}
+  - name: $metmeeko
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Meeko.yarn, node Meeko, line 4
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
   defaultLanguage: en-US
   languagesToSourceAssets: []
   useAddressableAssets: 0
