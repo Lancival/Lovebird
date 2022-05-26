@@ -7,6 +7,16 @@ public static class CommandHandlers
     public static void AddItem(string itemName, int quantity = 1) => Inventory.Add(itemName, quantity);
     [YarnCommand("AddMoney")]
     public static void AddMoney(int quantity) => Money.AddMoney(quantity);
+    [YarnCommand("UpdateInventory")]
+    public static void UpdateInventory()
+    {
+        VariableStorage.instance?.SetValue("$haveWoodScraps", Inventory.GetQuantity("Wood Scraps") > 0);
+        VariableStorage.instance?.SetValue("$haveTornFabric", Inventory.GetQuantity("Torn Fabric") > 0);
+        VariableStorage.instance?.SetValue("$haveGlassBottles", Inventory.GetQuantity("Glass Bottles") > 0);
+        VariableStorage.instance?.SetValue("$haveLooseThread", Inventory.GetQuantity("Loose Thread") > 0);
+        VariableStorage.instance?.SetValue("$haveLostGem", Inventory.GetQuantity("Lost Gem") > 0);
+        VariableStorage.instance?.SetValue("$haveChomDoll", Inventory.GetQuantity("Chom Doll") > 0);
+    }
 
     // Quests
     [YarnCommand("AddQuest")]

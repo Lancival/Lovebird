@@ -13,6 +13,7 @@ ScriptedImporter:
   - {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
   - {fileID: 6391573757903218779, guid: 263fb2b76dd8f49b6b533022d89c908e, type: 3}
   - {fileID: 6391573757903218779, guid: addec22f52c294553b53bd59f0b4d2e5, type: 3}
+  - {fileID: 6391573757903218779, guid: 4ef4c337a088643a2ba39f71dfda7e09, type: 3}
   - {fileID: 6391573757903218779, guid: 087f9af63479c427da7c82a7dc8aa644, type: 3}
   compileErrors: []
   serializedDeclarations:
@@ -48,6 +49,14 @@ ScriptedImporter:
     description: 
     isImplicit: 0
     sourceYarnAsset: {fileID: 6391573757903218779, guid: 77d34c129959d4d7789cda22e56cf0b3, type: 3}
+  - name: $metChomChom
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 263fb2b76dd8f49b6b533022d89c908e, type: 3}
   - name: $metHoney
     typeName: Bool
     defaultValueBool: 0
