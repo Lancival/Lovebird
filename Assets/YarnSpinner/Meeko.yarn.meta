@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 77d34c129959d4d7789cda22e56cf0b3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  LastImportHadImplicitStringIDs: 0
+  LastImportHadAnyStrings: 0
+  isSuccessfullyParsed: 0
+  parseErrorMessages:
+  - "Assets/YarnSpinner/questtwo.yarn: 4:5: Error: Unexpected \"f\" while reading
+    a line condition\nIf <<fe_NPC2==true>>\n     ^\n"
+  - "Assets/YarnSpinner/questtwo.yarn: 8:2: Error: Unexpected \"endif\" while reading
+    a statement\n<<endif>>\n  ^^^^^\n"
+  - "Assets/YarnSpinner/questtwo.yarn: 9:5: Error: Unexpected \"f\" while reading
+    a line condition\nIf <<fe_NPC3==true && questTwoFin==true>>\n     ^\n"
+  - "Assets/YarnSpinner/questtwo.yarn: 18:2: Error: Unexpected \"endif\" while reading
+    a statement\n<<endif>>\n  ^^^^^\n"

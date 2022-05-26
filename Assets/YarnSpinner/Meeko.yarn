@@ -1,0 +1,73 @@
+title: Meeko
+---
+<<declare $metMeeko = false as bool>>
+<<declare $meekoQuestFinished = false as bool>>
+<<declare $meekoQuestRewarded = false as bool>>
+
+<<if $metmeeko == false>>
+    <<jump MeekoFirstMeeting>>
+<<elseif $meekoQuestFinished == false>>
+    Meeko: What are you waiting for? Go out and explore!
+    Meeko: Adventure is waiting!
+<<elseif $meekoQuestRewarded == false>>
+    Meeko: Have you visited any new islands yet?
+    Lume: :)
+    Meeko: Amazing! I knew you could do it.
+    Meeko: Soon, you’ll see just how welcoming and bountiful our community is.
+    Meeko: Here, take this feather. This is my good luck charm, and I want you to have it for your journey here.
+
+    <<AddItem "Lucky Feather">>
+    <<set $meekoQuestRewarded = true>>
+
+    Meeko: Good luck on your adventures here!
+<<else>>
+    Meeko: Good luck on your adventures here!
+<<endif>>
+
+===
+
+title: MeekoFirstMeeting
+---
+<<set $metMeeko = true>>
+
+Meeko: Howdy! You must be our new neighbor. Mushram told me all about you.
+Meeko: Welcome to our quaint little island! I'm Meeko.
+Meeko: We haven't had a new person moving in for a long time. I must ask, what brings you here?
+ ->I want to forget the past.
+    Meeko: I'm sorry to hear that you haven't had the most ideal past, but this is a great area for new beginnings.
+    Meeko: Before I moved here, I had these huge dreams. I wanted to explore and learn about everything in this world… but no one believed in me. Eventually, I started doubting myself.
+    Meeko: Coming here though, I'm finally able to see a future for myself doing what I love.
+ ->I want to make friends.
+    Meeko: Then this area will be perfect for you!
+    Meeko: We operate our island cluster with the principle that everyone helps everyone.
+    Meeko: To settle in, get to know our residents and see if they have any tasks you can help out with!
+    Meeko: Plus, we can be friends!
+
+Meeko: I hope you can achieve your greatest hopes here, I know you can do it!
+Meeko: Silly me, I'm asking all about you when I haven't even introduced myself properly.
+Meeko: I moved in here only two years ago, and I have fallen in love with the diversity of our residents and the lushness of our environments.
+Meeko: I study ocean life, so living in an area with such flourishing aquatic life is important to me.
+Meeko: My research primarily deals with whales. I LOVE them.
+Meeko: Did you know that they can weigh as much as 24 elephants? That's more than 330,000 pounds!
+Meeko: They're also highly social creatures! I could go on forever.
+Meeko: I'd love to learn more about their migratory patterns, but it's hard to track where they go when I'm on this island all of the time.
+Meeko: I wish I were like you. You have beautiful wings that can take you anywhere! You can fly right above the whales as they swim.
+Meeko: I may have wings, but they’re purely cosmetic – I’ve never flown in my entire life.
+Meeko: I’ve practiced flying for weeks, but I still can’t figure out why my wings won’t work.
+Meeko: If I ever get this thing built, we should fly together. You could show me the ropes?
+Lume: :)
+Meeko: I am looking forward to that day!
+Meeko: Since this is the first time I've seen you, you must have just settled in. Have you met anyone from any of our other islands yet?
+Lume: ...
+Meeko: Well then, let's get you situated! 
+Meeko: You should have received a map when you moved here. You can see which island is which through there.
+Meeko: Since you're a bird, you should be able to fly to where you want to go through the map, then drop down.
+
+<<AddQuest "Meeko's Quest">>
+
+Meeko: Feel free to try it after our conversation. Explore to your wildest imagination!
+Meeko: I bet everyone is ecstatic to meet you.
+Meeko: I should also mention that the whales are migrating at this time of year.
+Meeko: They’re set to reach Atlantic Cove next! Maybe you could visit there if you’re unsure of where to go?
+Meeko: Anyway, I should get back to working on my flying project. 
+===
