@@ -1,0 +1,22 @@
+title: ChomChom
+---
+<<declare $metChomChom = false as bool>>
+
+Chom Chom: Welcome to the greatest shop of all the islands, where we offer the juiciest deals and first-rate goods!
+
+<<if $metChomChom == false>>
+    <<set $metChomChom = true>>
+
+    Chom Chom: Hello, I am Chom Chom. Tell me, what item here suits your needs?
+    Lume: …
+    Chom Chom: Not sure? Here is our catalog – you won’t find better prices than the ones I’m offering!
+    Chom Chom: Buy whatever you’d like! Seriously, I would really like some sand dollars…
+    Chom Chom: I only made 15 sand dollars from cleaning Meeko’s wings, and now I keep finding feathers everywhere.
+    Chom Chom: Whether you want to grow crops on your farm or decorate your house, I have it all!
+    Chom Chom: Well, maybe not ALL, but I have everything you’ll need, probably.
+    Chom Chom: Feel free to browse and of course, buy!
+<<endif>>
+
+<<OpenShop>>
+===
+

@@ -15,4 +15,7 @@ public static class CommandHandlers
     public static void FinishQuest(string questName) => QuestManager.FinishQuest(questName);
     [YarnCommand("CheckQuest")]
     public static void CheckQuest(string questName, string variableName) => VariableStorage.instance?.SetValue(variableName, QuestManager.CheckQuest(questName));
+
+    [YarnCommand("OpenShop")]
+    public static void OpenShop() => CanvasController.OpenTrade();
 }
