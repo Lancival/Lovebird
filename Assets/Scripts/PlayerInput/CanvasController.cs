@@ -8,6 +8,7 @@ public class CanvasController : MonoBehaviour
 
     [Header("Canvases")]
         [SerializeField] private FadeCanvasGroup trade;
+        [SerializeField] private Button tradeButton;
         [SerializeField] private Button inventory;
         [SerializeField] private Button questLog;
         [SerializeField] private Button map;
@@ -19,10 +20,11 @@ public class CanvasController : MonoBehaviour
 
     public static void OpenTrade()
     {
-        _instance?.trade?.FadeIn();
+        _instance?.trade?.FadeIn(0.5f);
         CanvasGroup canvasGroup = _instance?.trade?.gameObject.GetComponent<CanvasGroup>();
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
+        _instance?.tradeButton?.onClick?.Invoke();
     }
     public static void OpenInventory() => _instance?.inventory?.onClick?.Invoke();
     public static void OpenQuestLog() => _instance?.questLog?.onClick?.Invoke();

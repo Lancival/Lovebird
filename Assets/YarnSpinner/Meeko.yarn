@@ -4,12 +4,12 @@ title: Meeko
 <<declare $meekoQuestFinished = false as bool>>
 <<declare $meekoQuestRewarded = false as bool>>
 
-<<if $metmeeko == false>>
+<<if $metmeeko is false>>
     <<jump MeekoFirstMeeting>>
-<<elseif $meekoQuestFinished == false>>
+<<elseif $meekoQuestFinished is false>>
     Meeko: What are you waiting for? Go out and explore!
     Meeko: Adventure is waiting!
-<<elseif $meekoQuestRewarded == false>>
+<<elseif $meekoQuestRewarded is false>>
     Meeko: Have you visited any new islands yet?
     Lume: :)
     Meeko: Amazing! I knew you could do it.
@@ -17,7 +17,7 @@ title: Meeko
     Meeko: Here, take this feather. This is my good luck charm, and I want you to have it for your journey here.
 
     <<AddItem "Lucky Feather">>
-    <<set $meekoQuestRewarded = true>>
+    <<set $meekoQuestRewarded to true>>
 
     Meeko: Good luck on your adventures here!
 <<else>>
@@ -28,7 +28,7 @@ title: Meeko
 
 title: MeekoFirstMeeting
 ---
-<<set $metMeeko = true>>
+<<set $metMeeko to true>>
 
 Meeko: Howdy! You must be our new neighbor. Mushram told me all about you.
 Meeko: Welcome to our quaint little island! I'm Meeko.

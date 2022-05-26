@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trade: {fileID: 9028073077628033159}
+  tradeButton: {fileID: 9028073077538771889}
   inventory: {fileID: 8417187390530404434}
   questLog: {fileID: 4292945648585591750}
   map: {fileID: 8417187390381783090}
@@ -624,6 +625,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab653a276194b48ea980f4e1fcc4bbce, type: 3}
+--- !u!114 &9028073077538771889 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2504999721056548147, guid: ab653a276194b48ea980f4e1fcc4bbce, type: 3}
+  m_PrefabInstance: {fileID: 6884213107807250050}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &9028073077628033156 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2504999721168879110, guid: ab653a276194b48ea980f4e1fcc4bbce, type: 3}
