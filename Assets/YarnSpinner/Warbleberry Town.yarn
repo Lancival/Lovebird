@@ -2,10 +2,13 @@
 ---
 <<declare $metHoney = false as bool>>
 <<declare $honeyQuestFinished = false as bool>>
+<<declare $honeyQuestCheck = false as bool>>
+
+<<CheckQuest "Honey's Quest" $honeyQuestCheck>>
 
 <<if $metHoney == false>>
     <<jump HoneyFirstMeeting>>
-<<elseif $honeyQuestFinished == false && CheckQuest("Honey's Quest") == false>>
+<<elseif $honeyQuestFinished == false && $honeyQuestCheck == false>>
     Honey: I can’t wait to make my kids scrumptious fruit pastries! #line:0ab3bc7 
 <<elseif $honeyQuestFinished == false>>
     <<jump HoneyQuestFinish>>
@@ -47,6 +50,9 @@ Lume: :) #line:09c6717
 Honey: You would do it for me? #line:0496a96 
 Honey: I would be so grateful! #line:00ae3db 
 Honey: Muffin is working so hard at his apprenticeship, and this would bring them so much joy! #line:05567ce 
+
+<<AddMoney 6>>
+
 Honey: I don't have any sugarfly seeds on me, but here are some sand dollars. #line:0fe1f19 
 Honey: You can buy seeds from the shopkeeper; this should be enough to cover the cost. #line:0d9ba95 
 Honey: I'll need two sugarflies to bake the pastries. #line:030ab36 
@@ -56,6 +62,7 @@ title: HoneyQuestFinish
 ---
 <<set $honeyQuestFinished = true>>
 <<FinishQuest "Honey's Quest">>
+<<AddItem "Sugarfly" -2>>
 
 Honey: Golly! My kids will be oh so grateful. #line:05e3bfb 
 Honey: Thank you Lume.  #line:0e8ea02 
@@ -64,8 +71,8 @@ Honey: How can I possibly repay you? #line:0f36d81
 Honey: Here are a few sand dollars, my treat. #line:013ee1b 
 Honey: You can also have this feather I found in my garden. #line:0fbd408 
 
-<<AddItem("Wonder Feather")>>
-<<AddMoney(10)>>
+<<AddItem "Wonder Feather">>
+<<AddMoney 10>>
 
 Honey: It’s pretty and reminded me of you! #line:06b0a5a 
 Honey: I better get baking, so I will see you around. #line:0f61bd0 

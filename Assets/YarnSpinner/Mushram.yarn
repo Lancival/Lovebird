@@ -1,0 +1,29 @@
+title: Mushram
+position: -293,-572
+---
+<<declare $metMushram = false as bool>>
+
+<<if $metMushram == false>>
+    <<set $metMushram = true>>
+
+    Mushram: Greetings and salutations! I heard someone new was moving in, that must be you.
+    Mushram: Welcome to Viridia; here, you'll find lush environments, a close knit community, and me!
+    Mushram: I'm getting ahead of myself though, what's your name?
+    Lume: Lume.
+    Mushram: Nice to meet you, I'm Mushram. I founded this community many years ago, and I'm so happy it's grown to where it is now.
+    Mushram: We haven't had a new resident in years, but we hope you'll one day regard our little town home.
+    Mushram: In fact, I got you a little something! I hope it will kickstart a positive stay here.
+
+    <<AddItem "Warbleberry Seed">>
+
+    Mushram: Here is a warbleberry seed. You can learn how to plant it from Honey in Warbleberry Town.
+    Lume: ...
+    Mushram: Not much of a talker, huh?
+    Mushram: Anyway, you should get out of your shell more!
+    Mushram: You should meet Meeko. I heard they need some help with studying aquatic life.
+    Mushram: They have big dreams, you'd love them.
+<<endif>>
+
+Mushram: Good luck, and safe travels!
+===
+

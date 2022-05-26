@@ -127,7 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df148a71f50ce495d9e184d3fcd335a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 0.5
   inventory: {fileID: 8417187390530404434}
   questLog: {fileID: 4292945648585591750}
   map: {fileID: 8417187390381783090}
