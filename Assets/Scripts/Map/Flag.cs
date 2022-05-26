@@ -25,6 +25,11 @@ public class Flag : MonoBehaviour
         col = GetComponent<CircleCollider2D>();
         fader = GetComponent<SpriteCrossFade>();
         sceneName = this.name.Substring(0, this.name.Length - 5);
+
+        if (MapStart.sceneName + " Flag" == this.name)
+        {
+            GameObject.Find("Player").transform.position = this.transform.position;
+        }
     }
 
     void Start() => fader.sprite = flagRegular;
