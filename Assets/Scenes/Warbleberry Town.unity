@@ -6172,6 +6172,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 142.49025
       objectReference: {fileID: 0}
+    - target: {fileID: 2950371213528651685, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2950371213744558379, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -6207,6 +6211,10 @@ PrefabInstance:
     - target: {fileID: 2950371213909002203, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 142.49025
+      objectReference: {fileID: 0}
+    - target: {fileID: 2950371213909002203, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2950371213935850162, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6300,6 +6308,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 142.49025
       objectReference: {fileID: 0}
+    - target: {fileID: 2950371214550180018, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2950371214671395680, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -6331,6 +6343,10 @@ PrefabInstance:
     - target: {fileID: 2950371214715304359, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 142.49025
+      objectReference: {fileID: 0}
+    - target: {fileID: 2950371214715304359, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2950371214789181821, guid: 395c760c70d654666b0802d62cde5e24, type: 3}
       propertyPath: m_AnchorMax.x
