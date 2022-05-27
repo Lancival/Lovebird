@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Fish Perfume
   m_EditorClassIdentifier: 
   _description: All-natural fish pheromones, 100% attraction rate guaranteed! 5 uses.
-  _tags: []
-  _sprite: {fileID: 1206030308, guid: 034e0b55aecc94d5a8cf9e5c29f390ad, type: 3}
+  _tags:
+  - Fishy
+  _sprite: {fileID: -1350400647, guid: 034e0b55aecc94d5a8cf9e5c29f390ad, type: 3}
   _price: 5

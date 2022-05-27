@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description: 'This fish is always changing colors. Well, unless it''s dead.   '
   _tags:
-  - Fish
+  - Fishy
   _sprite: {fileID: 640293102, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
   _price: 6

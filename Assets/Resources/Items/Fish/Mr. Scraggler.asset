@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description: 'He offers fruits to try to make friends. So far, it hasn''t worked.   '
   _tags:
-  - Fish
+  - Fishy
   _sprite: {fileID: -1749232066, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
   _price: 10

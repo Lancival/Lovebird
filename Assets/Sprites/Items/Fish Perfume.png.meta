@@ -116,64 +116,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clasp
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 35
-        width: 118
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15063d5dd536b44b3ba4f5699813d404
-      internalID: -12434722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chain
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 2
-        width: 197
-        height: 188
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eba1b20765a24be998eafb2fef997ad
-      internalID: -2129453494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Fish Perfume
       rect:
         serializedVersion: 2
-        x: 444
-        y: 16
-        width: 103
-        height: 170
+        x: 400
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ab8d2ec6dd143198c42baf8e38470b
-      internalID: 1206030308
+      spriteID: fced943e13b064ba8bbfecf03f23768f
+      internalID: -1350400647
       vertices: []
       indices: 
       edges: []
@@ -189,9 +147,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Clasp: -12434722
-      Chain: -2129453494
-      Fish Perfume: 1206030308
+      misc_1: -184858901
+      Fish Perfume: -1350400647
+      misc_0: -1794270009
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

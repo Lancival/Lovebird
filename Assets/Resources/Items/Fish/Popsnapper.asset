@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description: 'These guys scare off predators with their smelly stench!   '
   _tags:
-  - Fish
+  - Fishy
   _sprite: {fileID: -1566497333, guid: e1dbd5bd658b64f38abee2e92ce09344, type: 3}
   _price: 2
