@@ -30,5 +30,5 @@ public class CanvasController : MonoBehaviour
     public static void OpenQuestLog() => _instance?.questLog?.onClick?.Invoke();
     public static void OpenSettings() => _instance?.settings?.onClick?.Invoke();
     public static void ContinueDialogue() => _instance?.dialogue?.OnContinueClicked();
-    public static void OpenMap() => SceneLoader.instance?.LoadScene("Map");
+    public static void OpenMap() => _instance?.map?.onClick?.Invoke();
 }
