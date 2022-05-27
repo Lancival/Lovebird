@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 39055090}
   - component: {fileID: 39055089}
   m_Layer: 0
-  m_Name: Geoge's Point Flag
+  m_Name: George's Point Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,7 +305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c497053af30a34846be21fd155a6618e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unlocked: 0
   cloudsUncovered: {fileID: 21300000, guid: fc8878f3402ec442693d6360827e4bcb, type: 3}
   flag: {fileID: 1636756019}
   clouds: {fileID: 379806846}
