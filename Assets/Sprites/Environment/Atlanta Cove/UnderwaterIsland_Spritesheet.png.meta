@@ -140,10 +140,10 @@ TextureImporter:
       name: Shell 2
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1565
-        width: 116
-        height: 70
+        x: 1921
+        y: 1566
+        width: 90
+        height: 69
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
