@@ -18,28 +18,41 @@ title: Weed
 title: Turtle
 ---
 <<declare $metTurtle = false as bool>>
+<<declare $gotPerfumeHint = false as bool>> 
+
+<<declare $has_fishperfume = false as bool>>
+<<declare $num_Serafish = 0 as int>>
+<<declare $num_Cheddarfin = 0 as int>>
+<<declare $num_Flutterfly = 0 as int>>
+<<declare $num_Popsnapper = 0 as int>>
+<<declare $num_Spaddlehorn = 0 as int>>
+<<declare $num_Puffacarp = 0 as int>>
+<<declare $num_Mr.Scraggles = 0 as int>>
+
+<<UpdateInventory>>
 
 <<if $metTurtle is false>>
     <<jump TurtleFirstMeeting>>
-<<elseif $has_fishingrod == false>>
-    <<if $fe_turtle2 == false>>
-        <<jump Turtle2>>
+    
+<<elseif $has_fishperfume == false>>
+    <<if $gotPerfumeHint == false>>
+        <<jump FishPerfumeHint>>
     <<else>>
-        <<jump Turtle2_short>>
+        <<jump FishPerfumeHint_short>>
     <<endif>>
 
-<<elseif $has_allfish == false>>
-    <<if $fe_turtle3 == false>>
-        <<jump Turtle3>>
+<<elseif $num_Popsnapper < 2 or $num_Cheddarfin < 2 or $num_Flutterfly < 1>>
+    <<if $hasDisappointedGeorge == false>>
+        <<jump NotEnoughFish>>
     <<else>>
-        <<jump Turtle3_short>>
+        <<jump NotEnoughFish_short>>
     <<endif>>
 
-<<elseif $complete_quest4 == false>>
-    <<jump Turtle4>>
+<<elseif $num_Popsnapper >= 2 or $num_Cheddarfin >= 2 or $num_Flutterfly >= 1>>
+    <<jump Quest4Complete>>
 
 <<else>>
-    <<jump retired_Turtle>>
+    <<jump postQuestDialogue>>
 
 <<endif>>
 
@@ -77,7 +90,7 @@ George: Let me know if you need any fishing tips, just come to this same place. 
 <<set $metTurtle to true>>
 ===
 
-title: Turtle2
+title: FishPerfumeHint
 position: -77,265
 ---
 George: Goodday, Lume! How goes the fishing?
@@ -85,16 +98,16 @@ George: ... Ah, you don't know where to start.
 George: If he's still around, the shopkeeper at VIRIDIA sells good quality FISH PERFUME.
 George: His name is CHOM-CHOM.
 George: While you're at it, could you send him my regards? We go a long ways back. He is a dear friend.
-<<set $fe_turtle2 to true>>
+<<set $gotPerfumeHint to true>>
 ===
 
-title: Turtle2_short
+title: FishPerfumeHint_short
 position: -105,223
 ---
 George: I wonder how CHOM-CHOM is doing in VIRIDIA...
 ===
 
-title: Turtle3
+title: NotEnoughFish
 position: 335,255
 ---
 George: Mm...sashimi...
@@ -106,16 +119,16 @@ George: So sorry to bother you with an old man's cravings, but could you come ba
 George: Don't worry about hurrying, hunger makes the best spice!
 George: HA HA *gurgle* HA!!
 George: ...
-<<set $fe_turtle3 to true>>
+<<set $hasDisappointedGeorge to true>>
 ===
 
-title: Turtle3_short
+title: NotEnoughFish_short
 position: 370,198
 ---
 George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY...
 ===
 
-title: Turtle4
+title: Quest4Complete
 position: 69,325
 ---
 George: *gurgle gurgle gurgle*
@@ -126,6 +139,11 @@ George: Oh my goodness! Is that really the fish I asked you for?
 George: GOBBLE GOBBLE GOBBLE
 George: MUNCH MUNCH MUNCH
 George: CHOMP CHOMP CHOMP
+
+<<AddItem "Popsnapper" -2>>
+<<AddItem "Cheddarfin" -2>>
+<<AddItem "Flutterfly" -1>>
+
 George: ... *BURP*
 George: Ah...
 George: That was a lovely meal, Lume. Thank you so much. 
@@ -133,24 +151,25 @@ George: How could I ever repay you?
 George: ...
 George: Oh, were you interested in exploring the other islands?
 George: It is definitely a bit of a challenge to get to ATLANTA COVE...That is an island located underwater.
-George: ...
-George: HA HA HA! How is it an island if it is underwater?
+George: How is it an island if it is underwater?
 George: Beats me!
 George: But I could show you the way, if you'd like.
-George: Take this little friend, he will guide you. 
+George: You do know the legend, right? Help a turtle, and it will take you the brilliant palace of the dragon king!
+George: HA HA HA!
+George: Not that there is a dragon king there, but it is quite a nice neighborhood.
 George: I hope for you to find whatever it is you are looking for on your travels.
 George: Don't be afraid to visit this old chap if you are ever in need of a listening ear.
+George: Oh, and a gift. I hope you like it.
 
-You have received Guide Turtle!
-... You notice something in his mouth.
-It's a Magical Feather!
-<<set $complete_quest4 to true>>
+<<AddItem "Exploration Feather">>
+<<Unlock Atlanta Cove>>
+<<Transport Atlanta Cove>>
 
 ===
-title: retired_Turtle
+title: postQuestDialogue
 position: 117,399
 ---
 George: Goodday, Lume! How goes it?
 George: You've never used fish perfume before this?
-George: It's neat, isn't it! Back when I was a wee lad no bigger than you, we had to use fishing rods! 
+George: It's neat, isn't it? Back when I was a wee lad no bigger than you, we had to use fishing rods! 
 ===
