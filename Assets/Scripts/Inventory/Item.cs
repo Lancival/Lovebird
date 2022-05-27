@@ -28,6 +28,7 @@ public class Item : ScriptableObject
     public bool HasTag(string tag) => tags.Contains(tag);
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(Item))]
 public class ItemEditor : Editor
 {
@@ -54,3 +55,4 @@ public class ItemEditor : Editor
         }
     }
 }
+#endif
