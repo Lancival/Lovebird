@@ -18,7 +18,7 @@ MonoBehaviour:
     Bags, Wood Planks, and Cans."
   _hidden: 0
   _condition:
-    _type: 0
+    _type: 3
     _variable: 
     _comparison: 0
     _target: 0
