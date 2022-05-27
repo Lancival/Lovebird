@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Meeko's Quest
   m_EditorClassIdentifier: 
   _questName: Meeko's Quest
-  _description: With Meeko's encouragement, you are ready to start exploring! Press
-    'TAB' to access the MAP and visit neighboring islands!
+  _description: "With Meeko's encouragement, you are ready to start exploring! \nPress
+    'TAB' to access the MAP and visit neighboring islands!"
   _hidden: 0
   _condition:
     _type: 3

@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Honey's Quest
   m_EditorClassIdentifier: 
   _questName: Honey's Quest
-  _description: Give Honey two sugarflies.
+  _description: 'To prepare tarts for her son Barley, Honey will need two SUGARFLYs.
+
+    The
+    shop on VIRIDIA ISLAND should have a variety of seeds for sale!'
   _hidden: 0
   _condition:
     _type: 2

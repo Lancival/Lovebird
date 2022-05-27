@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2a6ce5a00dfa4cf9a72283c1997d57e, type: 3}
-  m_Name: Quest 5
+  m_Name: Mushram's Quest
   m_EditorClassIdentifier: 
-  _questName: Quest 5
-  _description: 
+  _questName: Mushram's Quest
+  _description: "You received a housewarming gift from Mushram! \nPress 'E' to access
+    your INVENTORY and see what it is."
   _hidden: 0
   _condition:
     _type: 0

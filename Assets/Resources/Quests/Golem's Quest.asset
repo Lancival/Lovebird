@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2a6ce5a00dfa4cf9a72283c1997d57e, type: 3}
-  m_Name: Quest 1
+  m_Name: Golem's Quest
   m_EditorClassIdentifier: 
-  _questName: Quest 1
-  _description: 
+  _questName: Golem's Quest
+  _description: "Let\u2019s help Golem tidy up some trash! \nPick up at least one
+    of each of the following: LOOSE THREAD, GLASS BOTTLES, TORN FABRIC, TRASH BAGS,
+    WOOD PLANKS, and CANS."
   _hidden: 0
   _condition:
     _type: 0
