@@ -6,7 +6,7 @@ public class Interactable : MonoBehaviour
 {
     new private Collider2D collider;
 
-    void Awake() => collider = GetComponent<Collider2D>();
+    protected void Awake() => collider = GetComponent<Collider2D>();
 
     void OnTriggerEnter2D(Collider2D other)
     {

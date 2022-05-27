@@ -8,7 +8,7 @@ public class DialogueInteractable : Interactable
 
     [SerializeField] private string startNode = "Start";
     
-    public void Awake() => dialogueRunner = FindObjectOfType<DialogueRunner>();
+    new void Awake() => dialogueRunner = FindObjectOfType<DialogueRunner>();
 
     public override void Interact()
     {

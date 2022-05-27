@@ -1071,7 +1071,6 @@ GameObject:
   - component: {fileID: 875481967}
   - component: {fileID: 875481969}
   - component: {fileID: 875481968}
-  - component: {fileID: 875481970}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1141,18 +1140,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875481966}
   m_CullTransparentMesh: 1
---- !u!114 &875481970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875481966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be76f84ebd72a4dcb803dcd975151472, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &912764125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,7 +1916,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694717059}
-  - component: {fileID: 1694717058}
   - component: {fileID: 1694717061}
   - component: {fileID: 1694717060}
   m_Layer: 0
@@ -1939,18 +1925,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1694717058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694717057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be76f84ebd72a4dcb803dcd975151472, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1694717059
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3118,7 +3092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3214,7 +3188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3254,7 +3228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3290,7 +3264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3300,7 +3274,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5659245742564062116, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
 --- !u!82 &7650506238223722840
 AudioSource:
