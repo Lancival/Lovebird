@@ -1,0 +1,158 @@
+title: Castle_Entrance
+position: 116,-131
+---
+!!!
+Guide Turtle: Burble ... bluuuble! BLURB BLORB!
+Guide Turtle: (And... we're here! ATLANTA COVE!)
+It's a fantastic building... what majestic creature must live here?
+
+===
+
+title: Seahorse
+position: 112,-79
+---
+<<if $quest6_complete is true>>
+    <<jump Seahorse_idle>>
+<<elseif $rejected_seahorse is true>>
+    <<jump Seahorse_rejected>>
+<<elseif $items_complete is true>>
+    <<jump Seahorse_END>>
+<<elseif $quest6 is true>>
+    <<jump Seahorse_delayed>>
+<<elseif $e_seahorse == 0>>
+    <<jump Seahorse1>>
+<<elseif $e_seahorse > 0>>
+        <<jump Seahorse2>>
+<<endif>>
+===
+
+title: Seahorse1
+position: 109,-8
+---
+    quest6_npc: Ah... what to do, what to do... 
+    Lume: ...
+    quest6_npc: Oh, my! Pardon me, I did not see you there!
+    quest6_npc: I am the owner of this house. How can I help you?
+    quest6_npc: ...
+    quest6_npc: FANTASTIC??? You flatter me, I'm so pleased! 
+    quest6_npc: I do agree that this finish was beyond my expectations! The exterior is so smooth it makes my heart race.
+    quest6_npc: And! I am quite fond especially of my coral, I tried to play with the fenestration of the building, what do you think? 
+    quest6_npc: Instead of just windows and doors, the open space left by the jagged coral for my fishy friends... I love how natural it feels...
+    quest6_npc: Ah! Sorry to jabber on so long. Actually, I'm just so happy you like it because this thing took me quite a while to complete.... 
+    quest6_npc: Like "5 years" a while... 
+    quest6_npc: I kept my husband waiting for so long... He's been so temperamental lately...
+    quest6_npc: Ah, that's right... What to do, what to do...
+    Lume: ...
+    Seems like she's worrying about something.
+    <<set $e_seahorse to $e_seahorse + 1>>
+===
+
+title: Seahorse2
+position: 330,-40
+---
+    quest6_npc: .... Maybe from there, I hear it's popular these days? 
+    quest6_npc: Oh! But oh no no, was he allergic? Was he? Oh no... how do I not know this...
+    quest6_npc: !
+    quest6_npc: Oh dear, oh dear, I'm sorry. My mind tends to wander. 
+    quest6_npc: I remember now, you must be the new resident of VIRIDIA that everyone has been talking about! You have been getting around quite well! If I recall, Lume?
+    quest6_npc: I'm MAGU. It's so nice to meet you. I'm sorry for getting off track there.
+    <<set $quest6_npc to "MAGU">>
+    quest6_npc: I'm so glad you like the home. 
+    quest6_npc: I've just been a little worried these days because I feel I'd been neglecting my husband.
+    quest6_npc: He's just so good to me, all those sleepless nights... and supporting me all through that incident with the sandstone - oh what was I thinking, 500 pounds...
+    quest6_npc: ... and that...
+    quest6_npc: ... and can't forget about what happened then... 
+    quest6_npc: And... !!!
+    quest6_npc: Anyhow, I'm in a bit of a marital pickle.
+    quest6_npc: I want to do something for him. To apologize, but also to thank him...
+    quest6_npc: But I was never good at these romantic gestures.
+    quest6_npc: Oh, what did he see in a workaholic like me...
+    quest6_npc: I'm embarrassed to ask someone whom I've just met, but... I just have too many things to prepare. 
+    quest6_npc: Could you just help me out with a few tasks? I promise I will make it worth your time!!!
+        -> No
+            <<jump Seahorse3>>
+        -> Yes
+            <<jump Seahorse4>>
+===
+
+title: Seahorse3
+position: 328,102
+---
+quest6_npc: Ah, I see, you've just moved in so of course you're busy...
+quest6_npc: Please, don't worry about me and go on with your day.
+quest6_npc: But if you have any time to spare later on, it will be quite a while until I finish, and I would appreciate your help...
+quest6_npc: Now where should I make reservations... 
+<<set $rejected_seahorse to true>>
+===
+
+title: Seahorse4
+position: 104,147
+---
+quest6_npc: Really? You are willing to help?
+quest6_npc: You are an absolute lifesaver, Lume! My dear loves shiny, polished things. I was thinking perhaps a pendant or a necklace?
+quest6_npc: Do you think you could get one for me somewhere?
+<<set $rejected_seahorse to false>>
+<<set $quest6 to true>>
+===
+
+title: Seahorse_rejected
+position: -120,-14
+---
+quest6_npc: Oh! Sea foam, he loves it!... Should I construct a sea foam pool?! Oh but no, that would take another four months...
+Would you like to offer help?
+    ->Yes
+        <<jump Seahorse4>>
+    ->No
+        You decided to continue going along your day.
+===
+
+title: Seahorse_delayed
+position: 236,198
+---
+quest6_npc: Hello, dear! I hope it hasn't been too much trouble finding something.
+quest6_npc: These days, CHOM-CHOM's selection is just too lacking! I may have to trouble you to ask around some other folks on other islands...
+quest6_npc: It could be fruitful to check THE JUNKYARD, perhaps? I heard that golem LUMPERS has become more talkative recently and he's picked up a skill, I’m so glad for that fellow. 
+
+===
+
+title: Seahorse_END
+position: 82,82.5
+---
+quest6_npc: Oh my goodness... it just doesn't seem complete... What am I missing...?
+quest6_npc: ...
+quest6_npc: !!! Lume!
+quest6_npc: Oh, is that the pendant I asked for?
+quest6_npc: ...
+quest6_npc: Ah, this is just perfect! It is just what I imagined!
+quest6_npc: I can't thank you enough, Lume. Please, accept this for all your hard work.
+quest6_npc: Oh my oh my, I can't wait to see his face when I get this to him!
+quest6_npc: I must go at once to get everything ready now that I have this cherry on top.
+quest6_npc: Lume, please visit again sometime soon. 
+quest6_npc: Oh, and here are the rewards I promised you! I threw in a little something because it reminded me of you. I like to collect nature items for inspiration.
+quest6_npc: Maybe my next project will be sky-themed...
+You received 10 Sand Dollars!
+You received a Magical Feather!
+===
+
+title: Seahorse_idle
+position: 82,82.5
+---
+quest6_npc: I would love for you to join us at my housewarming party next week, Lume!
+quest6_npc: That reminds me... you just moved in as well. Will you be having one too?
+quest6_npc: Who will be going? I'm sure it'd be fun because you are there, Lume.
+quest6_npc: ... Oh, not that I'm trying to invite myself to your party! Of course you must have met many friends in your travels, I would completely understand if your guest list was too full... 
+quest6_npc: Ha ha...
+===
+
+title: Pendant
+position: 0,0.5
+---
+Golem: Hi, Teacher.
+Golem: ... May I call you that? 
+Golem: ... You are looking for something? Materials for a necklace?
+Golem: ... 
+Golem: ... You can find some LOOSE THREAD on this island. The string might come in handy.
+Golem: As for shiny... I've seen a few shiny rocks here and there... pretty tear shaped rocks. Like LOST AMULETS? Maybe those would work?
+Golem: ... I hope I was of some help to you...
+
+===
