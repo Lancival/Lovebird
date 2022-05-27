@@ -2850,6 +2850,7 @@ GameObject:
   - component: {fileID: 1176995343}
   - component: {fileID: 1176995342}
   - component: {fileID: 1176995344}
+  - component: {fileID: 1176995346}
   - component: {fileID: 1176995345}
   m_Layer: 0
   m_Name: Lumpers
@@ -2945,8 +2946,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!60 &1176995345
-PolygonCollider2D:
+--- !u!114 &1176995345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176995341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1bb9d3daafa8d4ba5f57e65efd4ea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startNode: Lumpers
+--- !u!58 &1176995346
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2955,56 +2969,12 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.23}
-    oldSize: {x: 2.4, y: 2.4}
-    newSize: {x: 2.4, y: 2.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.45, y: 0.13800003}
-      - {x: 0.61, y: 0.33800003}
-      - {x: 0.65, y: 0.40800002}
-      - {x: 0.65, y: 0.848}
-      - {x: 0.64, y: 0.968}
-      - {x: 0.56, y: 1.088}
-      - {x: 0.48999998, y: 1.318}
-      - {x: 0.42, y: 1.338}
-      - {x: 0.26999998, y: 1.198}
-      - {x: 0.06, y: 1.338}
-      - {x: -0.06, y: 1.378}
-      - {x: -0.22, y: 1.378}
-      - {x: -0.47, y: 1.228}
-      - {x: -0.56, y: 1.128}
-      - {x: -0.58, y: 1.068}
-      - {x: -0.51, y: 0.968}
-      - {x: -0.38, y: 0.85800004}
-      - {x: -0.48999998, y: 0.66800004}
-      - {x: -0.52, y: 0.508}
-      - {x: -0.45, y: 0.30800003}
-      - {x: -0.64, y: 0.14800003}
-      - {x: -0.65, y: 0.07800003}
-      - {x: -0.65, y: 0.03800003}
-      - {x: -0.58, y: -0.011999969}
-      - {x: -0.47, y: -0.021999968}
-      - {x: -0.35999998, y: 0.01800003}
-      - {x: -0.29999998, y: -0.04199997}
-      - {x: -0.17999999, y: -0.051999968}
-      - {x: -0.049999997, y: 0.14800003}
-      - {x: 0.04, y: -0.0019999694}
-      - {x: 0.089999996, y: -0.06199997}
-      - {x: 0.24, y: -0.06199997}
-      - {x: 0.28, y: -0.021999968}
-      - {x: 0.29, y: 0.108000025}
-      - {x: 0.41, y: 0.108000025}
+  m_Offset: {x: 0, y: 0.648}
+  serializedVersion: 2
+  m_Radius: 2
 --- !u!1 &1201250092
 GameObject:
   m_ObjectHideFlags: 0
