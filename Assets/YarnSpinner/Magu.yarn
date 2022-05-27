@@ -14,7 +14,7 @@ position: 112,-79
     <<jump QuestHint>>
 <<elseif $progress == 0>>
     <<jump MeetMagu>>
-<<elseif $progress > 0>>
+<<elseif $progress == 1>>
         <<jump FinishMeetingMagu>>
 <<endif>>
 ===
@@ -38,7 +38,7 @@ position: 109,-8
     Koi: Ah, that's right... What to do, what to do...
     Lume: ...
     Seems like she's worrying about something.
-    <<set $progress to $progress + 1>>
+    <<set $progress to 1>>
 ===
 
 title: FinishMeetingMagu
