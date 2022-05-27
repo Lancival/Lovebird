@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: George's Quest
   m_EditorClassIdentifier: 
   _questName: George's Quest
-  _description: "George is craving two POPSNAPPERS, two CHEDDARFINS, and one FLUTTERFLY.
-    \nYou can probably find some fishing tools at the shop on VIRIDIA ISLAND. "
+  _description: 'George is craving two POPSNAPPERS, two CHEDDARFINS, and one FLUTTERFLY.
+    You can probably find some fishing tools at the shop on VIRIDIA ISLAND. '
   _hidden: 0
   _condition:
     _type: 0

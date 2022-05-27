@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Golem's Quest
   m_EditorClassIdentifier: 
   _questName: Golem's Quest
-  _description: "Let\u2019s help Golem tidy up some trash! \nPick up at least one
+  _description: "Let\u2019s help Lumpers tidy up some trash! Pick up at least one
     of each of the following: LOOSE THREAD, GLASS BOTTLES, TORN FABRIC, TRASH BAGS,
     WOOD PLANKS, and CANS."
   _hidden: 0

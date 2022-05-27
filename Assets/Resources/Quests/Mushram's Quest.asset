@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Mushram's Quest
   m_EditorClassIdentifier: 
   _questName: Mushram's Quest
-  _description: "You received a housewarming gift from Mushram! \nPress 'E' to access
-    your INVENTORY and see what it is."
+  _description: You received a housewarming gift from Mushram! Press 'E' to access
+    your INVENTORY and see what it is.
   _hidden: 0
   _condition:
     _type: 0

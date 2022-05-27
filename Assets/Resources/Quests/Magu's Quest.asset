@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _questName: Magu's Quest
   _description: "Magu is looking for a PENDANT, but there doesn\u2019t seem to be
-    any on the market right now\u2026 \nPerhaps you can assemble one yourself in
-    THE JUNKYARD. \r\n"
+    any on the market right now\u2026 Perhaps you can assemble one yourself in THE
+    JUNKYARD. \r\n"
   _hidden: 0
   _condition:
     _type: 0
