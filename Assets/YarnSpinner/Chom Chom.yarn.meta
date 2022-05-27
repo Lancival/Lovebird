@@ -11,22 +11,4 @@ ScriptedImporter:
   LastImportHadImplicitStringIDs: 1
   LastImportHadAnyStrings: 1
   isSuccessfullyParsed: 1
-  parseErrorMessages:
-  - '1:0: Error: The node ''Chom Chom'' contains illegal characters in its title.
-
-    title:
-    Chom Chom
-
-'
-  - '1:0: Error: The node ''Chom Chom'' contains illegal characters in its title.
-
-    title:
-    Chom Chom
-
-'
-  - '1:0: Error: The node ''Chom Chom'' contains illegal characters in its title.
-
-    title:
-    Chom Chom
-
-'
+  parseErrorMessages: []

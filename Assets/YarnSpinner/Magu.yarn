@@ -1,8 +1,10 @@
 title: Magu
-position: 112,-79
 ---
 <<declare $havePendant = false as bool>>
 <<declare $MaguQuestCheck = false as bool>>
+<<declare $progressMagu = 0 as number>>
+
+<<CheckPendant>>
 
 <<if $MaguQuestCheck is true>>
     <<jump postQuestDialogue>>
@@ -12,15 +14,14 @@ position: 112,-79
     <<jump QuestEnd>>
 <<elseif $havePendant is false>>
     <<jump QuestHint>>
-<<elseif $progress == 0>>
+<<elseif $progressMagu is 0>>
     <<jump MeetMagu>>
-<<elseif $progress == 1>>
-        <<jump FinishMeetingMagu>>
+<<elseif $progressMagu is 1>>
+    <<jump FinishMeetingMagu>>
 <<endif>>
 ===
 
 title: MeetMagu
-position: 109,-8
 ---
     Koi: Ah... what to do, what to do... 
     Lume: ...
@@ -37,19 +38,18 @@ position: 109,-8
     Koi: I kept my husband waiting for so long... He's been so temperamental lately...
     Koi: Ah, that's right... What to do, what to do...
     Lume: ...
-    Seems like she's worrying about something.
-    <<set $progress to 1>>
+    Lume: (Seems like she's worrying about something.)
+    <<set $progressMagu to 1>>
 ===
 
 title: FinishMeetingMagu
-position: 330,-40
 ---
     Koi: .... Maybe from there, I hear it's popular these days? 
     Koi: Oh! But oh no no, was he allergic? Was he? Oh no... how do I not know this...
     Koi: !!
     Koi: Oh dear, oh dear, I'm sorry. My mind tends to wander. 
-    Koi: I remember now, you must be the new resident of VIRIDIA that everyone has been talking about! You have been getting around quite well! If I recall, Lume?
-    Magu: I'm MAGU. It's so nice to meet you. I'm sorry for getting off track there.
+    Koi: I remember now, you must be the new resident of Viridia that everyone has been talking about! You have been getting around quite well! If I recall, Lume?
+    Magu: I'm Magu. It's so nice to meet you. I'm sorry for getting off track there.
     Magu: I'm so glad you like the home. 
     Magu: I've just been a little worried these days because I feel I'd been neglecting my husband.
     Magu: He's just so good to me, all those sleepless nights... and supporting me all through that incident with the sandstone - oh what was I thinking, 500 pounds...
@@ -69,7 +69,6 @@ position: 330,-40
 ===
 
 title: SayNoToMagu
-position: 328,102
 ---
 Magu: Ah, I see, you've just moved in so of course you're busy...
 Magu: Please, don't worry about me and go on with your day.
@@ -79,7 +78,6 @@ Magu: Now where should I make reservations...
 ===
 
 title: SayYesToMagu
-position: 104,147
 ---
 Magu: Really? You are willing to help?
 <<AddQuest "Magu's Quest">>
@@ -89,18 +87,16 @@ Magu: Do you think you could get one for me somewhere?
 ===
 
 title: AreYouSureYouWontHelp
-position: -120,-14
 ---
 Magu: Oh! Sea foam, he loves it!... Should I construct a sea foam pool?! Oh but no, that would take another four months...
 Would you like to offer help?
     ->Yes
         <<jump SayYesToMagu>>
     ->No
-        You decided to continue going along your day.
+        Lume: (You decided to continue going along your day.)
 ===
 
 title: QuestHint
-position: 236,198
 ---
 Magu: Hello, dear! I hope it hasn't been too much trouble finding something.
 Magu: These days, CHOM-CHOM's selection is just too lacking! I may have to trouble you to ask around some other folks on other islands...
@@ -110,7 +106,6 @@ Magu: Not that I should be giving my husband trash...
 ===
 
 title: QuestEnd
-position: 82,82.5
 ---
 Magu: Lume!
 Magu: Oh, is that the pendant I asked for?
@@ -126,12 +121,11 @@ Magu: Oh, and here are the rewards I promised you! I threw in a little something
 
 Magu: Maybe my next project will be sky-themed...
 
-<<set MaguQuestCheck = true>>
+<<set $MaguQuestCheck to true>>
 <<FinishQuest "Magu's Quest">>
 ===
 
 title: postQuestDialogue
-position: 82,82.5
 ---
 Magu: I would love for you to join us at my housewarming party next week, Lume!
 Magu: That reminds me... you just moved in as well. Will you be having one too?

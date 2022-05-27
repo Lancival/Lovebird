@@ -19,6 +19,8 @@ public static class CommandHandlers
         VariableStorage.instance?.SetValue("$haveTrashBag", Inventory.GetQuantity("Trash Bag") > 0);
         VariableStorage.instance?.SetValue("$haveCans", Inventory.GetQuantity("Cans") > 0);
     }
+    [YarnCommand("CheckPendant")]
+    public static void CheckPendant() => VariableStorage.instance?.SetValue("$havePendant", Inventory.GetQuantity("Pendant") > 0);
 
     // Quests
     [YarnCommand("AddQuest")]

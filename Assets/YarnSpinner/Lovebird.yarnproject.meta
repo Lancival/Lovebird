@@ -15,6 +15,7 @@ ScriptedImporter:
   - {fileID: 6391573757903218779, guid: addec22f52c294553b53bd59f0b4d2e5, type: 3}
   - {fileID: 6391573757903218779, guid: 4ef4c337a088643a2ba39f71dfda7e09, type: 3}
   - {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - {fileID: 6391573757903218779, guid: c73fb76435f1841ac8dbe0ba79aa173e, type: 3}
   - {fileID: 6391573757903218779, guid: 087f9af63479c427da7c82a7dc8aa644, type: 3}
   compileErrors: []
   serializedDeclarations:
@@ -194,6 +195,78 @@ ScriptedImporter:
     description: 
     isImplicit: 0
     sourceYarnAsset: {fileID: 6391573757903218779, guid: 4ef4c337a088643a2ba39f71dfda7e09, type: 3}
+  - name: $metWeed
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $weedPulled
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $metTurtle
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $gotPerfumeHint
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $georgeQuestFinished
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $hasFishPerfume
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $numCheddarfin
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $numFlutterfly
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $numPopsnapper
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
   - name: $metMuffin
     typeName: Bool
     defaultValueBool: 0
@@ -202,6 +275,22 @@ ScriptedImporter:
     description: 
     isImplicit: 0
     sourceYarnAsset: {fileID: 6391573757903218779, guid: 087f9af63479c427da7c82a7dc8aa644, type: 3}
+  - name: $hasDisappointedGeorge
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Turtle.yarn, node Turtle, line 29
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
+  - name: $setGeorgeQuestFinished
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Turtle.yarn, node GeorgeQuestComplete, line 0
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: d2ba30f070ba842618d097eb5c762150, type: 3}
   defaultLanguage: en-US
   languagesToSourceAssets: []
   useAddressableAssets: 0
