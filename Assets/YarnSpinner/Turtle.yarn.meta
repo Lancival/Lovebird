@@ -11,4 +11,34 @@ ScriptedImporter:
   LastImportHadImplicitStringIDs: 1
   LastImportHadAnyStrings: 1
   isSuccessfullyParsed: 1
-  parseErrorMessages: []
+  parseErrorMessages:
+  - '30:0: Error: Unknown type int
+
+    <<declare $numCheddarfin = 0 as int>>
+
+'
+  - '31:0: Error: Unknown type int
+
+    <<declare $numFlutterfly = 0 as int>>
+
+'
+  - '32:0: Error: Unknown type int
+
+    <<declare $numPopsnapper = 0 as int>>
+
+'
+  - '30:0: Error: Unknown type int
+
+    <<declare $numCheddarfin = 0 as int>>
+
+'
+  - '31:0: Error: Unknown type int
+
+    <<declare $numFlutterfly = 0 as int>>
+
+'
+  - '32:0: Error: Unknown type int
+
+    <<declare $numPopsnapper = 0 as int>>
+
+'

@@ -1,13 +1,18 @@
 title: Weed
 ---
 <<declare $metWeed = false as bool>>
+<<declare $weedPulled = false as bool>>
 
-<<if $metWeed is false>>
+<<if $weedPulled>>
+    <<jump Turtle>>
+<<elseif $metWeed is false>>
     Lume: It's sparkling...
     <<set $metWeed to true>>
 <<else>>
     Would you like to pull the weed out?
     -> Yes
+        <<set $weedPulled to true>>
+        <<PullWeed>>
         <<jump Turtle>>
     -> No
         Lume: (You decided to leave the weed.)
@@ -18,42 +23,39 @@ title: Weed
 title: Turtle
 ---
 <<declare $metTurtle = false as bool>>
-<<declare $gotPerfumeHint = false as bool>> 
+<<declare $gotPerfumeHint = false as bool>>
+<<declare $georgeQuestFinished = false as bool>>
 
-<<declare $has_fishperfume = false as bool>>
-<<declare $num_Serafish = 0 as int>>
-<<declare $num_Cheddarfin = 0 as int>>
-<<declare $num_Flutterfly = 0 as int>>
-<<declare $num_Popsnapper = 0 as int>>
-<<declare $num_Spaddlehorn = 0 as int>>
-<<declare $num_Puffacarp = 0 as int>>
-<<declare $num_Mr.Scraggles = 0 as int>>
+<<declare $hasFishPerfume = false as bool>>
+<<declare $numCheddarfin = 0 as number>>
+<<declare $numFlutterfly = 0 as number>>
+<<declare $numPopsnapper = 0 as number>>
 
-<<UpdateInventory>>
+<<if $georgeQuestFinished>>
+    <<jump PostQuestDialogue>>
+<<endif>>
+
+<<CheckFish>>
 
 <<if $metTurtle is false>>
     <<jump TurtleFirstMeeting>>
-    
-<<elseif $has_fishperfume == false>>
-    <<if $gotPerfumeHint == false>>
+
+<<elseif $numPopsnapper >= 2 and $numCheddarfin >= 2 and $numFlutterfly >= 1>>
+    <<jump GeorgeQuestComplete>>
+
+<<elseif $hasFishPerfume is false>>
+    <<if $gotPerfumeHint>>
+        George: I wonder how Chom Chom is doing in Viridia...
+    <<else>>
         <<jump FishPerfumeHint>>
-    <<else>>
-        <<jump FishPerfumeHint_short>>
     <<endif>>
-
-<<elseif $num_Popsnapper < 2 or $num_Cheddarfin < 2 or $num_Flutterfly < 1>>
-    <<if $hasDisappointedGeorge == false>>
-        <<jump NotEnoughFish>>
-    <<else>>
-        <<jump NotEnoughFish_short>>
-    <<endif>>
-
-<<elseif $num_Popsnapper >= 2 or $num_Cheddarfin >= 2 or $num_Flutterfly >= 1>>
-    <<jump Quest4Complete>>
 
 <<else>>
-    <<jump postQuestDialogue>>
-
+    <<if $hasDisappointedGeorge>>
+        George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY...
+    <<else>>
+        <<jump NotEnoughFish>>
+    <<endif>>
 <<endif>>
 
 ===
@@ -91,26 +93,18 @@ George: Let me know if you need any fishing tips, just come to this same place. 
 ===
 
 title: FishPerfumeHint
-position: -77,265
 ---
 George: Goodday, Lume! How goes the fishing?
 George: ... Ah, you don't know where to start.
-George: If he's still around, the shopkeeper at VIRIDIA sells good quality FISH PERFUME.
-George: His name is CHOM-CHOM.
+George: If he's still around, the shopkeeper at Viridia sells good quality FISH PERFUME.
+George: His name is Chom Chom.
 George: While you're at it, could you send him my regards? We go a long ways back. He is a dear friend.
 <<set $gotPerfumeHint to true>>
 ===
 
-title: FishPerfumeHint_short
-position: -105,223
----
-George: I wonder how CHOM-CHOM is doing in VIRIDIA...
-===
-
 title: NotEnoughFish
-position: 335,255
 ---
-George: Mm...sashimi...
+George: Mm... sashimi...
 George: Hi, Lume. Were you able to procure any fish?
 George: ...
 George: Hmm...
@@ -122,15 +116,10 @@ George: ...
 <<set $hasDisappointedGeorge to true>>
 ===
 
-title: NotEnoughFish_short
-position: 370,198
+title: GeorgeQuestComplete
 ---
-George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY...
-===
+<<set $setGeorgeQuestFinished to true>>
 
-title: Quest4Complete
-position: 69,325
----
 George: *gurgle gurgle gurgle*
 George: Lume... *gurgle gurgle*
 George: Is that you? *gurgle*
@@ -150,7 +139,7 @@ George: That was a lovely meal, Lume. Thank you so much.
 George: How could I ever repay you?
 George: ...
 George: Oh, were you interested in exploring the other islands?
-George: It is definitely a bit of a challenge to get to ATLANTA COVE...That is an island located underwater.
+George: It is definitely a bit of a challenge to get to Atlanta Cove... That is an island located underwater.
 George: How is it an island if it is underwater?
 George: Beats me!
 George: But I could show you the way, if you'd like.
@@ -162,12 +151,10 @@ George: Don't be afraid to visit this old chap if you are ever in need of a list
 George: Oh, and a gift. I hope you like it.
 
 <<AddItem "Exploration Feather">>
-<<Unlock Atlanta Cove>>
-<<Transport Atlanta Cove>>
-
+<<UnlockAtlantaCove>>
 ===
-title: postQuestDialogue
-position: 117,399
+
+title: PostQuestDialogue
 ---
 George: Goodday, Lume! How goes it?
 George: You've never used fish perfume before this?

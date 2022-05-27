@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AtlantaCoveManager : MonoBehaviour
 {
-    [SerializeField] private bool unlocked = false;
+    public static bool unlocked = false;
     [SerializeField] private Sprite cloudsUncovered;
 
     [Header("Atlanta Cove GameObjects")]
