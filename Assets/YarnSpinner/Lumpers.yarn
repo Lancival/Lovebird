@@ -56,7 +56,7 @@ Lumpers: ...
         Lumpers: ...They all left...
         Lumpers: ...
         Lumpers: ...I miss everyone...
-        Lume: ...You feel that you can understand him. 
+        Lume: (... You understand.) 
         <<set $askedLumpersAlone to true>>
     -> Help <<if $askedLumpersOkay is true and $askedLumpersAlone is true>>
         <<set $helpingLumpers to true>>
@@ -104,14 +104,14 @@ title: QuestComplete
     <<AddItem "Trash Bag" -1>>
 
     Lumpers: I did it!
-    Lumpers: Kind of.
+    Lumpers: ... Kind of.
     Lumpers: It looks a little off, but...
     Lumpers: Thank you so much, truly.
     Lumpers: I finally have a goal. I can't make anything like what you did right now, but I can work hard.
     Lumpers: Thank you, friend.
     Lume: (You feel a wonderful sense of accomplishment.)
     Lume: (How long has it been since you felt this way?)
-    Lumpers: Oh, and before you go.
+    Lumpers: Oh, but before you go.
     Lumpers: I found this in the trash you gave me. It didn't seem like it belonged in there.
     Lumpers: Did you drop it by accident?
     
