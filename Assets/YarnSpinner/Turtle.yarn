@@ -84,6 +84,9 @@ George: Would you be willing to help grab a bite for an elderly tortoise such as
         George: Oh, you are willing to do me this little favor?
     -> No
         George: Oh, you wouldn't mind doing me this little favor?
+
+<<AddQuest "George's Quest">>
+
 George: Thank you so much, little one!
 George: Oh my manners, and your name?
 Lume: Lume.
