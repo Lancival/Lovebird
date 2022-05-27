@@ -171,6 +171,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &31769919
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1328,6 +1329,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &404421065
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1593,6 +1595,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &643062049
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11494,6 +11497,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &918742392
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11729,6 +11733,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &963295446
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12080,6 +12085,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!1 &1208308192
 GameObject:
   m_ObjectHideFlags: 0
@@ -12438,6 +12444,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1564742845
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12965,6 +12972,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1951521259
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13284,6 +13292,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &2039084324
 CircleCollider2D:
   m_ObjectHideFlags: 0

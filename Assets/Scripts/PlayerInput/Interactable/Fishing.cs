@@ -13,6 +13,7 @@ public class Fishing : Interactable
 
 	[SerializeField] private FishWeight[] fishes;
     [SerializeField] private bool requirePerfume = true;
+    [SerializeField] private GameObject fishParticle;
 
 	private float totalWeight;
 	private List<float> thresholds = new List<float>();
@@ -50,6 +51,7 @@ public class Fishing : Interactable
     {
         if (!requirePerfume || Inventory.GetQuantity("Fish Perfume") > 0)
         {
+            StartCoroutine(Instantiate(fishParticle, this.transform.position, Quaternion.identity).GetComponent<FishParticle>().FlyToPlayer());
             Fish();
         }
     }
