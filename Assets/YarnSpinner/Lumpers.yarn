@@ -21,12 +21,12 @@ title: Lumpers
 <<elseif $progress is 3>>
     <<if $helpingLumpers is false>>
         <<jump AskLumpers>>
-    <<elseif $haveWoodScraps is true and $haveTornFabric is true and $haveGlassBottles is true and $haveLooseThread is true and $haveLostGem is true and $haveTrashBag is true and $haveCans is true>>
+    <<elseif $haveWoodScraps and $haveTornFabric and $haveGlassBottles and $haveLooseThread and $haveLostGem and $haveTrashBag and $haveCans>>
+        <<jump QuestComplete>>
+    <<else>>
         Golem: ...
         Lume: ...
         Lume: (You haven't finished collecting the trash.)
-    <<else>>
-        <<jump QuestComplete>>
     <<endif>>
 <<else>>
     <<jump Crafting>>
