@@ -14,9 +14,13 @@ public class GeorgePoint : MonoBehaviour
 
     void Start()
     {
-        bool disabled = false;
-        VariableStorage.instance?.TryGetValue<bool>("$weedPulled", out disabled);
-        renderer.enabled = !disabled;
+        bool weedPulled = false;
+        VariableStorage.instance?.TryGetValue<bool>("$weedPulled", out weedPulled);
+        renderer.enabled = !weedPulled;
+        if (weedPulled)
+        {
+            turtle.FadeIn();
+        }
 
         runner.AddCommandHandler("PullWeed", () => renderer.enabled = false);
         runner.AddCommandHandler("CheckFish", CheckFish);
