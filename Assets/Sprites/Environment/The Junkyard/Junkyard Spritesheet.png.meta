@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 1
+      name: Lost Gem
       rect:
         serializedVersion: 2
         x: 1363
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 4
+      name: Glass Bottles
       rect:
         serializedVersion: 2
         x: 1365
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 2
+      name: Loose Thread
       rect:
         serializedVersion: 2
         x: 1597
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 5
+      name: Trash Bag
       rect:
         serializedVersion: 2
         x: 1588
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 3
+      name: Torn Fabric
       rect:
         serializedVersion: 2
         x: 1811
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 6
+      name: Wood Scraps
       rect:
         serializedVersion: 2
         x: 1821
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash 7
+      name: Cans
       rect:
         serializedVersion: 2
         x: 2051
@@ -415,18 +415,18 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Bridge: -892579664
-      Trash 3: -242343416
+      Lost Gem: 1094561425
       Junkyard Tree 1: 594630474
+      Cans: -937290004
+      Trash Bag: -376067864
       Junkyard Building: 1828457730
+      Torn Fabric: -242343416
       Junkyard Tree 2: 953917669
-      Trash 2: 1810827990
       Tree 1: 345438177
-      Trash 1: 1094561425
-      Trash 7: -937290004
-      Trash 6: 761722468
-      Trash 5: -376067864
-      Trash 4: -769928186
+      Loose Thread: 1810827990
+      Wood Scraps: 761722468
       Junkyard Tree 3: -1103523637
+      Glass Bottles: -769928186
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

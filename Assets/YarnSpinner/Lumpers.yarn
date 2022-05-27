@@ -89,9 +89,9 @@ title: QuestComplete
 
     <<AddItem "Lost Gem" -1>>
     <<AddItem "Torn Fabric" -1>>
-    <<AddItem "Trash Bag" -1>>
     <<AddItem "Wood Scraps" -1>>
     <<AddItem "Cans" -1>>
+    <<AddItem "Trash Bag -1>>
 
     Lumpers: I did it!
     Lumpers: Kind of.
