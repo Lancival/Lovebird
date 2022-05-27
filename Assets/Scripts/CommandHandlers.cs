@@ -16,6 +16,8 @@ public static class CommandHandlers
         VariableStorage.instance?.SetValue("$haveLooseThread", Inventory.GetQuantity("Loose Thread") > 0);
         VariableStorage.instance?.SetValue("$haveLostGem", Inventory.GetQuantity("Lost Gem") > 0);
         VariableStorage.instance?.SetValue("$haveChomDoll", Inventory.GetQuantity("Chom Doll") > 0);
+        VariableStorage.instance?.SetValue("$haveTrashBag", Inventory.GetQuantity("Trash Bag") > 0);
+        VariableStorage.instance?.SetValue("$haveCans", Inventory.GetQuantity("Cans") > 0);
     }
 
     // Quests

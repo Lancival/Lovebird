@@ -4,16 +4,24 @@ title: Lumpers
 <<declare $askedLumpersOkay = false as bool>>
 <<declare $askedLumpersAlone = false as bool>>
 <<declare $helpingLumpers = false as bool>>
-<<declare $hasAllTrash = false as bool>>
 
-<<CheckQuest "Helping Lumpers" "$hasAllTrash">>
+<<declare $haveWoodScraps = false as bool>>
+<<declare $haveTornFabric = false as bool>>
+<<declare $haveGlassBottles = false as bool>>
+<<declare $haveLooseThread = false as bool>>
+<<declare $haveLostGem = false as bool>>
+<<declare $haveChomDoll = false as bool>>
+<<declare $haveTrashBag = false as bool>>
+<<declare $haveCans = false as bool>>
+
+<<UpdateInventory>>
 
 <<if $progress < 3>>
     <<jump LumpersTired>>
 <<elseif $progress is 3>>
     <<if $helpingLumpers is false>>
         <<jump AskLumpers>>
-    <<elseif $hasAllTrash is false>>
+    <<elseif $haveWoodScraps is true and $haveTornFabric is true and $haveGlassBottles is true and $haveLooseThread is true and $haveLostGem is true and $haveTrashBag is true and $haveCans is true>>
         Golem: ...
         Lume: ...
         Lume: (You haven't finished collecting the trash.)
@@ -52,7 +60,7 @@ Lumpers: ...
         <<set $askedLumpersAlone to true>>
     -> Help <<if $askedLumpersOkay is true and $askedLumpersAlone is true>>
         <<set $helpingLumpers to true>>
-        <<AddQuest "Helping Lumpers">>
+        <<AddQuest "Lumper's Quest">>
         Lume: (Maybe you can help him pick up some trash.)
     -> ...
         Lume: (You decided not to say anything.)
@@ -91,7 +99,7 @@ title: QuestComplete
     <<AddItem "Torn Fabric" -1>>
     <<AddItem "Wood Scraps" -1>>
     <<AddItem "Cans" -1>>
-    <<AddItem "Trash Bag -1>>
+    <<AddItem "Trash Bag" -1>>
 
     Lumpers: I did it!
     Lumpers: Kind of.
@@ -112,48 +120,39 @@ title: QuestComplete
 
 title: Crafting
 ---
-    <<declare $haveWoodScraps = false as bool>>
-    <<declare $haveTornFabric = false as bool>>
-    <<declare $haveGlassBottles = false as bool>>
-    <<declare $haveLooseThread = false as bool>>
-    <<declare $haveLostGem = false as bool>>
-    <<declare $haveChomDoll = false as bool>>
+Lumpers: Here to craft more items?
 
-    <<UpdateInventory>>
-
-    Lumpers: Here to craft more items?
-
-        -> Birdhouse <<if $haveWoodScraps is true and $haveTornFabric is true>>
-            <<AddItem "Wood Scraps" -1>>
-            <<AddItem "Torn Fabric" -1>>
-            <<AddItem "Birdhouse">>
-            Lume: (You crafted a birdhouse!)
-        -> Windchime <<if $haveGlassBottles is true and $haveLooseThread is true>>
-            <<AddItem "Glass Bottles" -1>>
-            <<AddItem "Loose Thread" -1>>
-            <<AddItem "Windchime">>
-            Lume: (You crafted a windchime!)
-        -> Chom Doll <<if $haveTornFabric is true and $haveLooseThread is true>>
-            <<AddItem "Torn Fabric" -1>>
-            <<AddItem "Loose Thread" -1>>
-            <<AddItem "Chom Doll">>
-            Lume: (You crafted a Chom doll!)
-        -> Pendant <<if $haveLostGem is true and $haveLooseThread is true>>
-            <<AddItem "Lost Gem" -1>>
-            <<AddItem "Loose Thread" -1>>
-            <<AddItem "Pendant">>
-            Lume: (You crafted a pendant!)
-        -> Magic Orb <<if $haveGlassBottles is true and $haveLostGem is true>>
-            <<AddItem "Glass Bottles" -1>>
-            <<AddItem "Lost Gem" -1>>
-            <<AddItem "Magic Orb">>
-            Lume: (You crafted a magic orb!)
-        -> Wind-up Chom <<if $haveChomDoll is true and $haveLostGem is true>>
-            <<AddItem "Chom Doll" -1>>
-            <<AddItem "Lost Gem" -1>>
-            <<AddItem "Wind-up Chom">>
-            Lume: (You crafted a wind-up Chom!)
-        -> ...
-            Lume: (You decided not to craft anything.)
+    -> Birdhouse <<if $haveWoodScraps is true and $haveTornFabric is true>>
+        <<AddItem "Wood Scraps" -1>>
+        <<AddItem "Torn Fabric" -1>>
+        <<AddItem "Birdhouse">>
+        Lume: (You crafted a birdhouse!)
+    -> Windchime <<if $haveGlassBottles is true and $haveLooseThread is true>>
+        <<AddItem "Glass Bottles" -1>>
+        <<AddItem "Loose Thread" -1>>
+        <<AddItem "Windchime">>
+        Lume: (You crafted a windchime!)
+    -> Chom Doll <<if $haveTornFabric is true and $haveLooseThread is true>>
+        <<AddItem "Torn Fabric" -1>>
+        <<AddItem "Loose Thread" -1>>
+        <<AddItem "Chom Doll">>
+        Lume: (You crafted a Chom doll!)
+    -> Pendant <<if $haveLostGem is true and $haveLooseThread is true>>
+        <<AddItem "Lost Gem" -1>>
+        <<AddItem "Loose Thread" -1>>
+        <<AddItem "Pendant">>
+        Lume: (You crafted a pendant!)
+    -> Magic Orb <<if $haveGlassBottles is true and $haveLostGem is true>>
+        <<AddItem "Glass Bottles" -1>>
+        <<AddItem "Lost Gem" -1>>
+        <<AddItem "Magic Orb">>
+        Lume: (You crafted a magic orb!)
+    -> Wind-up Chom <<if $haveChomDoll is true and $haveLostGem is true>>
+        <<AddItem "Chom Doll" -1>>
+        <<AddItem "Lost Gem" -1>>
+        <<AddItem "Wind-up Chom">>
+        Lume: (You crafted a wind-up Chom!)
+    -> ...
+        Lume: (You decided not to craft anything.)
 ===
 
