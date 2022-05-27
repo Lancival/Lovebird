@@ -2,9 +2,11 @@ title: Mushram
 position: -293,-572
 ---
 <<declare $metMushram = false as bool>>
+<<declare $mushramQuestFinished = false as bool>>
+<<declare $mushramQuestRewarded = false as bool>>
 
-<<if $metMushram == false>>
-    <<set $metMushram = true>>
+<<if $metMushram is false>>
+    <<set $metMushram to true>>
 
     Mushram: Greetings and salutations! I heard someone new was moving in, that must be you.
     Mushram: Welcome to Viridia; here, you'll find lush environments, a close knit community, and me!
@@ -15,15 +17,24 @@ position: -293,-572
     Mushram: In fact, I got you a little something! I hope it will kickstart a positive stay here.
 
     <<AddItem "Warbleberry Seed">>
+    <<AddQuest "Mushram's Quest>>
+    <<set $mushramQuestFinished to false>>
+<<endif>>
 
-    Mushram: Here is a warbleberry seed. You can learn how to plant it from Honey in Warbleberry Town.
+<<if $mushramQuestFinished is false>>
+    Mushram: Open your inventory to see my gift!
+<<elseif $mushramQuestRewarded is false>>
+    <<set $mushramQuestRewarded to true>>
+    <<AddItem "Nurturing Feather">>
+    Mushram: Here, take this feather as well.
     Lume: ...
     Mushram: Not much of a talker, huh?
     Mushram: Anyway, you should get out of your shell more!
     Mushram: You should meet Meeko. I heard they need some help with studying aquatic life.
     Mushram: They have big dreams, you'd love them.
+<<else>>
+    Mushram: Good luck, and safe travels!
 <<endif>>
 
-Mushram: Good luck, and safe travels!
 ===
 
