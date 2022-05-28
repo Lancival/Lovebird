@@ -132,7 +132,7 @@ MonoBehaviour:
   inventory: {fileID: 1715257246171468199}
   questLog: {fileID: 3753486117831597089}
   map: {fileID: 8417187390381783090}
-  settings: {fileID: 587824221010182372}
+  settings: {fileID: 5016017885615343297}
   dialogue: {fileID: 5744237226745759427}
 --- !u!1001 &1888802879936879687
 PrefabInstance:
@@ -1066,22 +1066,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
---- !u!114 &587824221010182372 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7948892906025758021, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
-  m_PrefabInstance: {fileID: 7383788994186145185}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2950371212921447220 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5659245741577588373, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
   m_PrefabInstance: {fileID: 7383788994186145185}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5016017885615343297 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2586197897074486112, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
+  m_PrefabInstance: {fileID: 7383788994186145185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad99dcebf21d4dda88715cc7fe211ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7858440466349914056
 PrefabInstance:
   m_ObjectHideFlags: 0
