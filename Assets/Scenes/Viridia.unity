@@ -1198,6 +1198,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &270393596
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1349,6 +1350,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &360835347
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1622,6 +1624,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &391080989
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2678,6 +2681,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &727512576
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4121,6 +4125,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &1105457057
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4560,6 +4565,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &1193241404
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5035,6 +5041,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &1234103716
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8053,6 +8060,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &2005816044
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8447,6 +8455,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 0}
 --- !u!58 &2043659093
 CircleCollider2D:
   m_ObjectHideFlags: 0
