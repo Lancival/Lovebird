@@ -15,4 +15,5 @@ MonoBehaviour:
   _description: Found by your home. Could it be an omen for the adventures to come?
   _tags: []
   _sprite: {fileID: -629742526, guid: 84a20525fa4884338bbcb72a8b297ad3, type: 3}
+  _sellable: 0
   _price: 0

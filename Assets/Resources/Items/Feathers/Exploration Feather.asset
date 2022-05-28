@@ -15,4 +15,5 @@ MonoBehaviour:
   _description: An item of the sky but it mysteriously carries the scent of the ocean.
   _tags: []
   _sprite: {fileID: 1702117371, guid: 84a20525fa4884338bbcb72a8b297ad3, type: 3}
+  _sellable: 0
   _price: 0

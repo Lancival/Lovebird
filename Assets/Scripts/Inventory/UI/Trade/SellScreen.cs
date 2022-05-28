@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -15,6 +16,8 @@ public class SellScreen : InventoryDisplay
         private Item currentItem;
 
     void Start() => gameObject.SetActive(false);
+
+    protected override bool ShouldDisplay(KeyValuePair<Item,int> itemCount) => itemCount.Value > 0 && itemCount.Key.sellable;
 
     protected override ItemBox InstantiateItemBox()
     {

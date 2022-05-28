@@ -16,4 +16,5 @@ MonoBehaviour:
     perfectly crisp.
   _tags: []
   _sprite: {fileID: 421376238, guid: 84a20525fa4884338bbcb72a8b297ad3, type: 3}
+  _sellable: 0
   _price: 0

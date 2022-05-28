@@ -23,13 +23,15 @@ public class InventoryDisplay : MonoBehaviour
         itemBoxes = new List<ItemBox>();
     }
 
+    protected virtual bool ShouldDisplay(KeyValuePair<Item,int> itemCount) => itemCount.Value > 0;
+
     protected virtual ItemBox InstantiateItemBox() => Instantiate(itemBoxPrefab, content.transform).GetComponent<ItemBox>();
     public void Show()
     {
         int itemDisplayCount = 0;
         foreach (KeyValuePair<Item,int> itemCount in Inventory.items)
         {
-            if (itemCount.Value > 0)
+            if (ShouldDisplay(itemCount))
             {
                 if (itemBoxes.Count <= itemDisplayCount)
                 {

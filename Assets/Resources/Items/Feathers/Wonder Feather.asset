@@ -15,4 +15,5 @@ MonoBehaviour:
   _description: Found in Honey's garden. It's too pretty to be a chicken's.
   _tags: []
   _sprite: {fileID: 1192067272, guid: 84a20525fa4884338bbcb72a8b297ad3, type: 3}
+  _sellable: 0
   _price: 0
