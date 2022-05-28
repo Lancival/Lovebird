@@ -1,4 +1,4 @@
-title: Meeko
+﻿title: Meeko
 ---
 <<declare $metMeeko = false as bool>>
 <<declare $meekoQuestFinished = false as bool>>
@@ -7,21 +7,21 @@ title: Meeko
 <<if $metMeeko is false>>
     <<jump MeekoFirstMeeting>>
 <<elseif $meekoQuestFinished is false>>
-    Meeko: What are you waiting for? Go out and explore!
-    Meeko: Adventure is waiting!
+    Meeko: What are you waiting for? Go out and explore! #line:0e05b36 
+    Meeko: Adventure is waiting! #line:0fd7ff9 
 <<elseif $meekoQuestRewarded is false>>
-    Meeko: Have you visited any new islands yet?
-    Lume: :)
-    Meeko: Amazing! I knew you could do it.
-    Meeko: Soon, you’ll see just how welcoming and bountiful our community is.
-    Meeko: Here, take this feather. This is my good luck charm, and I want you to have it for your journey here.
+    Meeko: Have you visited any new islands yet? #line:0aac4e1 
+    Lume: :) #line:021c9a3 
+    Meeko: Amazing! I knew you could do it. #line:08af9c2 
+    Meeko: Soon, you’ll see just how welcoming and bountiful our community is. #line:06d9b84 
+    Meeko: Here, take this feather. This is my good luck charm, and I want you to have it for your journey here. #line:065aa2a 
 
     <<AddItem "Lucky Feather">>
     <<set $meekoQuestRewarded to true>>
 
-    Meeko: Good luck on your adventures here!
+    Meeko: Good luck on your adventures here! #line:0b681b4 
 <<else>>
-    Meeko: Good luck on your adventures here!
+    Meeko: Good luck on your adventures here! #line:09f5908 
 <<endif>>
 
 ===
@@ -30,44 +30,44 @@ title: MeekoFirstMeeting
 ---
 <<set $metMeeko to true>>
 
-Meeko: Howdy! You must be our new neighbor. Mushram told me all about you.
-Meeko: Welcome to our quaint little island! I'm Meeko.
-Meeko: We haven't had a new person moving in for a long time. I must ask, what brings you here?
- ->I want to forget the past.
-    Meeko: I'm sorry to hear that you haven't had the most ideal past, but this is a great area for new beginnings.
-    Meeko: Before I moved here, I had these huge dreams. I wanted to explore and learn about everything in this world… but no one believed in me. Eventually, I started doubting myself.
-    Meeko: Coming here though, I'm finally able to see a future for myself doing what I love.
- ->I want to make friends.
-    Meeko: Then this area will be perfect for you!
-    Meeko: We operate our island cluster with the principle that everyone helps everyone.
-    Meeko: To settle in, get to know our residents and see if they have any tasks you can help out with!
-    Meeko: Plus, we can be friends!
+Meeko: Howdy! You must be our new neighbor. Mushram told me all about you. #line:0eb9d78 
+Meeko: Welcome to our quaint little island! I'm Meeko. #line:04627ab 
+Meeko: We haven't had a new person moving in for a long time. I must ask, what brings you here? #line:0195792 
+ ->I want to forget the past. #line:0afb9d4 
+    Meeko: I'm sorry to hear that you haven't had the most ideal past, but this is a great area for new beginnings. #line:0779dce 
+    Meeko: Before I moved here, I had these huge dreams. I wanted to explore and learn about everything in this world… but no one believed in me. Eventually, I started doubting myself. #line:0c3001c 
+    Meeko: Coming here though, I'm finally able to see a future for myself doing what I love. #line:0196d95 
+ ->I want to make friends. #line:0dee2f0 
+    Meeko: Then this area will be perfect for you! #line:062d0de 
+    Meeko: We operate our island cluster with the principle that everyone helps everyone. #line:0294a88 
+    Meeko: To settle in, get to know our residents and see if they have any tasks you can help out with! #line:03b5d23 
+    Meeko: Plus, we can be friends! #line:0c10dbb 
 
-Meeko: I hope you can achieve your greatest hopes here, I know you can do it!
-Meeko: Silly me, I'm asking all about you when I haven't even introduced myself properly.
-Meeko: I moved in here only two years ago, and I have fallen in love with the diversity of our residents and the lushness of our environments.
-Meeko: I study ocean life, so living in an area with such flourishing aquatic life is important to me.
-Meeko: My research primarily deals with whales. I LOVE them.
-Meeko: Did you know that they can weigh as much as 24 elephants? That's more than 330,000 pounds!
-Meeko: They're also highly social creatures! I could go on forever.
-Meeko: I'd love to learn more about their migratory patterns, but it's hard to track where they go when I'm on this island all of the time.
-Meeko: I wish I were like you. You have beautiful wings that can take you anywhere! You can fly right above the whales as they swim.
-Meeko: I may have wings, but they’re purely cosmetic – I’ve never flown in my entire life.
-Meeko: I’ve practiced flying for weeks, but I still can’t figure out why my wings won’t work.
-Meeko: If I ever get this thing built, we should fly together. You could show me the ropes?
-Lume: :)
-Meeko: I am looking forward to that day!
-Meeko: Since this is the first time I've seen you, you must have just settled in. Have you met anyone from any of our other islands yet?
-Lume: ...
-Meeko: Well then, let's get you situated! 
-Meeko: You should have received a map when you moved here. You can see which island is which through there.
-Meeko: Since you're a bird, you should be able to fly to where you want to go through the map, then drop down.
+Meeko: I hope you can achieve your greatest hopes here, I know you can do it! #line:0365362 
+Meeko: Silly me, I'm asking all about you when I haven't even introduced myself properly. #line:0664ec3 
+Meeko: I moved in here only two years ago, and I have fallen in love with the diversity of our residents and the lushness of our environments. #line:0bbae2a 
+Meeko: I study ocean life, so living in an area with such flourishing aquatic life is important to me. #line:075f00f 
+Meeko: My research primarily deals with whales. I LOVE them. #line:09803d4 
+Meeko: Did you know that they can weigh as much as 24 elephants? That's more than 330,000 pounds! #line:019892a 
+Meeko: They're also highly social creatures! I could go on forever. #line:0be33d8 
+Meeko: I'd love to learn more about their migratory patterns, but it's hard to track where they go when I'm on this island all of the time. #line:0dfa40e 
+Meeko: I wish I were like you. You have beautiful wings that can take you anywhere! You can fly right above the whales as they swim. #line:032392b 
+Meeko: I may have wings, but they’re purely cosmetic – I’ve never flown in my entire life. #line:0500d2f 
+Meeko: I’ve practiced flying for weeks, but I still can’t figure out why my wings won’t work. #line:040c489 
+Meeko: If I ever get this thing built, we should fly together. You could show me the ropes? #line:06b7207 
+Lume: :) #line:0874159 
+Meeko: I am looking forward to that day! #line:05b746a 
+Meeko: Since this is the first time I've seen you, you must have just settled in. Have you met anyone from any of our other islands yet? #line:04d51fa 
+Lume: ... #line:065570c 
+Meeko: Well then, let's get you situated!  #line:0920cad 
+Meeko: You should have received a map when you moved here. You can see which island is which through there. #line:0cb0340 
+Meeko: Since you're a bird, you should be able to fly to where you want to go through the map, then drop down. #line:0bb119d 
 
 <<AddQuest "Meeko's Quest">>
 
-Meeko: Feel free to try it after our conversation. Explore to your wildest imagination!
-Meeko: I bet everyone is ecstatic to meet you.
-Meeko: I should also mention that the whales are migrating at this time of year.
-Meeko: They’re set to reach Atlantic Cove next! Maybe you could visit there if you’re unsure of where to go?
-Meeko: Anyway, I should get back to working on my flying project. 
+Meeko: Feel free to try it after our conversation. Explore to your wildest imagination! #line:02151f3 
+Meeko: I bet everyone is ecstatic to meet you. #line:08908ed 
+Meeko: I should also mention that the whales are migrating at this time of year. #line:00f61f5 
+Meeko: They’re set to reach Atlantic Cove next! Maybe you could visit there if you’re unsure of where to go? #line:0d164b1 
+Meeko: Anyway, I should get back to working on my flying project.  #line:0ccaa28 
 ===

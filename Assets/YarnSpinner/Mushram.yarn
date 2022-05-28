@@ -1,4 +1,4 @@
-title: Mushram
+﻿title: Mushram
 position: -293,-572
 ---
 <<declare $metMushram = false as bool>>
@@ -8,13 +8,13 @@ position: -293,-572
 <<if $metMushram is false>>
     <<set $metMushram to true>>
 
-    Mushram: Greetings and salutations! I heard someone new was moving in, that must be you.
-    Mushram: Welcome to Viridia; here, you'll find lush environments, a close knit community, and me!
-    Mushram: I'm getting ahead of myself though, what's your name?
-    Lume: Lume.
-    Mushram: Nice to meet you, I'm Mushram. I founded this community many years ago, and I'm so happy it's grown to where it is now.
-    Mushram: We haven't had a new resident in years, but we hope you'll one day regard our little town home.
-    Mushram: In fact, I got you a little something! I hope it will kickstart a positive stay here.
+    Mushram: Greetings and salutations! I heard someone new was moving in, that must be you. #line:086fc1d 
+    Mushram: Welcome to Viridia; here, you'll find lush environments, a close knit community, and me! #line:03f8aa1 
+    Mushram: I'm getting ahead of myself though, what's your name? #line:0aebafd 
+    Lume: Lume. #line:0bd022a 
+    Mushram: Nice to meet you, I'm Mushram. I founded this community many years ago, and I'm so happy it's grown to where it is now. #line:012d1d4 
+    Mushram: We haven't had a new resident in years, but we hope you'll one day regard our little town home. #line:0c32396 
+    Mushram: In fact, I got you a little something! I hope it will kickstart a positive stay here. #line:0fcf53f 
 
     <<AddItem "Warbleberry Seed">>
     <<AddQuest "Mushram's Quest>>
@@ -22,18 +22,18 @@ position: -293,-572
 <<endif>>
 
 <<if $mushramQuestFinished is false>>
-    Mushram: Open your inventory to see my gift!
+    Mushram: Open your inventory to see my gift! #line:05ae719 
 <<elseif $mushramQuestRewarded is false>>
     <<set $mushramQuestRewarded to true>>
     <<AddItem "Nurturing Feather">>
-    Mushram: Here, take this feather as well.
-    Lume: ...
-    Mushram: Not much of a talker, huh?
-    Mushram: Anyway, you should get out of your shell more!
-    Mushram: You should meet Meeko. I heard they need some help with studying aquatic life.
-    Mushram: They have big dreams, you'd love them.
+    Mushram: Here, take this feather as well. #line:0757601 
+    Lume: ... #line:09c0067 
+    Mushram: Not much of a talker, huh? #line:0b73f5a 
+    Mushram: Anyway, you should get out of your shell more! #line:038267d 
+    Mushram: You should meet Meeko. I heard they need some help with studying aquatic life. #line:099b4a0 
+    Mushram: They have big dreams, you'd love them. #line:0a091f2 
 <<else>>
-    Mushram: Good luck, and safe travels!
+    Mushram: Good luck, and safe travels! #line:03c37a5 
 <<endif>>
 
 ===

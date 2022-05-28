@@ -1,4 +1,4 @@
-title: Magu
+﻿title: Magu
 ---
 <<declare $havePendant = false as bool>>
 <<declare $MaguQuestCheck = false as bool>>
@@ -23,103 +23,103 @@ title: Magu
 
 title: MeetMagu
 ---
-    Koi: Ah... what to do, what to do... 
-    Lume: ...
-    Koi: !! 
-    Koi: Pardon, I did not see you there!
-    Koi: I am the owner of this house. How can I help you?
-    Koi: ...
-    Koi: You like it, do you? Ah, I'm so pleased! 
-    Koi: I do agree that this finish was beyond my expectations! The exterior is so smooth it makes my heart race.
-    Koi: And! I am quite fond especially of that coral decor, I tried to play with the fenestration of the building, what do you think? 
-    Koi: Instead of just windows and doors, the open space left by the jagged coral for my fishy friends... I love how natural it feels...
-    Koi: Ah, but I won't bore you any longer with my jabbering! Actually, I'm just so happy you like it because this thing took me quite a while to complete.... 
-    Koi: Like "5 years" a while... 
-    Koi: I kept my husband waiting for so long... He's been so temperamental lately...
-    Koi: Ah, that's right... What to do, what to do...
-    Lume: ...
-    Lume: (Seems like she's worrying about something.)
+    Koi: Ah... what to do, what to do...  #line:0a9739c 
+    Lume: ... #line:0bf67d6 
+    Koi: !!  #line:0d331be 
+    Koi: Pardon, I did not see you there! #line:010198b 
+    Koi: I am the owner of this house. How can I help you? #line:00ba6bc 
+    Koi: ... #line:02fef1c 
+    Koi: You like it, do you? Ah, I'm so pleased!  #line:010a826 
+    Koi: I do agree that this finish was beyond my expectations! The exterior is so smooth it makes my heart race. #line:09dd7e5 
+    Koi: And! I am quite fond especially of that coral decor, I tried to play with the fenestration of the building, what do you think?  #line:0f7059b 
+    Koi: Instead of just windows and doors, the open space left by the jagged coral for my fishy friends... I love how natural it feels... #line:0adb7c5 
+    Koi: Ah, but I won't bore you any longer with my jabbering! Actually, I'm just so happy you like it because this thing took me quite a while to complete....  #line:09a7a47 
+    Koi: Like "5 years" a while...  #line:0116119 
+    Koi: I kept my husband waiting for so long... He's been so temperamental lately... #line:04d2768 
+    Koi: Ah, that's right... What to do, what to do... #line:04a127b 
+    Lume: ... #line:0315285 
+    Lume: (Seems like she's worrying about something.) #line:02b5eea 
     <<set $progressMagu to 1>>
 ===
 
 title: FinishMeetingMagu
 ---
-    Koi: .... Maybe from there, I hear it's popular these days? 
-    Koi: Oh! But oh no no, was he allergic? Was he? Oh no... how do I not know this...
-    Koi: !!
-    Koi: Oh dear, oh dear, I'm sorry. My mind tends to wander. 
-    Koi: I remember now, you must be the new resident of Viridia that everyone has been talking about! You have been getting around quite well! If I recall, Lume?
-    Magu: I'm Magu. It's so nice to meet you. I'm sorry for getting off track there.
-    Magu: I'm so glad you like the home. 
-    Magu: I've just been a little worried these days because I feel I'd been neglecting my husband.
-    Magu: He's just so good to me, all those sleepless nights... and supporting me all through that incident with the sandstone - oh what was I thinking, 500 pounds...
-    Magu: ... and that...
-    Magu: ... and can't forget about what happened then... 
-    Magu: And... !!!
-    Magu: Anyhow, I'm in a bit of a marital pickle.
-    Magu: I want to do something for him. To apologize, but also to thank him...
-    Magu: But I was never good at these romantic gestures.
-    Magu: Oh, what did he see in a workaholic like me...
-    Magu: I'm embarrassed to ask someone whom I've just met, but... I just have too many things to prepare. 
-    Magu: Could you just help me out with a few tasks? I promise I will make it worth your time!!!
-        -> No
+    Koi: .... Maybe from there, I hear it's popular these days?  #line:067a970 
+    Koi: Oh! But oh no no, was he allergic? Was he? Oh no... how do I not know this... #line:0b4f32b 
+    Koi: !! #line:01ffc7c 
+    Koi: Oh dear, oh dear, I'm sorry. My mind tends to wander.  #line:07186a9 
+    Koi: I remember now, you must be the new resident of Viridia that everyone has been talking about! You have been getting around quite well! If I recall, Lume? #line:0c8fd84 
+    Magu: I'm Magu. It's so nice to meet you. I'm sorry for getting off track there. #line:0c4bd64 
+    Magu: I'm so glad you like the home.  #line:0ede73c 
+    Magu: I've just been a little worried these days because I feel I'd been neglecting my husband. #line:03ceaa8 
+    Magu: He's just so good to me, all those sleepless nights... and supporting me all through that incident with the sandstone - oh what was I thinking, 500 pounds... #line:0e8edc5 
+    Magu: ... and that... #line:06fd0ef 
+    Magu: ... and can't forget about what happened then...  #line:008b6bb 
+    Magu: And... !!! #line:0591781 
+    Magu: Anyhow, I'm in a bit of a marital pickle. #line:042d715 
+    Magu: I want to do something for him. To apologize, but also to thank him... #line:0937888 
+    Magu: But I was never good at these romantic gestures. #line:0648475 
+    Magu: Oh, what did he see in a workaholic like me... #line:09bf5a4 
+    Magu: I'm embarrassed to ask someone whom I've just met, but... I just have too many things to prepare.  #line:07b065f 
+    Magu: Could you just help me out with a few tasks? I promise I will make it worth your time!!! #line:0ed489b 
+        -> No #line:09b78e5 
             <<jump SayNoToMagu>>
-        -> Yes
+        -> Yes #line:0244153 
             <<jump SayYesToMagu>>
 ===
 
 title: SayNoToMagu
 ---
-Magu: Ah, I see, you've just moved in so of course you're busy...
-Magu: Please, don't worry about me and go on with your day.
-Magu: But if you have any time to spare later on, it will be quite a while until I finish, and I would appreciate your help...
-Magu: Now where should I make reservations... 
+Magu: Ah, I see, you've just moved in so of course you're busy... #line:093adac 
+Magu: Please, don't worry about me and go on with your day. #line:0dc7b2a 
+Magu: But if you have any time to spare later on, it will be quite a while until I finish, and I would appreciate your help... #line:047c7fc 
+Magu: Now where should I make reservations...  #line:00c7781 
 <<set $has_rejectedMagu to true>>
 ===
 
 title: SayYesToMagu
 ---
-Magu: Really? You are willing to help?
+Magu: Really? You are willing to help? #line:0fb0b96 
 <<AddQuest "Magu's Quest">>
-Magu: You are an absolute lifesaver, Lume! My dear loves shiny, polished things. I was thinking perhaps a pendant or a necklace?
-Magu: Do you think you could get one for me somewhere?
+Magu: You are an absolute lifesaver, Lume! My dear loves shiny, polished things. I was thinking perhaps a pendant or a necklace? #line:029d0ad 
+Magu: Do you think you could get one for me somewhere? #line:0691ffd 
 <<set $has_rejectedMagu to false>>
 ===
 
 title: AreYouSureYouWontHelp
 ---
-Magu: Oh! Sea foam, he loves it!... Should I construct a sea foam pool?! Oh but no, that would take another four months...
-Would you like to offer help?
-    ->Yes
+Magu: Oh! Sea foam, he loves it!... Should I construct a sea foam pool?! Oh but no, that would take another four months... #line:0e228b5 
+Would you like to offer help? #line:0239295 
+    ->Yes #line:0b0ab30 
         <<jump SayYesToMagu>>
-    ->No
-        Lume: (You decided to continue going along your day.)
+    ->No #line:000533e 
+        Lume: (You decided to continue going along your day.) #line:0ab9ddc 
 ===
 
 title: QuestHint
 ---
-Magu: Hello, dear! I hope it hasn't been too much trouble finding something.
-Magu: These days, CHOM-CHOM's selection is just too lacking! I may have to trouble you to ask around some other folks on other islands...
-Magu: It could be fruitful to check THE JUNKYARD, perhaps? The place has been abandoned, but one man's trash is the other's treasure!
-Magu: Not that I should be giving my husband trash...
+Magu: Hello, dear! I hope it hasn't been too much trouble finding something. #line:018c774 
+Magu: These days, CHOM-CHOM's selection is just too lacking! I may have to trouble you to ask around some other folks on other islands... #line:06a1fba 
+Magu: It could be fruitful to check THE JUNKYARD, perhaps? The place has been abandoned, but one man's trash is the other's treasure! #line:01455fc 
+Magu: Not that I should be giving my husband trash... #line:068b068 
 
 ===
 
 title: QuestEnd
 ---
-Magu: Lume!
-Magu: Oh, is that the pendant I asked for?
-Magu: ...
-Magu: Ohhhhhhhhhhhhhh this is just perfect!!!!! It is just what I imagined!
-Magu: I can't wait to see his face when I get this to him- 
-Magu: I must go at once to get everything ready now that I have this cherry on top.
-Magu: Lume, please visit again sometime soon. 
-Magu: Oh, and here are the rewards I promised you! I threw in a little something because it reminded me of you. I like to collect nature items for inspiration.
+Magu: Lume! #line:0f2c061 
+Magu: Oh, is that the pendant I asked for? #line:0e03523 
+Magu: ... #line:034f156 
+Magu: Ohhhhhhhhhhhhhh this is just perfect!!!!! It is just what I imagined! #line:0e4b637 
+Magu: I can't wait to see his face when I get this to him-  #line:0d1809a 
+Magu: I must go at once to get everything ready now that I have this cherry on top. #line:0964716 
+Magu: Lume, please visit again sometime soon.  #line:0272bc6 
+Magu: Oh, and here are the rewards I promised you! I threw in a little something because it reminded me of you. I like to collect nature items for inspiration. #line:09bd5cd 
 
 <<AddItem "Lovebird Feather">>
 <<AddMoney 10>>
 
-Magu: Maybe my next project will be sky-themed...
+Magu: Maybe my next project will be sky-themed... #line:0273860 
 
 <<set $MaguQuestCheck to true>>
 <<FinishQuest "Magu's Quest">>
@@ -127,10 +127,10 @@ Magu: Maybe my next project will be sky-themed...
 
 title: postQuestDialogue
 ---
-Magu: I would love for you to join us at my housewarming party next week, Lume!
-Magu: That reminds me... you just moved in as well. Will you be having one too?
-Magu: Who will be going? I'm sure it'd be fun because you are there, Lume.
-Magu: ... Oh, not that I'm trying to invite myself to your party! Of course you must have met many friends in your travels, I would completely understand if your guest list was too full... 
-Magu: Ha ha...
+Magu: I would love for you to join us at my housewarming party next week, Lume! #line:0b790a4 
+Magu: That reminds me... you just moved in as well. Will you be having one too? #line:05b00cf 
+Magu: Who will be going? I'm sure it'd be fun because you are there, Lume. #line:0638d13 
+Magu: ... Oh, not that I'm trying to invite myself to your party! Of course you must have met many friends in your travels, I would completely understand if your guest list was too full...  #line:049334f 
+Magu: Ha ha... #line:0fe84a3 
 ===
 

@@ -1,4 +1,4 @@
-title: Weed
+﻿title: Weed
 ---
 <<declare $metWeed = false as bool>>
 <<declare $weedPulled = false as bool>>
@@ -6,17 +6,17 @@ title: Weed
 <<if $weedPulled>>
     <<jump Turtle>>
 <<elseif $metWeed is false>>
-    Lume: It's sparkling...
+    Lume: It's sparkling... #line:03508b0 
     <<set $metWeed to true>>
 <<else>>
-    Would you like to pull the weed out?
-    -> Yes
+    Would you like to pull the weed out? #line:0a7a851 
+    -> Yes #line:01c610b 
         <<set $weedPulled to true>>
         <<PullWeed>>
         <<jump Turtle>>
-    -> No
-        Lume: (You decided to leave the weed.)
-        Lume: ... But it's so pretty...
+    -> No #line:06abccd 
+        Lume: (You decided to leave the weed.) #line:0bf8d5d 
+        Lume: ... But it's so pretty... #line:03dd632 
 <<endif>>
 ===
 
@@ -45,14 +45,14 @@ title: Turtle
 
 <<elseif $hasFishPerfume is false>>
     <<if $gotPerfumeHint>>
-        George: I wonder how Chom Chom is doing in Viridia...
+        George: I wonder how Chom Chom is doing in Viridia... #line:066a329 
     <<else>>
         <<jump FishPerfumeHint>>
     <<endif>>
 
 <<else>>
     <<if $hasDisappointedGeorge>>
-        George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY...
+        George: Ahh... steamed POPSNAPPER, fried CHEDDARFIN, marinated FLUTTERFLY... #line:0bfc04a 
     <<else>>
         <<jump NotEnoughFish>>
     <<endif>>
@@ -64,58 +64,58 @@ title: TurtleFirstMeeting
 ---
 <<ShowTurtle>>
 
-Giant Turtle: Ouch!!!
-Lume: !!!
-Giant Turtle: Oh man...*yawn*...how long was I asleep?
-Giant Turtle: ...
-Giant Turtle: *gurgles*
-Giant Turtle: ...
-Giant Turtle: Oh, hey there. 
-George: I am George. 
-George: If you haven't noticed yet, I'm down here.
-Lume: ???
-George: HA HA HA!! 
-George: I mean, under your feet. You're standing on my shell.
-George: If you don't mind, I'm feeling a bit peckish right now.
-George: It's been... a while since I've eaten.
-George: You seem a fine, young bird.
-George: Would you be willing to help grab a bite for an elderly tortoise such as myself?
-    -> Yes
-        George: Oh, you are willing to do me this little favor?
-    -> No
-        George: Oh, you wouldn't mind doing me this little favor?
+Giant Turtle: Ouch!!! #line:00739a6 
+Lume: !!! #line:0a02f8e 
+Giant Turtle: Oh man...*yawn*...how long was I asleep? #line:085d986 
+Giant Turtle: ... #line:084af54 
+Giant Turtle: *gurgles* #line:05f15a9 
+Giant Turtle: ... #line:027bcfa 
+Giant Turtle: Oh, hey there.  #line:0d03d93 
+George: I am George.  #line:0260579 
+George: If you haven't noticed yet, I'm down here. #line:06f1ff8 
+Lume: ??? #line:0cef631 
+George: HA HA HA!!  #line:08e94f2 
+George: I mean, under your feet. You're standing on my shell. #line:0ce5699 
+George: If you don't mind, I'm feeling a bit peckish right now. #line:03d2f8e 
+George: It's been... a while since I've eaten. #line:0ce2944 
+George: You seem a fine, young bird. #line:0bb139b 
+George: Would you be willing to help grab a bite for an elderly tortoise such as myself? #line:0c8f252 
+    -> Yes #line:02e562f 
+        George: Oh, you are willing to do me this little favor? #line:0b3d9a0 
+    -> No #line:0762da0 
+        George: Oh, you wouldn't mind doing me this little favor? #line:0067d90 
 
 <<AddQuest "George's Quest">>
 
-George: Thank you so much, little one!
-George: Oh my manners, and your name?
-Lume: Lume.
-George: Thank you, Lume.
-George: Let me know if you need any fishing tips, just come to this same place. I'm simply too famished to move at all!
+George: Thank you so much, little one! #line:02fdfcf 
+George: Oh my manners, and your name? #line:0492cc9 
+Lume: Lume. #line:0de2344 
+George: Thank you, Lume. #line:0385edf 
+George: Let me know if you need any fishing tips, just come to this same place. I'm simply too famished to move at all! #line:08efefd 
 <<set $metTurtle to true>>
 ===
 
 title: FishPerfumeHint
 ---
-George: Goodday, Lume! How goes the fishing?
-George: ... Ah, you don't know where to start.
-George: If he's still around, the shopkeeper at Viridia sells good quality FISH PERFUME.
-George: His name is Chom Chom.
-George: While you're at it, could you send him my regards? We go a long ways back. He is a dear friend.
+George: Goodday, Lume! How goes the fishing? #line:014fbaf 
+George: ... Ah, you don't know where to start. #line:0923e55 
+George: If he's still around, the shopkeeper at Viridia sells good quality FISH PERFUME. #line:0543e26 
+George: His name is Chom Chom. #line:00861e4 
+George: While you're at it, could you send him my regards? We go a long ways back. He is a dear friend. #line:05c631a 
 <<set $gotPerfumeHint to true>>
 ===
 
 title: NotEnoughFish
 ---
-George: Mm... sashimi...
-George: Hi, Lume. Were you able to procure any fish?
-George: ...
-George: Hmm...
-George: It seems that you don't have the right fish.
-George: So sorry to bother you with an old man's cravings, but could you come back after you've gotten TWO POPSNAPPERS, TWO CHEDDARFINS, and ONE FLUTTERFLY?
-George: Don't worry about hurrying, hunger makes the best spice!
-George: HA HA *gurgle* HA!!
-George: ...
+George: Mm... sashimi... #line:07d3a65 
+George: Hi, Lume. Were you able to procure any fish? #line:090a617 
+George: ... #line:024e2fd 
+George: Hmm... #line:07dc7b7 
+George: It seems that you don't have the right fish. #line:0faf785 
+George: So sorry to bother you with an old man's cravings, but could you come back after you've gotten TWO POPSNAPPERS, TWO CHEDDARFINS, and ONE FLUTTERFLY? #line:0aafa0f 
+George: Don't worry about hurrying, hunger makes the best spice! #line:0bd4b96 
+George: HA HA *gurgle* HA!! #line:0fe6712 
+George: ... #line:0a3317a 
 <<set $hasDisappointedGeorge to true>>
 ===
 
@@ -123,35 +123,35 @@ title: GeorgeQuestComplete
 ---
 <<set $setGeorgeQuestFinished to true>>
 
-George: *gurgle gurgle gurgle*
-George: Lume... *gurgle gurgle*
-George: Is that you? *gurgle*
-George: ...
-George: Oh my goodness! Is that really the fish I asked you for?
-George: GOBBLE GOBBLE GOBBLE
-George: MUNCH MUNCH MUNCH
-George: CHOMP CHOMP CHOMP
+George: *gurgle gurgle gurgle* #line:0d855ba 
+George: Lume... *gurgle gurgle* #line:00f77f4 
+George: Is that you? *gurgle* #line:082280a 
+George: ... #line:0aeb282 
+George: Oh my goodness! Is that really the fish I asked you for? #line:0ccc22b 
+George: GOBBLE GOBBLE GOBBLE #line:0eb3776 
+George: MUNCH MUNCH MUNCH #line:044ec82 
+George: CHOMP CHOMP CHOMP #line:0e3a92a 
 
 <<AddItem "Popsnapper" -2>>
 <<AddItem "Cheddarfin" -2>>
 <<AddItem "Flutterfly" -1>>
 
-George: ... *BURP*
-George: Ah...
-George: That was a lovely meal, Lume. Thank you so much. 
-George: How could I ever repay you?
-George: ...
-George: Oh, were you interested in exploring the other islands?
-George: It is definitely a bit of a challenge to get to Atlanta Cove... That is an island located underwater.
-George: How is it an island if it is underwater?
-George: Beats me!
-George: But I could show you the way, if you'd like.
-George: You do know the legend, right? Help a turtle, and it will take you the brilliant palace of the dragon king!
-George: HA HA HA!
-George: Not that there is a dragon king there, but it is quite a nice neighborhood.
-George: I hope for you to find whatever it is you are looking for on your travels.
-George: Don't be afraid to visit this old chap if you are ever in need of a listening ear.
-George: Oh, and a gift. I hope you like it.
+George: ... *BURP* #line:066df6b 
+George: Ah... #line:0ec94b6 
+George: That was a lovely meal, Lume. Thank you so much.  #line:0536eb8 
+George: How could I ever repay you? #line:03c669e 
+George: ... #line:00bb3bc 
+George: Oh, were you interested in exploring the other islands? #line:0c7a892 
+George: It is definitely a bit of a challenge to get to Atlanta Cove... That is an island located underwater. #line:0602599 
+George: How is it an island if it is underwater? #line:08fe07b 
+George: Beats me! #line:0be0cdd 
+George: But I could show you the way, if you'd like. #line:0c20c49 
+George: You do know the legend, right? Help a turtle, and it will take you the brilliant palace of the dragon king! #line:04d7aa7 
+George: HA HA HA! #line:0f5b057 
+George: Not that there is a dragon king there, but it is quite a nice neighborhood. #line:04a19f9 
+George: I hope for you to find whatever it is you are looking for on your travels. #line:0957ea4 
+George: Don't be afraid to visit this old chap if you are ever in need of a listening ear. #line:07bff6c 
+George: Oh, and a gift. I hope you like it. #line:01da394 
 
 <<AddItem "Exploration Feather">>
 <<UnlockAtlantaCove>>
@@ -159,7 +159,7 @@ George: Oh, and a gift. I hope you like it.
 
 title: PostQuestDialogue
 ---
-George: Goodday, Lume! How goes it?
-George: You've never used fish perfume before this?
-George: It's neat, isn't it? Back when I was a wee lad no bigger than you, we had to use fishing rods! 
+George: Goodday, Lume! How goes it? #line:012bcdd 
+George: You've never used fish perfume before this? #line:051bbcc 
+George: It's neat, isn't it? Back when I was a wee lad no bigger than you, we had to use fishing rods!  #line:0fdeedb 
 ===

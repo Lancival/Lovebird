@@ -1,20 +1,20 @@
-title: Muffin
+﻿title: Muffin
 ---
 <<declare $metMuffin = false as bool>>
 
 <<if $metMuffin == false>>
     <<set $metMuffin = true>>
-    Muffin: Hello hello! You've been helping out my mom?
-    Muffin: I'm so excited for my big brothers and sisters to come home! I'm getting kind of bored by myself!
+    Muffin: Hello hello! You've been helping out my mom? #line:0965aba 
+    Muffin: I'm so excited for my big brothers and sisters to come home! I'm getting kind of bored by myself! #line:05fdecd 
 <<else>>
-    Muffin: Big Bro, will you come again to keep me and my mom company?
-    Muffin: Also, when you're here, she has more time to make me cakes!
+    Muffin: Big Bro, will you come again to keep me and my mom company? #line:0ae9995 
+    Muffin: Also, when you're here, she has more time to make me cakes! #line:00d1131 
 <<endif>>
 ===
 
 title: Snofe
 ---
-Snofe: *huff* *huff* *huff*
-Lume: ... Is he doing weighted push ups with his shell on??
-Lume: You feel inspired to work out.
+Snofe: *huff* *huff* *huff* #line:097b13d 
+Lume: ... Is he doing weighted push ups with his shell on?? #line:08b2e45 
+Lume: You feel inspired to work out. #line:06d2b2f 
 ===

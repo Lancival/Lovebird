@@ -1,4 +1,4 @@
-title: Lumpers
+﻿title: Lumpers
 ---
 <<declare $progress = 0 as number>>
 <<declare $askedLumpersOkay = false as bool>>
@@ -24,9 +24,9 @@ title: Lumpers
     <<elseif $haveWoodScraps and $haveTornFabric and $haveGlassBottles and $haveLooseThread and $haveLostGem and $haveTrashBag and $haveCans>>
         <<jump QuestComplete>>
     <<else>>
-        Golem: ...
-        Lume: ...
-        Lume: (You haven't finished collecting the trash.)
+        Golem: ... #line:07b29ea 
+        Lume: ... #line:0aa07d4 
+        Lume: (You haven't finished collecting the trash.) #line:0973135 
     <<endif>>
 <<else>>
     <<jump Crafting>>
@@ -36,66 +36,66 @@ title: Lumpers
 title: LumpersTired
 ---
 <<if $progress < 2>>
-    Lumpers: ...
+    Lumpers: ... #line:0ef16b7 
 <<else>>
-    Lumpers: ...I'm so tired...
+    Lumpers: ...I'm so tired... #line:0abd994 
 <<endif>>
-Lume: ...
+Lume: ... #line:0f2f5ed 
 <<set $progress to $progress + 1>>
 ===
 
 title: AskLumpers
 ---
-Lumpers: ...
+Lumpers: ... #line:0541259 
 
-    -> Are you ok? <<if $askedLumpersOkay is false>>
-        Lumpers: ...No...
-        Lumpers: ...I can't clean all this up by myself...
+    -> Are you ok? <<if $askedLumpersOkay is false>> #line:0a77651 
+        Lumpers: ...No... #line:0d6dda5 
+        Lumpers: ...I can't clean all this up by myself... #line:06d1fdc 
         <<set $askedLumpersOkay to true>>
-    -> Are you here alone? <<if $askedLumpersAlone is false>>
-        Lumpers: ...They all left...
-        Lumpers: ...
-        Lumpers: ...I miss everyone...
-        Lume: (... You understand.) 
+    -> Are you here alone? <<if $askedLumpersAlone is false>> #line:09b9048 
+        Lumpers: ...They all left... #line:0056322 
+        Lumpers: ... #line:0ade58a 
+        Lumpers: ...I miss everyone... #line:028787a 
+        Lume: (... You understand.)  #line:01c2963 
         <<set $askedLumpersAlone to true>>
-    -> Help <<if $askedLumpersOkay is true and $askedLumpersAlone is true>>
+    -> Help <<if $askedLumpersOkay is true and $askedLumpersAlone is true>> #line:075ae21 
         <<set $helpingLumpers to true>>
         <<AddQuest "Lumper's Quest">>
-        Lume: (Maybe you can help him pick up some trash.)
-    -> ...
-        Lume: (You decided not to say anything.)
+        Lume: (Maybe you can help him pick up some trash.) #line:0b41688 
+    -> ... #line:04cd642 
+        Lume: (You decided not to say anything.) #line:097cd9d 
 ===
 
 title: QuestComplete
 ---
     <<FinishQuest "Lumper's Quest">>
 
-    Lumpers: ...
-    Lumpers: ...Oh? Did you do this for me?
-    Lumpers: ...Thank you, but... even with your help it's still impossible...
-    Lumpers: There's just so much trash here... I don't know what I can do with all this...
-    Lumpers: And you even went to all this trouble... I'm sorry...
-    Lume: ...
-    Lume: ...
-    Lume: (You look at the bag of items and a familiar feeling washes over you.)
-    Lume: *CLANG CLANG*
-    Lume: *BAM BAM*
-    Lume: *KA DOONK*
+    Lumpers: ... #line:06e38ea 
+    Lumpers: ...Oh? Did you do this for me? #line:01a0b30 
+    Lumpers: ...Thank you, but... even with your help it's still impossible... #line:03804ce 
+    Lumpers: There's just so much trash here... I don't know what I can do with all this... #line:026f16d 
+    Lumpers: And you even went to all this trouble... I'm sorry... #line:094ea11 
+    Lume: ... #line:0ef0401 
+    Lume: ... #line:0cc240b 
+    Lume: (You look at the bag of items and a familiar feeling washes over you.) #line:04ac869 
+    Lume: *CLANG CLANG* #line:0363fdf 
+    Lume: *BAM BAM* #line:00bbdf4 
+    Lume: *KA DOONK* #line:05d113c 
 
     <<AddItem "Glass Bottles" -1>>
     <<AddItem "Loose Thread" -1>>
     <<AddItem "Windchime">>
 
-    Lume: (You've created a Windchime!)
-    Lumpers: !!!
-    Lumpers: What? What's this?
-    Lumpers: This is amazing! How did you do that?
-    Lumpers: I can't believe it... even these old scraps can become something useful again...
-    Lumpers: ... Could I try, too?
-    Lumpers: Maybe I can still do something for this island.
-    Lumpers: *CLANG CLANG*
-    Lumpers: *BAM BAM*
-    Lumpers: *KA DOONK*
+    Lume: (You've created a Windchime!) #line:059dcc1 
+    Lumpers: !!! #line:07ab790 
+    Lumpers: What? What's this? #line:0d05a71 
+    Lumpers: This is amazing! How did you do that? #line:0063d39 
+    Lumpers: I can't believe it... even these old scraps can become something useful again... #line:00c176f 
+    Lumpers: ... Could I try, too? #line:0b16c96 
+    Lumpers: Maybe I can still do something for this island. #line:0b620c4 
+    Lumpers: *CLANG CLANG* #line:0764055 
+    Lumpers: *BAM BAM* #line:0e63319 
+    Lumpers: *KA DOONK* #line:0d80d53 
 
     <<AddItem "Lost Gem" -1>>
     <<AddItem "Torn Fabric" -1>>
@@ -103,17 +103,17 @@ title: QuestComplete
     <<AddItem "Cans" -1>>
     <<AddItem "Trash Bag" -1>>
 
-    Lumpers: I did it!
-    Lumpers: ... Kind of.
-    Lumpers: It looks a little off, but...
-    Lumpers: Thank you so much, truly.
-    Lumpers: I finally have a goal. I can't make anything like what you did right now, but I can work hard.
-    Lumpers: Thank you, friend.
-    Lume: (You feel a wonderful sense of accomplishment.)
-    Lume: (How long has it been since you felt this way?)
-    Lumpers: Oh, but before you go.
-    Lumpers: I found this in the trash you gave me. It didn't seem like it belonged in there.
-    Lumpers: Did you drop it by accident?
+    Lumpers: I did it! #line:066ff44 
+    Lumpers: ... Kind of. #line:079dba1 
+    Lumpers: It looks a little off, but... #line:0b22b47 
+    Lumpers: Thank you so much, truly. #line:0a24218 
+    Lumpers: I finally have a goal. I can't make anything like what you did right now, but I can work hard. #line:035d468 
+    Lumpers: Thank you, friend. #line:0c74706 
+    Lume: (You feel a wonderful sense of accomplishment.) #line:0fbe678 
+    Lume: (How long has it been since you felt this way?) #line:024c2f0 
+    Lumpers: Oh, but before you go. #line:0c71fe7 
+    Lumpers: I found this in the trash you gave me. It didn't seem like it belonged in there. #line:03cc7c2 
+    Lumpers: Did you drop it by accident? #line:0ce7c49 
     
     <<AddItem "Resilience Feather">>
 
@@ -122,39 +122,39 @@ title: QuestComplete
 
 title: Crafting
 ---
-Lumpers: Here to craft more items?
+Lumpers: Here to craft more items? #line:08b8627 
 
-    -> Birdhouse <<if $haveWoodScraps is true and $haveTornFabric is true>>
+    -> Birdhouse <<if $haveWoodScraps is true and $haveTornFabric is true>> #line:03d8801 
         <<AddItem "Wood Scraps" -1>>
         <<AddItem "Torn Fabric" -1>>
         <<AddItem "Birdhouse">>
-        Lume: (You crafted a birdhouse!)
-    -> Windchime <<if $haveGlassBottles is true and $haveLooseThread is true>>
+        Lume: (You crafted a birdhouse!) #line:002312c 
+    -> Windchime <<if $haveGlassBottles is true and $haveLooseThread is true>> #line:04b299e 
         <<AddItem "Glass Bottles" -1>>
         <<AddItem "Loose Thread" -1>>
         <<AddItem "Windchime">>
-        Lume: (You crafted a windchime!)
-    -> Chom Doll <<if $haveTornFabric is true and $haveLooseThread is true>>
+        Lume: (You crafted a windchime!) #line:043251c 
+    -> Chom Doll <<if $haveTornFabric is true and $haveLooseThread is true>> #line:0831667 
         <<AddItem "Torn Fabric" -1>>
         <<AddItem "Loose Thread" -1>>
         <<AddItem "Chom Doll">>
-        Lume: (You crafted a Chom doll!)
-    -> Pendant <<if $haveLostGem is true and $haveLooseThread is true>>
+        Lume: (You crafted a Chom doll!) #line:0024724 
+    -> Pendant <<if $haveLostGem is true and $haveLooseThread is true>> #line:00012b5 
         <<AddItem "Lost Gem" -1>>
         <<AddItem "Loose Thread" -1>>
         <<AddItem "Pendant">>
-        Lume: (You crafted a pendant!)
-    -> Magic Orb <<if $haveGlassBottles is true and $haveLostGem is true>>
+        Lume: (You crafted a pendant!) #line:0dfb588 
+    -> Magic Orb <<if $haveGlassBottles is true and $haveLostGem is true>> #line:0a82d83 
         <<AddItem "Glass Bottles" -1>>
         <<AddItem "Lost Gem" -1>>
         <<AddItem "Magic Orb">>
-        Lume: (You crafted a magic orb!)
-    -> Wind-up Chom <<if $haveChomDoll is true and $haveLostGem is true>>
+        Lume: (You crafted a magic orb!) #line:01dd27a 
+    -> Wind-up Chom <<if $haveChomDoll is true and $haveLostGem is true>> #line:09bb85d 
         <<AddItem "Chom Doll" -1>>
         <<AddItem "Lost Gem" -1>>
         <<AddItem "Wind-up Chom">>
-        Lume: (You crafted a wind-up Chom!)
-    -> ...
-        Lume: (You decided not to craft anything.)
+        Lume: (You crafted a wind-up Chom!) #line:079cc68 
+    -> ... #line:013431b 
+        Lume: (You decided not to craft anything.) #line:020d8b8 
 ===
 
