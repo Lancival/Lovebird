@@ -1,6 +1,11 @@
 ﻿title: ChomChom
 ---
 <<declare $metChomChom = false as bool>>
+<<declare $shopOpen = false as bool>>
+
+<<if $shopOpen>>
+    <<jump CloseShop>>
+<<endif>>
 
 Chom Chom: Welcome to the greatest shop of all the islands, where we offer the juiciest deals and first-rate goods! #line:0a9cc03 
 
@@ -18,5 +23,13 @@ Chom Chom: Welcome to the greatest shop of all the islands, where we offer the j
 <<endif>>
 
 <<OpenShop>>
+<<set $shopOpen to true>>
+===
+
+title: CloseShop
+---
+<<OpenShop>>
+<<set $shopOpen to false>>
+Chom Chom: Thank you, come again, and goodbye!
 ===
 
