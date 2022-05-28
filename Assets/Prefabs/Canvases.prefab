@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trade: {fileID: 1303158436065984781}
   inventory: {fileID: 1715257246171468199}
-  questLog: {fileID: 4292945648585591750}
+  questLog: {fileID: 3753486117831597089}
   map: {fileID: 8417187390381783090}
   settings: {fileID: 587824221010182372}
   dialogue: {fileID: 5744237226745759427}
@@ -886,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742042036740, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -982,7 +982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742702914170, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1022,7 +1022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245742968263686, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1058,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 142.49025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659245743134362899, guid: c9d10eadd8e31413b9cf904d2d40ed53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1390,17 +1390,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5718516027777960756, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
---- !u!114 &4292945648585591750 stripped
+--- !u!114 &3753486117831597089 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5718516026916328484, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4672718710590358467, guid: 84d119f9f00ee4f0694c182b2c73a797, type: 3}
   m_PrefabInstance: {fileID: 8417187389964361698}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ad99dcebf21d4dda88715cc7fe211ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &4292945648664059680 stripped
