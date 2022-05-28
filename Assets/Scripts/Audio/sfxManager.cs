@@ -19,9 +19,9 @@ public class sfxManager : MonoBehaviour
     {
         if(!PlayerPrefs.HasKey(MasterPref))
         {
-            backgroundFloat = 0.75f;
-            soundEffectsFloat = 0.75f;
-            masterFloat = 0.075f;
+            backgroundFloat = 1f;
+            soundEffectsFloat = 1f;
+            masterFloat = 1f;
             
             PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
             PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsFloat);
