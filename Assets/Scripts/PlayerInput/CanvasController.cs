@@ -8,7 +8,7 @@ public class CanvasController : MonoBehaviour
 
     [Header("Canvases")]
         [SerializeField] private UIScreen trade;
-        [SerializeField] private Button inventory;
+        [SerializeField] private UIScreen inventory;
         [SerializeField] private Button questLog;
         [SerializeField] private Button map;
         [SerializeField] private Button settings;
@@ -18,7 +18,7 @@ public class CanvasController : MonoBehaviour
     void OnDestroy() => _instance = null;
 
     public static void OpenTrade() => _instance?.trade?.ChangeVisibility();
-    public static void OpenInventory() => _instance?.inventory?.onClick?.Invoke();
+    public static void OpenInventory() => _instance?.inventory?.ChangeVisibility();
     public static void OpenQuestLog() => _instance?.questLog?.onClick?.Invoke();
     public static void OpenSettings() => _instance?.settings?.onClick?.Invoke();
     public static void ContinueDialogue() => _instance?.dialogue?.OnContinueClicked();

@@ -19,7 +19,10 @@ public class UIScreen : MonoBehaviour
     {
         canvasGroup = GetComponent<CanvasGroup>();
         fader = GetComponent<FadeCanvasGroup>();
-        
+    }
+
+    void Start()
+    {
         if (active)
         {
             Show();
@@ -33,6 +36,7 @@ public class UIScreen : MonoBehaviour
     private void Show()
     {
         active = true;
+        gameObject.SetActive(true);
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
         fader.FadeIn(duration);

@@ -9,10 +9,7 @@ public abstract class Fader<T> : MonoBehaviour
     protected Coroutine fadeCoroutine = null;
     protected abstract float currentAlpha {get;}
 
-    protected virtual void Awake()
-    {
-        fadeSubject = GetComponent<T>();
-    }
+    protected virtual void Awake() => fadeSubject = GetComponent<T>();
 
     public abstract IEnumerator Fade(float startAlpha, float endAlpha, float duration, bool enabled);
 
