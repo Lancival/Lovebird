@@ -305,8 +305,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 12
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &48360458
 MonoBehaviour:
@@ -336,6 +336,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &48360459
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1555,8 +1556,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 15
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &268026220
 MonoBehaviour:
@@ -1586,6 +1587,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &268026221
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1790,8 +1792,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 10
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &284052188
 MonoBehaviour:
@@ -1821,6 +1823,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &284052189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3726,8 +3729,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 14
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &624876095
 MonoBehaviour:
@@ -3757,6 +3760,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &624876096
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4550,8 +4554,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 9
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &705076137
 MonoBehaviour:
@@ -4581,6 +4585,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &705076138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6267,8 +6272,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 11
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1137872817
 MonoBehaviour:
@@ -6298,6 +6303,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1137872818
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8845,8 +8851,8 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2072660996}
-  m_RootOrder: 13
+  m_Father: {fileID: 1991680211}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1444776419
 MonoBehaviour:
@@ -8876,6 +8882,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1444776420
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11165,6 +11172,44 @@ PolygonCollider2D:
       - {x: 0.32008174, y: -0.06375061}
       - {x: 0.42010728, y: -0.16375063}
       - {x: 0.42010728, y: -0.25375062}
+--- !u!1 &1991680210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991680211}
+  m_Layer: 0
+  m_Name: Fishing Spots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991680211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991680210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 705076136}
+  - {fileID: 284052187}
+  - {fileID: 1137872816}
+  - {fileID: 48360457}
+  - {fileID: 1444776418}
+  - {fileID: 624876094}
+  - {fileID: 268026219}
+  m_Father: {fileID: 2072660996}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991964082
 GameObject:
   m_ObjectHideFlags: 0
@@ -12124,13 +12169,7 @@ Transform:
   - {fileID: 1559015618}
   - {fileID: 2022467220}
   - {fileID: 694301746}
-  - {fileID: 705076136}
-  - {fileID: 284052187}
-  - {fileID: 1137872816}
-  - {fileID: 48360457}
-  - {fileID: 1444776418}
-  - {fileID: 624876094}
-  - {fileID: 268026219}
+  - {fileID: 1991680211}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

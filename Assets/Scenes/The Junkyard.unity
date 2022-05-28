@@ -1257,6 +1257,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &390742453
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1352,13 +1353,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390742451}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 15.7, y: -1.74, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 526322060}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &414688315
 GameObject:
@@ -1643,6 +1644,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: d213e4b7186974202b001d580b85be28, type: 2}
+--- !u!1 &526322059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526322060}
+  m_Layer: 0
+  m_Name: Fishing Spots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &526322060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526322059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 717365196}
+  - {fileID: 390742456}
+  - {fileID: 1445874027}
+  - {fileID: 760857573}
+  - {fileID: 1352056204}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &532607884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2661,6 +2698,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &717365193
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2756,13 +2794,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717365191}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.99, y: -4.89, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 526322060}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &760857568
 GameObject:
@@ -2812,6 +2850,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &760857570
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2907,13 +2946,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760857568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -12.86, y: -0.51, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 526322060}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1005126262
 GameObject:
@@ -3825,6 +3864,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1352056201
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3920,13 +3960,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352056199}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17.19, y: 8.66, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 526322060}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355211899
 GameObject:
@@ -4093,6 +4133,7 @@ MonoBehaviour:
   - fish: {fileID: 11400000, guid: 986127e1119d247c3a960611f8217f00, type: 2}
     weight: 10
   requirePerfume: 1
+  fishParticle: {fileID: 1877983870208739228, guid: dd8830b4ec64c4064afeb146f824952c, type: 3}
 --- !u!58 &1445874024
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4188,13 +4229,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445874022}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.59, y: -6.3, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 526322060}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1454916957
 GameObject:
